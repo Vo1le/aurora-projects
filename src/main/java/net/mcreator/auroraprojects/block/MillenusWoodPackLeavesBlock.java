@@ -2,6 +2,8 @@
 package net.mcreator.auroraprojects.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -39,6 +41,11 @@ public class MillenusWoodPackLeavesBlock extends AuroraprojectsModElements.ModEl
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid());
 			setRegistryName("millenus_wood_pack_leaves");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override
