@@ -2,16 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
-      "compiles": false,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
-    },
-    {
       "name": "MillenusWoodPackWood",
       "type": "block",
       "sortid": 2,
@@ -255,6 +245,10 @@
       },
       {
         "name": "Instructions",
+        "children": []
+      },
+      {
+        "name": "Malgork",
         "children": []
       }
     ]
