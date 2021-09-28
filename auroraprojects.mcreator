@@ -1,6 +1,17 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Instructions",
+      "type": "code",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "instructions",
+      "path": "~/Instructions"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
@@ -8,7 +19,44 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Systemes_electriques",
+        "children": []
+      },
+      {
+        "name": "Teleporteurs",
+        "children": []
+      },
+      {
+        "name": "Millenus",
+        "children": []
+      },
+      {
+        "name": "Amires",
+        "children": []
+      },
+      {
+        "name": "atyotis",
+        "children": []
+      },
+      {
+        "name": "Creatures",
+        "children": []
+      },
+      {
+        "name": "Boss",
+        "children": []
+      },
+      {
+        "name": "Bestiare",
+        "children": []
+      },
+      {
+        "name": "Instructions",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "auroraprojects",
