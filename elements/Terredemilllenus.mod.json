@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "millenuswoodpack_planks",
+    "texture": "dirtfacemillenus",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,12 +10,11 @@
     "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Button",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "MillenusWoodPack Button",
+    "name": "Terre de Millènus",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 0.5,
+    "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": ""
     },
@@ -51,9 +50,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -68,7 +67,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
+    "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -78,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -97,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -124,11 +123,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

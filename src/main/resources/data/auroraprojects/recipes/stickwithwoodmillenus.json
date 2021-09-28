@@ -2,7 +2,8 @@
   "group": "auroraprojects",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01"
+    "0",
+    "1"
   ],
   "key": {
     "0": {
@@ -13,7 +14,7 @@
     }
   },
   "result": {
-    "item": "auroraprojects:millenus_wood_pack_pressure_plate",
-    "count": 1
+    "item": "minecraft:stick",
+    "count": 4
   }
 }
