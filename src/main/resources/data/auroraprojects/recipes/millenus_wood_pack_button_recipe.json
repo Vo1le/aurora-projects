@@ -1,0 +1,13 @@
+{
+  "group": "auroraprojects",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    }
+  ],
+  "result": {
+    "item": "auroraprojects:millenus_wood_pack_button",
+    "count": 1
+  }
+}

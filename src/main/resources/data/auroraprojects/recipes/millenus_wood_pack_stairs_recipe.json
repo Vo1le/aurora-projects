@@ -1,0 +1,33 @@
+{
+  "group": "auroraprojects",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    },
+    "3": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    },
+    "4": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    },
+    "6": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    },
+    "7": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    },
+    "8": {
+      "item": "auroraprojects:millenus_wood_pack_planks"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:millenus_wood_pack_stairs",
+    "count": 4
+  }
+}

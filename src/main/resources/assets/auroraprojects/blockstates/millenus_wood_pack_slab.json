@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "auroraprojects:block/millenus_wood_pack_slab"
+    },
+    "type=top": {
+      "model": "auroraprojects:block/millenus_wood_pack_slab_top"
+    },
+    "type=double": {
+      "model": "auroraprojects:block/millenus_wood_pack_slab_full"
+    }
+  }
+}

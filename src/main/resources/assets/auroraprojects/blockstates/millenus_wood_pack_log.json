@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "auroraprojects:block/millenus_wood_pack_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "auroraprojects:block/millenus_wood_pack_log"
+    },
+    "axis=z": {
+      "model": "auroraprojects:block/millenus_wood_pack_log",
+      "x": 90
+    }
+  }
+}

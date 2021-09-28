@@ -1,0 +1,13 @@
+{
+  "group": "auroraprojects",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:millenuswoodpack_log"
+    }
+  ],
+  "result": {
+    "item": "auroraprojects:millenus_wood_pack_planks",
+    "count": 4
+  }
+}

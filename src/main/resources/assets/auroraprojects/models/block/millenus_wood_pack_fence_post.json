@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "auroraprojects:blocks/millenuswoodpack_planks",
+    "particle": "auroraprojects:blocks/millenuswoodpack_planks"
+  }
+}

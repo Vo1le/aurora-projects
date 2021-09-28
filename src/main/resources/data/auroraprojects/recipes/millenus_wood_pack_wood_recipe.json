@@ -1,0 +1,26 @@
+{
+  "group": "auroraprojects",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "auroraprojects:millenus_wood_pack_log"
+    },
+    "1": {
+      "item": "auroraprojects:millenus_wood_pack_log"
+    },
+    "2": {
+      "item": "auroraprojects:millenus_wood_pack_log"
+    },
+    "3": {
+      "item": "auroraprojects:millenus_wood_pack_log"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:millenus_wood_pack_wood",
+    "count": 3
+  }
+}
