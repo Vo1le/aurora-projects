@@ -374,6 +374,16 @@
       "ids": {},
       "registry_name": "cablesligne",
       "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "HerbeMillenus",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herbe_millenus",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [],
