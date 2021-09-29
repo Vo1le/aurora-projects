@@ -5,7 +5,7 @@
       "name": "Instructions",
       "type": "code",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "ids": {},
       "registry_name": "instructions",
@@ -54,6 +54,10 @@
       },
       {
         "name": "Instructions",
+        "children": []
+      },
+      {
+        "name": "Prototype Structure",
         "children": []
       }
     ]
