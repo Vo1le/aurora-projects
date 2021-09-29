@@ -120,6 +120,16 @@
       "ids": {},
       "registry_name": "downjunc",
       "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Teste",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teste",
+      "path": "~/Armes a feu"
     }
   ],
   "variable_elements": [],
