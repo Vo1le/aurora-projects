@@ -79,6 +79,46 @@
         ]
       },
       "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Upjunc",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upjunc",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Downjunc",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downjunc",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Northjunc",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "northjunc",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Southjunc",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "southjunc",
+      "path": "~/Systemes_electriques/cables"
     }
   ],
   "variable_elements": [],
@@ -88,7 +128,11 @@
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "block.auroraprojects.cablesligne": "Cablesligne",
       "itemGroup.tabaurora_project": "Aurora Project",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
+      "block.auroraprojects.northjunc": "Cablejuste 1",
+      "block.auroraprojects.downjunc": "Cablejuste 1",
+      "block.auroraprojects.southjunc": "Cablejuste 1",
       "block.auroraprojects.cables_standar": "Cables Standar"
     }
   },

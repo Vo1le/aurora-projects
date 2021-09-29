@@ -6,7 +6,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
@@ -20,21 +19,18 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.auroraprojects.procedures.Added1Procedure;
 import net.mcreator.auroraprojects.itemgroup.AuroraProjectItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:cables_standar")
+public class UpjuncBlock extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:upjunc")
 	public static final Block block = null;
-	public CablesStandarBlock(AuroraprojectsModElements instance) {
-		super(instance, 2);
+	public UpjuncBlock(AuroraprojectsModElements instance) {
+		super(instance, 8);
 	}
 
 	@Override
@@ -53,7 +49,7 @@ public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("cables_standar");
+			setRegistryName("upjunc");
 		}
 
 		@Override
@@ -71,23 +67,7 @@ public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public void onBlockAdded(BlockState blockstate, World world, BlockPos pos, BlockState oldState, boolean moving) {
-			super.onBlockAdded(blockstate, world, pos, oldState, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Added1Procedure.executeProcedure($_dependencies);
-			}
+			return Collections.singletonList(new ItemStack(CablesStandarBlock.block));
 		}
 	}
 }
