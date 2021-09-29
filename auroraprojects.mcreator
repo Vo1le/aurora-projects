@@ -5,23 +5,112 @@
       "name": "Instructions",
       "type": "code",
       "sortid": 1,
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "ids": {},
       "registry_name": "instructions",
       "path": "~/Instructions"
+    },
+    {
+      "name": "AuroraProject",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurora_project"
+    },
+    {
+      "name": "Cablejunction2faces",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablejunction_2faces",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Cablejuste1",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablejuste_1",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "CablesStandar",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cables_standar",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Added1",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "added_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Cablesligne",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablesligne",
+      "path": "~/Systemes_electriques/cables"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.auroraprojects.cables_standar": "Cables Standar"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Systemes_electriques",
+        "name": "Amires",
+        "children": []
+      },
+      {
+        "name": "Instructions",
+        "children": []
+      },
+      {
+        "name": "Prototype Structure",
         "children": []
       },
       {
@@ -29,19 +118,7 @@
         "children": []
       },
       {
-        "name": "Millenus",
-        "children": []
-      },
-      {
-        "name": "Amires",
-        "children": []
-      },
-      {
         "name": "atyotis",
-        "children": []
-      },
-      {
-        "name": "Creatures",
         "children": []
       },
       {
@@ -53,11 +130,20 @@
         "children": []
       },
       {
-        "name": "Instructions",
+        "name": "Systemes_electriques",
+        "children": [
+          {
+            "name": "cables",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Creatures",
         "children": []
       },
       {
-        "name": "Prototype Structure",
+        "name": "Millenus",
         "children": []
       }
     ]
@@ -76,7 +162,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.auroraprojects",
     "lockBaseModFiles": false
   },

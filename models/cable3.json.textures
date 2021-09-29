@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "green_concrete_powder"
+      },
+      "name": "default"
+    }
+  }
+}
