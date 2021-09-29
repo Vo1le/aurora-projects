@@ -2,27 +2,107 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
+      "name": "CablesStandar",
+      "type": "block",
+      "sortid": 2,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
+      "registry_name": "cables_standar",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "AuroraProject",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurora_project"
+    },
+    {
+      "name": "Cablejunction2faces",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablejunction_2faces",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Cablesligne",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablesligne",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Cablejuste1",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cablejuste_1",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Added1",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "added_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Systemes_electriques/cables"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "block.auroraprojects.cablesligne": "Cablesligne",
+      "itemGroup.tabaurora_project": "Aurora Project",
+      "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
+      "block.auroraprojects.cables_standar": "Cables Standar"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
         "name": "Systemes_electriques",
-        "children": []
+        "children": [
+          {
+            "name": "cables",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Teleporteurs",

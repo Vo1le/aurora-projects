@@ -1,1 +1,7 @@
-{}
+{
+  "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+  "block.auroraprojects.cablesligne": "Cablesligne",
+  "itemGroup.tabaurora_project": "Aurora Project",
+  "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
+  "block.auroraprojects.cables_standar": "Cables Standar"
+}

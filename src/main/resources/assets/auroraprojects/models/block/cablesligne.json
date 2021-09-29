@@ -1,0 +1,9 @@
+{
+  "parent": "auroraprojects:custom/cable3",
+  "textures": {
+    "all": "auroraprojects:blocks/ok",
+    "particle": "auroraprojects:blocks/ok",
+    "0": "auroraprojects:blocks/anvil",
+    "1": "auroraprojects:blocks/green_concrete_powder"
+  }
+}
