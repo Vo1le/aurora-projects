@@ -7,7 +7,7 @@
         "value": "CUSTOM:BiomeForetMillenus"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
       "value": "Blocks.STONE#0"
     },

@@ -233,6 +233,68 @@
       "ids": {},
       "registry_name": "teleporteurmillenuscraft",
       "path": "~/Millenus"
+    },
+    {
+      "name": "TeleportationMillenus",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportation_millenus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Millenus"
+    },
+    {
+      "name": "TeleporteurMillenusGUI",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteur_millenus_gui",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "OpenGUITeleporteurMillenus",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_teleporteur_millenus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [],

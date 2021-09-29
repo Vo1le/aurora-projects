@@ -2,17 +2,19 @@
 package net.mcreator.auroraprojects.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundEvent;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -37,8 +39,13 @@ public class HerbedeMillenusBlock extends AuroraprojectsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 1f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.SHOVEL).setRequiresTool());
+			super(Block.Properties.create(Material.ORGANIC)
+					.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.grass.break")),
+							() -> new SoundEvent(new ResourceLocation("block.grass.step")),
+							() -> new SoundEvent(new ResourceLocation("block.grass.place")),
+							() -> new SoundEvent(new ResourceLocation("block.grass.hit")),
+							() -> new SoundEvent(new ResourceLocation("block.gravel.fall"))))
+					.hardnessAndResistance(1f, 1f).setLightLevel(s -> 0).harvestLevel(1).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("herbede_millenus");
 		}
 

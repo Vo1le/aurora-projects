@@ -61,21 +61,21 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 6,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Big trees",
     "treeType": 1,
-    "minHeight": 18,
+    "minHeight": 8,
     "maxWaterDepth": 0,
     "treeStem": {
       "value": "CUSTOM:MillenusWoodPackLog"
     },
     "treeBranch": {
-      "value": "CUSTOM:MillenusWoodPackWood"
+      "value": "CUSTOM:MillenusWoodPackLeaves"
     },
     "treeVines": {
-      "value": "Blocks.VOID_AIR"
+      "value": "CUSTOM:MillenusWoodPackLeaves"
     },
     "treeFruits": {
-      "value": "Blocks.VOID_AIR"
+      "value": ""
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -90,8 +90,7 @@
     "oceanRuinType": "NONE",
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnEntries": []
   }

@@ -75,24 +75,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "GROUND"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.grass.break"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.grass.step"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.grass.place"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.grass.hit"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.gravel.fall"
     },
     "luminance": 0,
     "unbreakable": false,
