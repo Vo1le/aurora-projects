@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "auroraprojects:herbede_millenus",
     "minecraft:grass_block"
   ]
 }
