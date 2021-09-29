@@ -15,6 +15,7 @@ import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,7 +27,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.auroraprojects.procedures.Added1Procedure;
-import net.mcreator.auroraprojects.itemgroup.AuroraProjectItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Map;
@@ -46,7 +46,7 @@ public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(AuroraProjectItemGroup.tab)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
