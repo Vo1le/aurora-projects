@@ -41,14 +41,14 @@
     "particlesProbability": 0.5,
     "biomeCategory": "JUNGLE",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:BiomeForetMillenus"
     },
     "rainingPossibility": 0.0,
     "temperature": 0.5,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 90,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
@@ -72,7 +72,7 @@
       "value": "CUSTOM:MillenusWoodPackLeaves"
     },
     "treeVines": {
-      "value": "CUSTOM:MillenusWoodPackLeaves"
+      "value": "Blocks.VOID_AIR"
     },
     "treeFruits": {
       "value": ""

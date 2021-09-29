@@ -4,16 +4,20 @@ package net.mcreator.auroraprojects.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.util.ForgeSoundType;
 import net.minecraftforge.common.ToolType;
+import net.minecraftforge.common.IPlantable;
 
+import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -52,6 +56,16 @@ public class HerbedeMillenusBlock extends AuroraprojectsModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
+		}
+
+		@Override
+		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
+			return true;
+		}
+
+		@Override
+		public boolean isLadder(BlockState state, IWorldReader world, BlockPos pos, LivingEntity entity) {
+			return true;
 		}
 
 		@Override
