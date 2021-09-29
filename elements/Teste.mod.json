@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "overlay",
   "definition": {
-    "priority": "HIGH",
+    "priority": "HIGHEST",
     "components": [
       {
         "type": "image",
@@ -36,7 +36,7 @@
       }
     ],
     "baseTexture": "",
-    "overlayTarget": "Ingame",
+    "overlayTarget": "ServerList",
     "gridSettings": {
       "sx": 18,
       "sy": 18,

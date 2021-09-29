@@ -4,13 +4,14 @@ package net.mcreator.auroraprojects.gui.overlay;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.client.event.RenderGameOverlayEvent;
+import net.minecraftforge.client.event.GuiScreenEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.screen.ServerListScreen;
 import net.minecraft.client.Minecraft;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -19,11 +20,11 @@ import com.mojang.blaze3d.platform.GlStateManager;
 @Mod.EventBusSubscriber
 public class TesteOverlay {
 	@OnlyIn(Dist.CLIENT)
-	@SubscribeEvent(priority = EventPriority.HIGH)
-	public static void eventHandler(RenderGameOverlayEvent.Post event) {
-		if (event.getType() == RenderGameOverlayEvent.ElementType.HELMET) {
-			int w = event.getWindow().getScaledWidth();
-			int h = event.getWindow().getScaledHeight();
+	@SubscribeEvent(priority = EventPriority.HIGHEST)
+	public static void eventHandler(GuiScreenEvent.DrawScreenEvent.Post event) {
+		if (event.getGui() instanceof ServerListScreen) {
+			int w = event.getGui().width;
+			int h = event.getGui().height;
 			int posX = w / 2;
 			int posY = h / 2;
 			World _world = null;
