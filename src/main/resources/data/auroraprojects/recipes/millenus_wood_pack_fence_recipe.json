@@ -7,26 +7,26 @@
   ],
   "key": {
     "0": {
-      "item": "auroraprojects:millenus_wood_pack_planks"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "1": {
       "item": "minecraft:stick"
     },
     "2": {
-      "item": "auroraprojects:millenus_wood_pack_planks"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "3": {
-      "item": "auroraprojects:millenus_wood_pack_planks"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "4": {
       "item": "minecraft:stick"
     },
     "5": {
-      "item": "auroraprojects:millenus_wood_pack_planks"
+      "item": "auroraprojects:deleted_mod_element"
     }
   },
   "result": {
-    "item": "auroraprojects:millenus_wood_pack_fence",
+    "item": "auroraprojects:deleted_mod_element",
     "count": 3
   }
 }

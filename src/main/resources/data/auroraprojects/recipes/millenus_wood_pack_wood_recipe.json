@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "auroraprojects:millenus_wood_pack_log"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "1": {
-      "item": "auroraprojects:millenus_wood_pack_log"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "2": {
-      "item": "auroraprojects:millenus_wood_pack_log"
+      "item": "auroraprojects:deleted_mod_element"
     },
     "3": {
-      "item": "auroraprojects:millenus_wood_pack_log"
+      "item": "auroraprojects:deleted_mod_element"
     }
   },
   "result": {
-    "item": "auroraprojects:millenus_wood_pack_wood",
+    "item": "auroraprojects:deleted_mod_element",
     "count": 3
   }
 }

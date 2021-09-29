@@ -1,15 +1,4 @@
 {
-  "block.auroraprojects.millenus_wood_pack_leaves": "Feuilles d\u0027arbre de Millènus",
-  "block.auroraprojects.millenus_wood_pack_planks": "Planche de bois de Millènus",
-  "block.auroraprojects.millenus_wood_pack_fence_gate": "Portillon en bois de Millènus",
-  "biome.auroraprojects.biome_foret_millenus": "Forêt de Millènus",
-  "block.auroraprojects.millenus_wood_pack_slab": "Dalle en bois de Millènus",
-  "block.auroraprojects.herbede_millenus": "Herbe de Millènus",
-  "block.auroraprojects.millenus_wood_pack_fence": "Barrière en bois de Millènus",
   "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
-  "item.auroraprojects.millenus": "Millenus Portal Igniter",
-  "block.auroraprojects.millenus_wood_pack_wood": "Bois de Millènus ",
-  "block.auroraprojects.millenus_wood_pack_log": "Bois de Millènus",
-  "block.auroraprojects.millenus_wood_pack_stairs": "Escalier en bois de Millènus",
-  "block.auroraprojects.terredemilllenus": "Terre de Millènus"
+  "block.auroraprojects.cables_standar": "Cables Standar"
 }
