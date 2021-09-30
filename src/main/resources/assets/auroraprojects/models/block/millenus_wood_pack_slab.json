@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "auroraprojects:blocks/millenuswoodpack_planks",
-    "top": "auroraprojects:blocks/millenuswoodpack_planks",
-    "side": "auroraprojects:blocks/millenuswoodpack_planks"
-  }
-}

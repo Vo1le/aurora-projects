@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "auroraprojects:blocks/millenuswoodpack_planks",
-    "particle": "auroraprojects:blocks/millenuswoodpack_planks"
-  }
-}

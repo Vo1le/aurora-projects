@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/aurium_minerai_block"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/aurium_minerai_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/aurium_minerai_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/aurium_minerai_block",
+      "y": 270
+    }
+  }
+}

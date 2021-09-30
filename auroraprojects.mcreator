@@ -119,76 +119,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "MillenusWoodPackLeaves",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_leaves",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackStairsRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_stairs_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Stickwithwoodmillenus",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "stickwithwoodmillenus",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackWoodRecipe",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_wood_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackStickRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_stick_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackWood",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_wood",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackFenceRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_fence_recipe",
-      "path": "~/Millenus"
-    },
-    {
       "name": "Millenus",
       "type": "dimension",
       "sortid": 26,
@@ -202,16 +132,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "MillenusWoodPackFence",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_fence",
-      "path": "~/Millenus"
-    },
-    {
       "name": "TeleporteurMillenus",
       "type": "block",
       "sortid": 27,
@@ -219,46 +139,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teleporteur_millenus",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackLog",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_log",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackFenceGate",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_fence_gate",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackStairs",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_stairs",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackSlab",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_slab",
       "path": "~/Millenus"
     },
     {
@@ -296,26 +176,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "MillenusWoodPackSlabRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_slab_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "HerbedeMillenus",
-      "type": "block",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "herbede_millenus",
-      "path": "~/Millenus"
-    },
-    {
       "name": "Teleporteurmillenuscraft",
       "type": "recipe",
       "sortid": 28,
@@ -323,56 +183,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teleporteurmillenuscraft",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackPlanksRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_planks_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackItemsTag",
-      "type": "tag",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_items_tag",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_fence_gate_recipe",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "MillenusWoodPackPlanks",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "millenus_wood_pack_planks",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Terredemilllenus",
-      "type": "block",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "terredemilllenus",
       "path": "~/Millenus"
     },
     {
@@ -416,13 +226,43 @@
       "path": "~/Systemes_electriques/cables"
     },
     {
-      "name": "ForetMillenus",
-      "type": "biome",
-      "sortid": 32,
+      "name": "GrassMillenus",
+      "type": "block",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "foret_millenus",
+      "registry_name": "grass_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "DirtMillenus",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "DesertMillenus",
+      "type": "biome",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desert_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "AuriumMineraiBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurium_minerai_block",
       "path": "~/Millenus"
     }
   ],
@@ -430,28 +270,21 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.auroraprojects.millenus_wood_pack_leaves": "Feuilles d\u0027arbre de Millènus",
-      "block.auroraprojects.millenus_wood_pack_planks": "Planche de bois de Millènus",
-      "block.auroraprojects.millenus_wood_pack_fence_gate": "Portillon en bois de Millènus",
       "block.auroraprojects.cablesligne": "Cablesligne",
       "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
-      "block.auroraprojects.millenus_wood_pack_slab": "Dalle en bois de Millènus",
-      "block.auroraprojects.herbede_millenus": "Herbe de Millènus",
       "block.auroraprojects.southjunc": "Cablejuste 1",
       "block.auroraprojects.cables_standar": "Cables Standar",
-      "block.auroraprojects.millenus_wood_pack_fence": "Barrière en bois de Millènus",
-      "biome.auroraprojects.foret_millenus": "Forêt de Millènus",
       "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
+      "biome.auroraprojects.desert_millenus": "Desert Millènusien",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
-      "block.auroraprojects.millenus_wood_pack_wood": "Bois de Millènus ",
-      "block.auroraprojects.millenus_wood_pack_log": "Bois de Millènus",
+      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "itemGroup.tabaurora_project": "Aurora Project",
-      "block.auroraprojects.millenus_wood_pack_stairs": "Escalier en bois de Millènus",
       "block.auroraprojects.northjunc": "Cablejuste 1",
+      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "block.auroraprojects.terredemilllenus": "Terre de Millènus"
+      "block.auroraprojects.aurium_minerai_block": "Bloc de minerai d\u0027aurium"
     }
   },
   "foldersRoot": {
