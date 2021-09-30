@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/sand",
+    "up": "auroraprojects:blocks/sand",
+    "north": "auroraprojects:blocks/sand",
+    "east": "auroraprojects:blocks/sand",
+    "south": "auroraprojects:blocks/sand",
+    "west": "auroraprojects:blocks/sand",
+    "particle": "auroraprojects:blocks/sand"
+  }
+}

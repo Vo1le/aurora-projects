@@ -130,21 +130,67 @@
       "ids": {},
       "registry_name": "teste",
       "path": "~/Armes a feu"
+    },
+    {
+      "name": "SableModde",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sable_modde",
+      "path": "~/Amires"
+    },
+    {
+      "name": "BiomeSable",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biome_sable",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Amires",
+      "type": "dimension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Amires"
+    },
+    {
+      "name": "TourDeGarde1",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tour_de_garde_1",
+      "path": "~/Amires"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "block.auroraprojects.cablesligne": "Cablesligne",
-      "itemGroup.tabaurora_project": "Aurora Project",
       "block.auroraprojects.upjunc": "Cablejuste 1",
+      "block.auroraprojects.sable_modde": "Misleading",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
+      "block.auroraprojects.southjunc": "Cablejuste 1",
+      "block.auroraprojects.cables_standar": "Cables Standar",
+      "biome.auroraprojects.biome_sable": "Biome Sable",
+      "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "itemGroup.tabaurora_project": "Aurora Project",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "block.auroraprojects.southjunc": "Cablejuste 1",
-      "block.auroraprojects.cables_standar": "Cables Standar"
+      "item.auroraprojects.amires": "Amires Portal Igniter"
     }
   },
   "foldersRoot": {

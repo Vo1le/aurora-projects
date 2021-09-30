@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:BiomeSable"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:SableModde"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:SableModde"
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.SLIME_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CRIT"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Amires Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "flint_and_steel",
+    "portalTexture": "sand",
+    "enablePortal": true
+  }
+}
