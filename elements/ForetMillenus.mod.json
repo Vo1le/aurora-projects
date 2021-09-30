@@ -10,15 +10,11 @@
       "value": "CUSTOM:Terredemilllenus"
     },
     "airColor": {
-      "value": -7961029,
+      "value": -10066432,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -13216931,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -13216931,
+      "value": -13421824,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -39,9 +35,9 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "JUNGLE",
+    "biomeCategory": "NONE",
     "parent": {
-      "value": "CUSTOM:BiomeForetMillenus"
+      "value": "No parent"
     },
     "rainingPossibility": 0.0,
     "temperature": 0.5,
@@ -49,7 +45,7 @@
     "heightVariation": 0.2,
     "biomeType": "WARM",
     "spawnBiome": false,
-    "biomeWeight": 90,
+    "biomeWeight": 1024,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -60,13 +56,13 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 6,
-    "vanillaTreeType": "Big trees",
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 8,
+    "minHeight": 7,
     "maxWaterDepth": 0,
     "treeStem": {
-      "value": "CUSTOM:MillenusWoodPackLog"
+      "value": "CUSTOM:MillenusWoodPackWood"
     },
     "treeBranch": {
       "value": "CUSTOM:MillenusWoodPackLeaves"
@@ -75,7 +71,7 @@
       "value": "Blocks.VOID_AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "CUSTOM:MillenusWoodPackLeaves"
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -90,7 +86,8 @@
     "oceanRuinType": "NONE",
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "FrozenTopLayer"
     ],
     "spawnEntries": []
   }

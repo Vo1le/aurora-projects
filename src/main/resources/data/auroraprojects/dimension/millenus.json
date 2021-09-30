@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "auroraprojects:biome_foret_millenus",
+          "biome": "auroraprojects:foret_millenus",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
