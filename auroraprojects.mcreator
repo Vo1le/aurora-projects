@@ -122,16 +122,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
-    },
-    {
       "name": "SableModde",
       "type": "block",
       "sortid": 13,
@@ -330,16 +320,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "AmiresTeleporter",
-      "type": "block",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amires_teleporter",
-      "path": "~/Amires"
-    },
-    {
       "name": "TeleportAmires",
       "type": "procedure",
       "sortid": 39,
@@ -355,16 +335,6 @@
           }
         ]
       },
-      "path": "~/Amires"
-    },
-    {
-      "name": "AmiresTeleporterGUI",
-      "type": "gui",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "amires_teleporter_gui",
       "path": "~/Amires"
     },
     {
@@ -402,6 +372,16 @@
       "path": "~/Amires"
     },
     {
+      "name": "AmiresTeleporterGUI",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_teleporter_gui",
+      "path": "~/Amires"
+    },
+    {
       "name": "Teleporteramirscraft",
       "type": "recipe",
       "sortid": 42,
@@ -409,6 +389,16 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teleporteramirscraft",
+      "path": "~/Amires"
+    },
+    {
+      "name": "AmiresTeleporter",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_teleporter",
       "path": "~/Amires"
     },
     {
@@ -453,10 +443,6 @@
     "children": [
       {
         "name": "Amires",
-        "children": []
-      },
-      {
-        "name": "Instructions",
         "children": []
       },
       {
