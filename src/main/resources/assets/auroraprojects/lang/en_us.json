@@ -1,14 +1,21 @@
 {
   "block.auroraprojects.cablesligne": "Cablesligne",
-  "block.auroraprojects.sable_modde": "Misleading",
   "block.auroraprojects.upjunc": "Cablejuste 1",
+  "block.auroraprojects.sable_modde": "Misleading",
   "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
   "block.auroraprojects.southjunc": "Cablejuste 1",
   "block.auroraprojects.cables_standar": "Cables Standar",
+  "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
+  "item.auroraprojects.millenus": "Millenus Portal Igniter",
   "biome.auroraprojects.biome_sable": "Biome Sable",
+  "biome.auroraprojects.desert_millenus": "Desert Millènusien",
   "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+  "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
   "itemGroup.tabaurora_project": "Aurora Project",
+  "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
   "block.auroraprojects.northjunc": "Cablejuste 1",
+  "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
   "block.auroraprojects.downjunc": "Cablejuste 1",
-  "item.auroraprojects.amires": "Amires Portal Igniter"
+  "item.auroraprojects.amires": "Amires Portal Igniter",
+  "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium"
 }

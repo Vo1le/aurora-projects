@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AuroraProject"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "shovel",
     "customDrop": {

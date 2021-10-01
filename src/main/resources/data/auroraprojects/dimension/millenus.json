@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "auroraprojects:deleted_mod_element",
+          "biome": "auroraprojects:desert_millenus",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
