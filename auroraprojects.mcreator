@@ -115,21 +115,11 @@
       "name": "TourDeGarde1",
       "type": "structure",
       "sortid": 16,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "tour_de_garde_1",
       "path": "~/Amires"
-    },
-    {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
     },
     {
       "name": "SableModde",
@@ -145,7 +135,7 @@
       "name": "Teste",
       "type": "overlay",
       "sortid": 12,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "teste",
@@ -155,7 +145,7 @@
       "name": "BiomeSable",
       "type": "biome",
       "sortid": 14,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "biome_sable",
@@ -360,10 +350,6 @@
     "children": [
       {
         "name": "Amires",
-        "children": []
-      },
-      {
-        "name": "Instructions",
         "children": []
       },
       {
