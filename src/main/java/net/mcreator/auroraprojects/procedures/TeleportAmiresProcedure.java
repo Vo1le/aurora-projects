@@ -18,18 +18,18 @@ import net.mcreator.auroraprojects.AuroraprojectsMod;
 
 import java.util.Map;
 
-public class TeleportationMillenusProcedure {
+public class TeleportAmiresProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure TeleportationMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure TeleportAmires!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("auroraprojects:millenus"));
+				RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("auroraprojects:amires"));
 				ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
 				if (nextWorld != null) {
 					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));

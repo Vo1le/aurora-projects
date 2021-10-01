@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/amires_teleporter"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/amires_teleporter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/amires_teleporter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/amires_teleporter",
+      "y": 270
+    }
+  }
+}

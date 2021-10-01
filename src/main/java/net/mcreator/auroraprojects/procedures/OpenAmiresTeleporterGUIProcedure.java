@@ -14,38 +14,38 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.auroraprojects.gui.TeleporteurMillenusGUIGui;
+import net.mcreator.auroraprojects.gui.AmiresTeleporterGUIGui;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
 import java.util.Map;
 
 import io.netty.buffer.Unpooled;
 
-public class OpenGUITeleporteurMillenusProcedure {
+public class OpenAmiresTeleporterGUIProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure OpenGUITeleporteurMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure OpenAmiresTeleporterGUI!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency x for procedure OpenGUITeleporteurMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency x for procedure OpenAmiresTeleporterGUI!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency y for procedure OpenGUITeleporteurMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency y for procedure OpenAmiresTeleporterGUI!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency z for procedure OpenGUITeleporteurMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency z for procedure OpenAmiresTeleporterGUI!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure OpenGUITeleporteurMillenus!");
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure OpenAmiresTeleporterGUI!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -60,12 +60,12 @@ public class OpenGUITeleporteurMillenusProcedure {
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("TeleporteurMillenusGUI");
+						return new StringTextComponent("AmiresTeleporterGUI");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new TeleporteurMillenusGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new AmiresTeleporterGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

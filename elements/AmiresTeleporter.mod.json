@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "mineraiaurium",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "ok",
+    "textureTop": "ok",
+    "textureLeft": "ok",
+    "textureFront": "amiresteleporterfaceanim",
+    "textureRight": "ok",
+    "textureBack": "teleporteramiresbackanim",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Minerai d'aurium",
+    "name": "Teleporteur de Amirès",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 3.0,
+    "hardness": 5.0,
+    "resistance": 1200.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "REDSTONE"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,18 +121,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Millenus"
-    ],
+    "onRightClicked": {
+      "name": "OpenAmiresTeleporterGUI"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      }
-    ],
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 5,
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 18
+    "maxGenerateHeight": 64
   }
 }

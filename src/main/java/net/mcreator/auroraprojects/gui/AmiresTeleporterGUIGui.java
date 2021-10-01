@@ -27,7 +27,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.auroraprojects.procedures.TeleportationMillenusProcedure;
+import net.mcreator.auroraprojects.procedures.TeleportAmiresProcedure;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
@@ -36,11 +36,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElement {
+public class AmiresTeleporterGUIGui extends AuroraprojectsModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public TeleporteurMillenusGUIGui(AuroraprojectsModElements instance) {
-		super(instance, 29);
+	public AmiresTeleporterGUIGui(AuroraprojectsModElements instance) {
+		super(instance, 40);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -51,12 +51,12 @@ public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElem
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("teleporteur_millenus_gui"));
+			event.getRegistry().register(containerType.setRegistryName("amires_teleporter_gui"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, TeleporteurMillenusGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, AmiresTeleporterGUIGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -364,7 +364,7 @@ public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElem
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				TeleportationMillenusProcedure.executeProcedure($_dependencies);
+				TeleportAmiresProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

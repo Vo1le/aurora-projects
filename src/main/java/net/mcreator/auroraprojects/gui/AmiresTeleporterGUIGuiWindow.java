@@ -22,12 +22,12 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<TeleporteurMillenusGUIGui.GuiContainerMod> {
+public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleporterGUIGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = TeleporteurMillenusGUIGui.guistate;
-	public TeleporteurMillenusGUIGuiWindow(TeleporteurMillenusGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	private final static HashMap guistate = AmiresTeleporterGUIGui.guistate;
+	public AmiresTeleporterGUIGuiWindow(AmiresTeleporterGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -37,7 +37,12 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-	private static final ResourceLocation texture = new ResourceLocation("auroraprojects:textures/teleporteur_millenus_gui.png");
+
+	@Override
+	public boolean isPauseScreen() {
+		return true;
+	}
+	private static final ResourceLocation texture = new ResourceLocation("auroraprojects:textures/amires_teleporter_gui.png");
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -75,8 +80,8 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Mill\u00E8nus", 0, 3, -16776961);
-		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 5, 21, -16777216);
+		this.font.drawString(ms, "Amir\u00E8s", 1, 2, -16776961);
+		this.font.drawString(ms, "Se teleporter vers Amir\u00E8s", 6, 24, -16777216);
 	}
 
 	@Override
@@ -89,10 +94,10 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 48, this.guiTop + 42, 75, 20, new StringTextComponent("Teleporter"), e -> {
+		this.addButton(new Button(this.guiLeft + 50, this.guiTop + 44, 75, 20, new StringTextComponent("Teleporter"), e -> {
 			if (true) {
-				AuroraprojectsMod.PACKET_HANDLER.sendToServer(new TeleporteurMillenusGUIGui.ButtonPressedMessage(0, x, y, z));
-				TeleporteurMillenusGUIGui.handleButtonAction(entity, 0, x, y, z);
+				AuroraprojectsMod.PACKET_HANDLER.sendToServer(new AmiresTeleporterGUIGui.ButtonPressedMessage(0, x, y, z));
+				AmiresTeleporterGUIGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}

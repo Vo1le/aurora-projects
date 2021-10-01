@@ -328,24 +328,124 @@
       "ids": {},
       "registry_name": "lingotdaurium",
       "path": "~/Millenus"
+    },
+    {
+      "name": "AmiresTeleporter",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_teleporter",
+      "path": "~/Amires"
+    },
+    {
+      "name": "TeleportAmires",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleport_amires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amires"
+    },
+    {
+      "name": "AmiresTeleporterGUI",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_teleporter_gui",
+      "path": "~/Amires"
+    },
+    {
+      "name": "OpenAmiresTeleporterGUI",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_amires_teleporter_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Amires"
+    },
+    {
+      "name": "Teleporteramirscraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteramirscraft",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Mineraiauriumverslingot",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraiauriumverslingot",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.auroraprojects.amires_teleporter": "Teleporteur de Amirès",
       "block.auroraprojects.cablesligne": "Cablesligne",
-      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.sable_modde": "Misleading",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
       "block.auroraprojects.southjunc": "Cablejuste 1",
       "block.auroraprojects.cables_standar": "Cables Standar",
-      "biome.auroraprojects.biome_sable": "Biome Sable",
+      "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
+      "item.auroraprojects.millenus": "Millenus Portal Igniter",
+      "biome.auroraprojects.biome_sable": "Desert de Amirès",
+      "biome.auroraprojects.desert_millenus": "Desert Millènusien",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "itemGroup.tabaurora_project": "Aurora Project",
+      "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.northjunc": "Cablejuste 1",
+      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "item.auroraprojects.amires": "Amires Portal Igniter"
+      "item.auroraprojects.amires": "Amires Portal Igniter",
+      "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium"
     }
   },
   "foldersRoot": {

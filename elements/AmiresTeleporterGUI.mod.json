@@ -1,0 +1,72 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pppppp-convertimage_1.png",
+          "use1Xscale": true,
+          "name": "pppppp-convertimage_1.png",
+          "x": 120,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Amirès",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "Amirès",
+          "x": 127,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Se teleporter vers Amirès",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Se teleporter vers Amirès",
+          "x": 132,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Teleporter",
+          "onClick": {
+            "name": "TeleportAmires"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Teleporter",
+          "x": 176,
+          "y": 81
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

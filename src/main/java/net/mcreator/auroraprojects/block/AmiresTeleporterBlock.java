@@ -2,7 +2,10 @@
 package net.mcreator.auroraprojects.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.common.ToolType;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
@@ -22,13 +25,15 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.auroraprojects.procedures.OpenGUITeleporteurMillenusProcedure;
+import net.mcreator.auroraprojects.procedures.OpenAmiresTeleporterGUIProcedure;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Map;
@@ -37,11 +42,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:teleporteur_millenus")
+public class AmiresTeleporterBlock extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:amires_teleporter")
 	public static final Block block = null;
-	public TeleporteurMillenusBlock(AuroraprojectsModElements instance) {
-		super(instance, 27);
+	public AmiresTeleporterBlock(AuroraprojectsModElements instance) {
+		super(instance, 38);
 	}
 
 	@Override
@@ -49,13 +54,24 @@ public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModEleme
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
 	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 1200f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("teleporteur_millenus");
+			setRegistryName("amires_teleporter");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override
@@ -108,7 +124,7 @@ public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModEleme
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				OpenGUITeleporteurMillenusProcedure.executeProcedure($_dependencies);
+				OpenAmiresTeleporterGUIProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}
