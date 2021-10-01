@@ -1,0 +1,72 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pppppp-convertimage_1.png",
+          "use1Xscale": true,
+          "name": "pppppp-convertimage_1.png",
+          "x": 120,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Millènus",
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "name": "Millènus",
+          "x": 126,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Se teleporter vers Millènus",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Se teleporter vers Millènus",
+          "x": 131,
+          "y": 58
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Teleporter",
+          "onClick": {
+            "name": "TeleportationMillenus"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Teleporter",
+          "x": 174,
+          "y": 79
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

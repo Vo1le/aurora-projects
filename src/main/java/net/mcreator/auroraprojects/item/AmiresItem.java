@@ -1,22 +1,11 @@
 
 package net.mcreator.auroraprojects.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.item.ItemUseContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-
-import net.mcreator.auroraprojects.world.dimension.AmiresDimension;
-
 public class AmiresItem extends Item {
+
 	@ObjectHolder("auroraprojects:amires")
 	public static final Item block = null;
+
 	public AmiresItem() {
 		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
 	}
@@ -34,11 +23,13 @@ public class AmiresItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
+
 			if (world.isAirBlock(pos) && true) {
 				AmiresDimension.portal.portalSpawn(world, pos);
 				itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 				success = true;
 			}
+
 			return success ? ActionResultType.SUCCESS : ActionResultType.FAIL;
 		}
 	}

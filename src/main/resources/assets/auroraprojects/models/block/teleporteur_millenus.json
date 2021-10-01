@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/ok",
+    "up": "auroraprojects:blocks/ok",
+    "north": "auroraprojects:blocks/millenusteleporterface1",
+    "east": "auroraprojects:blocks/ok",
+    "south": "auroraprojects:blocks/teleportermillenusback",
+    "west": "auroraprojects:blocks/ok",
+    "particle": "auroraprojects:blocks/ok"
+  }
+}

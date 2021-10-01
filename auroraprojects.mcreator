@@ -72,16 +72,6 @@
       "path": "~/Systemes_electriques/cables"
     },
     {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
-    },
-    {
       "name": "Upjunc",
       "type": "block",
       "sortid": 8,
@@ -89,26 +79,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "upjunc",
-      "path": "~/Systemes_electriques/cables"
-    },
-    {
-      "name": "Southjunc",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "southjunc",
-      "path": "~/Systemes_electriques/cables"
-    },
-    {
-      "name": "Northjunc",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "northjunc",
       "path": "~/Systemes_electriques/cables"
     },
     {
@@ -122,14 +92,44 @@
       "path": "~/Systemes_electriques/cables"
     },
     {
-      "name": "Teste",
-      "type": "overlay",
-      "sortid": 12,
+      "name": "Northjunc",
+      "type": "block",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "teste",
-      "path": "~/Armes a feu"
+      "registry_name": "northjunc",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "Southjunc",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "southjunc",
+      "path": "~/Systemes_electriques/cables"
+    },
+    {
+      "name": "TourDeGarde1",
+      "type": "structure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tour_de_garde_1",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Instructions",
+      "type": "code",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "instructions",
+      "path": "~/Instructions"
     },
     {
       "name": "SableModde",
@@ -140,6 +140,16 @@
       "ids": {},
       "registry_name": "sable_modde",
       "path": "~/Amires"
+    },
+    {
+      "name": "Teste",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teste",
+      "path": "~/Armes a feu"
     },
     {
       "name": "BiomeSable",
@@ -165,14 +175,159 @@
       "path": "~/Amires"
     },
     {
-      "name": "TourDeGarde1",
-      "type": "structure",
-      "sortid": 16,
+      "name": "HerbeMillenus",
+      "type": "tag",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tour_de_garde_1",
-      "path": "~/Amires"
+      "registry_name": "herbe_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "GrassMillenus",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "DirtMillenus",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "OpenGUITeleporteurMillenus",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_teleporteur_millenus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Millenus",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenus",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Millenus"
+    },
+    {
+      "name": "DesertMillenus",
+      "type": "biome",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desert_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "TeleportationMillenus",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleportation_millenus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Millenus"
+    },
+    {
+      "name": "TeleporteurMillenusGUI",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteur_millenus_gui",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Teleporteurmillenuscraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteurmillenuscraft",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "AuriumMineraiBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurium_minerai_block",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "TeleporteurMillenus",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteur_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Lingotdaurium",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdaurium",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [],
@@ -209,15 +364,15 @@
         "children": []
       },
       {
-        "name": "Teleporteurs",
-        "children": []
-      },
-      {
         "name": "atyotis",
         "children": []
       },
       {
         "name": "Boss",
+        "children": []
+      },
+      {
+        "name": "Malgork",
         "children": []
       },
       {

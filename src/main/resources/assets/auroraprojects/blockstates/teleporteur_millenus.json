@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/teleporteur_millenus"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/teleporteur_millenus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/teleporteur_millenus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/teleporteur_millenus",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/dirtfacemillenus",
+    "up": "auroraprojects:blocks/grasstopmillenus",
+    "north": "auroraprojects:blocks/grassfacemillenus",
+    "east": "auroraprojects:blocks/grassfacemillenus",
+    "south": "auroraprojects:blocks/grassfacemillenus",
+    "west": "auroraprojects:blocks/grassfacemillenus",
+    "particle": "auroraprojects:blocks/dirtfacemillenus"
+  }
+}
