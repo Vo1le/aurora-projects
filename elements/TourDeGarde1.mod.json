@@ -5,7 +5,7 @@
     "structure": "tourdegardezz",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 1500,
+    "spawnProbability": 380,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
