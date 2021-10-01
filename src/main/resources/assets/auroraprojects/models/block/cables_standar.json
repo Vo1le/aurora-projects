@@ -1,9 +1,9 @@
 {
-  "parent": "auroraprojects:custom/cable1",
+  "parent": "auroraprojects:custom/cable_simple",
   "textures": {
     "all": "auroraprojects:blocks/ok",
     "particle": "auroraprojects:blocks/ok",
-    "0": "auroraprojects:blocks/anvil",
-    "1": "auroraprojects:blocks/green_concrete_powder"
+    "0": "auroraprojects:blocks/lime_concrete",
+    "1": "auroraprojects:blocks/black_concrete"
   }
 }
