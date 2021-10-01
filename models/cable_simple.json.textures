@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lime_concrete",
+        "1": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

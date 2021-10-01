@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "cable1:default",
+    "customModelName": "cable_simple:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
