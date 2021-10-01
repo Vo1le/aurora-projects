@@ -264,6 +264,16 @@
       "ids": {},
       "registry_name": "aurium_minerai_block",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Lingotdaurium",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdaurium",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [],
@@ -281,10 +291,11 @@
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "itemGroup.tabaurora_project": "Aurora Project",
+      "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "block.auroraprojects.aurium_minerai_block": "Bloc de minerai d\u0027aurium"
+      "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium"
     }
   },
   "foldersRoot": {
