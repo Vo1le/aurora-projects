@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Biome Sable",
+    "name": "Desert de Amirès",
     "groundBlock": {
       "value": "CUSTOM:SableModde"
     },

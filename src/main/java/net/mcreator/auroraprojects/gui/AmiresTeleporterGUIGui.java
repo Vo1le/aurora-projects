@@ -4,14 +4,14 @@ package net.mcreator.auroraprojects.gui;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElement {
+public class AmiresTeleporterGUIGui extends AuroraprojectsModElements.ModElement {
 
 	public static HashMap guistate = new HashMap();
 
 	private static ContainerType<GuiContainerMod> containerType = null;
 
-	public TeleporteurMillenusGUIGui(AuroraprojectsModElements instance) {
-		super(instance, 29);
+	public AmiresTeleporterGUIGui(AuroraprojectsModElements instance) {
+		super(instance, 40);
 
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
@@ -28,14 +28,14 @@ public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElem
 
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("teleporteur_millenus_gui"));
+			event.getRegistry().register(containerType.setRegistryName("amires_teleporter_gui"));
 		}
 
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, TeleporteurMillenusGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, AmiresTeleporterGUIGuiWindow::new));
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {
@@ -300,7 +300,7 @@ public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElem
 
 				$_dependencies.put("entity", entity);
 
-				TeleportationMillenusProcedure.executeProcedure($_dependencies);
+				TeleportAmiresProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

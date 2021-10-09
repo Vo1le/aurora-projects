@@ -330,6 +330,16 @@
       "path": "~/Armes a feu"
     },
     {
+      "name": "Pistol",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pistol",
+      "path": "~/Armes a feu"
+    },
+    {
       "name": "Bbullet",
       "type": "rangeditem",
       "sortid": 39,
@@ -377,14 +387,96 @@
       }
     },
     {
-      "name": "Pistol",
-      "type": "item",
+      "name": "TeleportAmires",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleport_amires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amires"
+    },
+    {
+      "name": "OpenAmiresTeleporterGUI",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_amires_teleporter_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Amires"
+    },
+    {
+      "name": "AmiresTeleporterGUI",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_teleporter_gui",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Teleporteramirscraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teleporteramirscraft",
+      "path": "~/Amires"
+    },
+    {
+      "name": "AmiresTeleporter",
+      "type": "block",
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pistol",
-      "path": "~/Armes a feu"
+      "registry_name": "amires_teleporter",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Mineraiauriumverslingot",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraiauriumverslingot",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -437,10 +529,6 @@
     "children": [
       {
         "name": "Amires",
-        "children": []
-      },
-      {
-        "name": "Instructions",
         "children": []
       },
       {
