@@ -1,1 +1,11 @@
-{}
+{
+  "tire": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "auroraprojects:gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls",
+        "stream": false
+      }
+    ]
+  }
+}

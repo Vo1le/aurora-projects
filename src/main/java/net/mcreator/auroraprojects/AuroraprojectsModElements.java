@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -45,6 +46,7 @@ public class AuroraprojectsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AuroraprojectsModElements() {
+		sounds.put(new ResourceLocation("auroraprojects", "tire"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "tire")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("auroraprojects").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -60,6 +62,7 @@ public class AuroraprojectsModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(AuroraprojectsModElements.ModElement::initElements);
+		MinecraftForge.EVENT_BUS.register(new AuroraprojectsModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "auroraprojects:deleted_mod_element",
+          "biome": "auroraprojects:desert_millenus",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -52,7 +52,7 @@
       "bedrock_roof_position": -10,
       "bedrock_floor_position": 0,
       "sea_level": 63,
-      "disable_mob_generation": true,
+      "disable_mob_generation": false,
       "default_block": {
         "Name": "minecraft:stone"
       },

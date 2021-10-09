@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class LingotdauriumItem extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:lingotdaurium")
+public class BulletItem extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:bullet")
 	public static final Item block = null;
-	public LingotdauriumItem(AuroraprojectsModElements instance) {
-		super(instance, 37);
+	public BulletItem(AuroraprojectsModElements instance) {
+		super(instance, 38);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class LingotdauriumItem extends AuroraprojectsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.EPIC));
-			setRegistryName("lingotdaurium");
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("bullet");
 		}
 
 		@Override

@@ -47,9 +47,9 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "PLAINS",
     "parent": {
-      "value": "No parent"
+      "value": "plains"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -59,17 +59,17 @@
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 0,
+    "grassPerChunk": 10,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 0,
+    "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 0,
-    "vanillaTreeType": "Default",
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Birch trees",
     "treeType": 0,
     "minHeight": 7,
     "maxWaterDepth": 0,
@@ -86,9 +86,9 @@
       "value": ""
     },
     "spawnStronghold": false,
-    "spawnMineshaft": false,
-    "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -99,7 +99,8 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "PlainsTallGrass"
     ],
     "spawnEntries": []
   }

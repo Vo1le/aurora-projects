@@ -1,0 +1,7 @@
+{
+  "parent": "auroraprojects:custom/pistol_2_(1)",
+  "textures": {
+    "0": "auroraprojects:blocks/pistol_2",
+    "particle": "auroraprojects:items/pistol_2"
+  }
+}

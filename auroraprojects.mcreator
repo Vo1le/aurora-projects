@@ -122,16 +122,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "Instructions",
-      "type": "code",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "instructions",
-      "path": "~/Instructions"
-    },
-    {
       "name": "SableModde",
       "type": "block",
       "sortid": 13,
@@ -328,24 +318,118 @@
       "ids": {},
       "registry_name": "lingotdaurium",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet",
+      "path": "~/Armes a feu"
+    },
+    {
+      "name": "Bbullet",
+      "type": "rangeditem",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bbullet",
+      "path": "~/Armes a feu"
+    },
+    {
+      "name": "PistolRightClickedInAir",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pistol_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pistol",
+      "path": "~/Armes a feu"
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "pistorlingame",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "tire",
+      "files": [
+        "gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "item.auroraprojects.bbullet": "Bullet",
       "block.auroraprojects.cablesligne": "Cablesligne",
-      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.sable_modde": "Misleading",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
       "block.auroraprojects.southjunc": "Cablejuste 1",
+      "subtitles.tire": "",
       "block.auroraprojects.cables_standar": "Cables Standar",
+      "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
+      "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Biome Sable",
+      "biome.auroraprojects.desert_millenus": "Desert Millènusien",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
+      "item.auroraprojects.pistol": "Pistol",
       "itemGroup.tabaurora_project": "Aurora Project",
+      "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.northjunc": "Cablejuste 1",
+      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "item.auroraprojects.amires": "Amires Portal Igniter"
+      "item.auroraprojects.bullet": "Bullet",
+      "item.auroraprojects.amires": "Amires Portal Igniter",
+      "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium"
     }
   },
   "foldersRoot": {

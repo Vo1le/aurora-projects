@@ -14,13 +14,13 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
-    "canRespawnHere": true,
+    "canRespawnHere": false,
     "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": ""
     },
