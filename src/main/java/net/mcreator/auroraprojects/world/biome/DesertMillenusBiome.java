@@ -29,7 +29,6 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.auroraprojects.block.GrassMillenusBlock;
-import net.mcreator.auroraprojects.block.DirtMillenusBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 @AuroraprojectsModElements.ModElement.Tag
@@ -47,17 +46,18 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 						.withSkyColor(-13434880).withFoliageColor(-9803191).withGrassColor(-9803191).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(GrassMillenusBlock.block.getDefaultState(),
-								DirtMillenusBlock.block.getDefaultState(), DirtMillenusBlock.block.getDefaultState())));
+								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withStructure(StructureFeatures.PILLAGER_OUTPOST);
 				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_PLAINS);
-				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
-						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.BIRCH_LOG.getDefaultState()),
-								new SimpleBlockStateProvider(Blocks.BIRCH_LEAVES.getDefaultState()),
-								new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
-								new StraightTrunkPlacer(5, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
-						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(4, 0.1F, 1))));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.TREE
+								.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.OAK_LOG.getDefaultState()),
+										new SimpleBlockStateProvider(Blocks.OAK_LEAVES.getDefaultState()),
+										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
+										new StraightTrunkPlacer(4, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().build())
+								.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
+								.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 10))));

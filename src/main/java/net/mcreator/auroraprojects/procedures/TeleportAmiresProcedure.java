@@ -2,6 +2,7 @@ package net.mcreator.auroraprojects.procedures;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
@@ -13,6 +14,7 @@ import net.minecraft.network.play.server.SPlayEntityEffectPacket;
 import net.minecraft.network.play.server.SChangeGameStatePacket;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
@@ -25,7 +27,31 @@ public class TeleportAmiresProcedure {
 				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure TeleportAmires!");
 			return;
 		}
+		if (dependencies.get("x") == null) {
+			if (!dependencies.containsKey("x"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency x for procedure TeleportAmires!");
+			return;
+		}
+		if (dependencies.get("y") == null) {
+			if (!dependencies.containsKey("y"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency y for procedure TeleportAmires!");
+			return;
+		}
+		if (dependencies.get("z") == null) {
+			if (!dependencies.containsKey("z"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency z for procedure TeleportAmires!");
+			return;
+		}
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure TeleportAmires!");
+			return;
+		}
 		Entity entity = (Entity) dependencies.get("entity");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
@@ -43,5 +69,7 @@ public class TeleportAmiresProcedure {
 				}
 			}
 		}
+		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)), Blocks.AIR.getDefaultState(), 3);
 	}
 }

@@ -17,20 +17,7 @@
           "use1Xscale": true,
           "name": "pppppp-convertimage_1.png",
           "x": 125,
-          "y": 36
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Millènus",
-          "color": {
-            "value": -16776961,
-            "falpha": 0.0
-          },
-          "name": "Millènus",
-          "x": 126,
-          "y": 40
+          "y": 37
         }
       },
       {
@@ -56,8 +43,18 @@
           "width": 75,
           "height": 20,
           "name": "Teleporter",
-          "x": 174,
-          "y": 79
+          "x": 176,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "millenus.png",
+          "use1Xscale": true,
+          "name": "millenus.png",
+          "x": 125,
+          "y": 37
         }
       }
     ],

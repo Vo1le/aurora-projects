@@ -16,21 +16,18 @@
           "image": "pppppp-convertimage_1.png",
           "use1Xscale": true,
           "name": "pppppp-convertimage_1.png",
-          "x": 120,
-          "y": 37
+          "x": 124,
+          "y": 38
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "Amirès",
-          "color": {
-            "value": -16776961,
-            "falpha": 0.0
-          },
-          "name": "Amirès",
-          "x": 127,
-          "y": 39
+          "image": "amires.png",
+          "use1Xscale": true,
+          "name": "amires.png",
+          "x": 124,
+          "y": 38
         }
       },
       {
@@ -42,8 +39,8 @@
             "falpha": 0.0
           },
           "name": "Se teleporter vers Amirès",
-          "x": 132,
-          "y": 61
+          "x": 152,
+          "y": 68
         }
       },
       {

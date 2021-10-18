@@ -60,7 +60,9 @@ public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleport
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/pppppp-convertimage_1.png"));
-		this.blit(ms, this.guiLeft + -5, this.guiTop + 0, 0, 0, 204, 20, 204, 20);
+		this.blit(ms, this.guiLeft + -1, this.guiTop + 1, 0, 0, 204, 20, 204, 20);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/amires.png"));
+		this.blit(ms, this.guiLeft + -1, this.guiTop + 1, 0, 0, 44, 15, 44, 15);
 		RenderSystem.disableBlend();
 	}
 
@@ -80,8 +82,7 @@ public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleport
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Amir\u00E8s", 1, 2, -16776961);
-		this.font.drawString(ms, "Se teleporter vers Amir\u00E8s", 6, 24, -16777216);
+		this.font.drawString(ms, "Se teleporter vers Amir\u00E8s", 26, 31, -16777216);
 	}
 
 	@Override

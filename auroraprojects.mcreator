@@ -165,16 +165,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "HerbeMillenus",
-      "type": "tag",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "herbe_millenus",
-      "path": "~/Millenus"
-    },
-    {
       "name": "GrassMillenus",
       "type": "block",
       "sortid": 33,
@@ -264,6 +254,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -399,6 +405,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -477,6 +499,55 @@
       "ids": {},
       "registry_name": "mineraiauriumverslingot",
       "path": "~/Millenus"
+    },
+    {
+      "name": "DirtMillenusBlockAdded",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_millenus_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dirt",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "J",
+      "type": "potioneffect",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "j",
+      "path": "~/Amires"
     }
   ],
   "variable_elements": [
@@ -505,6 +576,7 @@
       "subtitles.tire": "",
       "block.auroraprojects.cables_standar": "Cables Standar",
       "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
+      "effect.j": "Tempête",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.northjunc": "Cablejuste 1",

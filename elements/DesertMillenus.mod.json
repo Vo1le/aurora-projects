@@ -7,7 +7,7 @@
       "value": "CUSTOM:GrassMillenus"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:DirtMillenus"
+      "value": "Blocks.STONE#0"
     },
     "airColor": {
       "value": -13434880,
@@ -68,8 +68,8 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 4,
-    "vanillaTreeType": "Birch trees",
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Default",
     "treeType": 0,
     "minHeight": 7,
     "maxWaterDepth": 0,

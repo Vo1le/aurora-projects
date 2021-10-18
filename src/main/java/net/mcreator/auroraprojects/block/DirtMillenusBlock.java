@@ -42,10 +42,13 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.auroraprojects.procedures.DirtMillenusBlockAddedProcedure;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
@@ -93,6 +96,22 @@ public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void onBlockAdded(BlockState blockstate, World world, BlockPos pos, BlockState oldState, boolean moving) {
+			super.onBlockAdded(blockstate, world, pos, oldState, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DirtMillenusBlockAddedProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

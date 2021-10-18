@@ -55,7 +55,9 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/pppppp-convertimage_1.png"));
-		this.blit(ms, this.guiLeft + 0, this.guiTop + -1, 0, 0, 204, 20, 204, 20);
+		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 204, 20, 204, 20);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/millenus.png"));
+		this.blit(ms, this.guiLeft + 0, this.guiTop + 0, 0, 0, 58, 15, 58, 15);
 		RenderSystem.disableBlend();
 	}
 
@@ -75,7 +77,6 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Mill\u00E8nus", 0, 3, -16776961);
 		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 5, 21, -16777216);
 	}
 
@@ -89,7 +90,7 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 48, this.guiTop + 42, 75, 20, new StringTextComponent("Teleporter"), e -> {
+		this.addButton(new Button(this.guiLeft + 50, this.guiTop + 46, 75, 20, new StringTextComponent("Teleporter"), e -> {
 			if (true) {
 				AuroraprojectsMod.PACKET_HANDLER.sendToServer(new TeleporteurMillenusGUIGui.ButtonPressedMessage(0, x, y, z));
 				TeleporteurMillenusGUIGui.handleButtonAction(entity, 0, x, y, z);

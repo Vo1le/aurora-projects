@@ -43,7 +43,7 @@
     },
     "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DirtMillenus"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -125,11 +125,7 @@
       "CUSTOM:Millenus"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.GRASS"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

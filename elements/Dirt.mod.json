@@ -6,15 +6,15 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:HerbedeMillenus"
+        "value": "CUSTOM:GrassMillenus"
       },
       {
-        "value": "Blocks.GRASS"
+        "value": "CUSTOM:DirtMillenus"
       }
     ],
     "functions": [],
     "entities": [],
-    "name": "herbe_millenus",
+    "name": "dirt",
     "namespace": "forge"
   }
 }
