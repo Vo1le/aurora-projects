@@ -33,15 +33,15 @@
     "particlesProbability": 0.5,
     "biomeCategory": "DESERT",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:BiomeSable"
     },
     "rainingPossibility": 0.0,
     "temperature": 2.0,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.1,
     "biomeType": "DESERT",
-    "spawnBiome": true,
-    "biomeWeight": 1024,
+    "spawnBiome": false,
+    "biomeWeight": 1,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -51,7 +51,7 @@
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
+    "cactiPerChunk": 1,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
@@ -81,7 +81,11 @@
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "DesertFeatures",
+      "Caves",
+      "Ores",
+      "ExtraGoldOre"
     ],
     "spawnEntries": []
   }
