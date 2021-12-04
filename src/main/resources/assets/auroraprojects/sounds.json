@@ -1,10 +1,28 @@
 {
+  "ventherbe": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "auroraprojects:windvege_vent_dans_les_herbes_hautes_id_0908_ls",
+        "stream": true
+      }
+    ]
+  },
   "tire": {
     "category": "neutral",
     "sounds": [
       {
         "name": "auroraprojects:gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls",
         "stream": false
+      }
+    ]
+  },
+  "vent": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "auroraprojects:winddsgn_vent_id_0595_ls",
+        "stream": true
       }
     ]
   }

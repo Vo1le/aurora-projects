@@ -46,7 +46,10 @@ public class AuroraprojectsModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AuroraprojectsModElements() {
+		sounds.put(new ResourceLocation("auroraprojects", "ventherbe"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "ventherbe")));
 		sounds.put(new ResourceLocation("auroraprojects", "tire"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "tire")));
+		sounds.put(new ResourceLocation("auroraprojects", "vent"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "vent")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("auroraprojects").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

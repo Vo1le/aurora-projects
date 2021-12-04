@@ -4,28 +4,28 @@
   "definition": {
     "name": "Desert de Amirès",
     "groundBlock": {
-      "value": "CUSTOM:SableModde"
+      "value": "CUSTOM:Salemodede"
     },
     "undergroundBlock": {
       "value": "CUSTOM:SableModde"
     },
     "airColor": {
-      "value": -3292541,
+      "value": -4099819,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:vent"
     },
     "additionsSound": {
-      "value": ""
+      "value": "CUSTOM:vent"
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:ventherbe"
     },
     "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 200,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "SPIT"
@@ -37,11 +37,11 @@
     },
     "rainingPossibility": 0.0,
     "temperature": 2.0,
-    "baseHeight": 0.1,
-    "heightVariation": 0.1,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
     "biomeType": "DESERT",
     "spawnBiome": false,
-    "biomeWeight": 1,
+    "biomeWeight": 1024,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -81,11 +81,7 @@
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [
-      "FrozenTopLayer",
-      "DesertFeatures",
-      "Caves",
-      "Ores",
-      "ExtraGoldOre"
+      "DeadBushes"
     ],
     "spawnEntries": []
   }

@@ -12,13 +12,17 @@
       "value": "CUSTOM:SableModde"
     },
     "fluidBlock": {
-      "value": "CUSTOM:SableModde"
+      "value": "CUSTOM:Salemodede"
+    },
+    "airColor": {
+      "value": -4033772,
+      "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": true,
     "isDark": false,
     "doesWaterVaporize": true,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
@@ -37,6 +41,6 @@
     },
     "texture": "flint_and_steel",
     "portalTexture": "sand",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

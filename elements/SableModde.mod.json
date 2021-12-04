@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "sand",
-    "textureTop": "sand",
-    "textureLeft": "sand",
-    "textureFront": "sand",
-    "textureRight": "sand",
-    "textureBack": "sand",
+    "texture": "red_sand",
+    "textureTop": "red_sand",
+    "textureLeft": "red_sand",
+    "textureFront": "red_sand",
+    "textureRight": "red_sand",
+    "textureBack": "red_sand",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,20 +32,20 @@
         "subtract": false
       }
     ],
-    "name": "Misleading",
+    "name": "Sable d'Amires",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:AmiresItems"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Fragmentdesabledamires"
     },
-    "dropAmount": 1,
+    "dropAmount": 4,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "SableModdeEntityWalksOnTheBlock"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

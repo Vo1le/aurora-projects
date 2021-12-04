@@ -2,7 +2,10 @@ package net.mcreator.auroraprojects.procedures;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
 import net.minecraft.state.Property;
+import net.minecraft.state.EnumProperty;
+import net.minecraft.state.DirectionProperty;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.auroraprojects.block.NorthjuncBlock;
@@ -66,6 +69,17 @@ public class Added1Procedure {
 						}
 				}
 				world.setBlockState(_bp, _bs, 3);
+			}
+			try {
+				BlockState _bs = world.getBlockState(new BlockPos((int) x, (int) y, (int) z));
+				DirectionProperty _property = (DirectionProperty) _bs.getBlock().getStateContainer().getProperty("facing");
+				if (_property != null) {
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), _bs.with(_property, Direction.SOUTH), 3);
+				} else {
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), _bs.with(
+							(EnumProperty<Direction.Axis>) _bs.getBlock().getStateContainer().getProperty("axis"), Direction.SOUTH.getAxis()), 3);
+				}
+			} catch (Exception e) {
 			}
 		}
 	}

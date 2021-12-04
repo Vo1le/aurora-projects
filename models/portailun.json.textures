@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blast_furnace_top",
+        "2": "blue_concrete",
+        "3": "andesite",
+        "4": "texturemmm"
+      },
+      "name": "default"
+    }
+  }
+}

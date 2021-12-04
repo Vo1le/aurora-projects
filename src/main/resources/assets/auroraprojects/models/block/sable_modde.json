@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "auroraprojects:blocks/sand",
-    "up": "auroraprojects:blocks/sand",
-    "north": "auroraprojects:blocks/sand",
-    "east": "auroraprojects:blocks/sand",
-    "south": "auroraprojects:blocks/sand",
-    "west": "auroraprojects:blocks/sand",
-    "particle": "auroraprojects:blocks/sand"
+    "down": "auroraprojects:blocks/red_sand",
+    "up": "auroraprojects:blocks/red_sand",
+    "north": "auroraprojects:blocks/red_sand",
+    "east": "auroraprojects:blocks/red_sand",
+    "south": "auroraprojects:blocks/red_sand",
+    "west": "auroraprojects:blocks/red_sand",
+    "particle": "auroraprojects:blocks/red_sand"
   }
 }

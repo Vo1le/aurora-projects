@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "auroraprojects:blocks/red_sand",
+    "bottom": "auroraprojects:blocks/red_sand",
+    "top": "auroraprojects:blocks/red_sand",
+    "side": "auroraprojects:blocks/red_sand"
+  }
+}

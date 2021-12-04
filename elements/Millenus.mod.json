@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:DesertMillenus"
+      },
+      {
+        "value": "CUSTOM:Highmontain"
       }
     ],
     "worldGenType": "Normal world gen",

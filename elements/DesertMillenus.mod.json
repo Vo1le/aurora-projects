@@ -47,9 +47,9 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "PLAINS",
+    "biomeCategory": "FOREST",
     "parent": {
-      "value": "plains"
+      "value": "forest"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,

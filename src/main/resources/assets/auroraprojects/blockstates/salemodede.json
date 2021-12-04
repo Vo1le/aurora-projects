@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "auroraprojects:block/salemodede"
+    },
+    "type=top": {
+      "model": "auroraprojects:block/salemodede_top"
+    },
+    "type=double": {
+      "model": "auroraprojects:block/salemodede_full"
+    }
+  }
+}
