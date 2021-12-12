@@ -57,11 +57,7 @@
         "Name": "auroraprojects:sable_modde"
       },
       "default_fluid": {
-        "Name": "auroraprojects:salemodede",
-        "Properties": {
-          "type": "bottom",
-          "waterlogged": "false"
-        }
+        "Name": "auroraprojects:sable_modde"
       },
       "noise": {
         "min_y": 0,

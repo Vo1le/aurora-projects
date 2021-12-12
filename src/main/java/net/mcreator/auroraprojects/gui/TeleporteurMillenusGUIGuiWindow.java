@@ -77,7 +77,7 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 5, 21, -16777216);
+		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 2, 14, -16777216);
 	}
 
 	@Override

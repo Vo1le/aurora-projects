@@ -1,6 +1,7 @@
 
 package net.mcreator.auroraprojects.world.biome;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,11 +22,15 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.SoundAdditionsAmbience;
+import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.auroraprojects.block.GrassMillenusBlock;
@@ -43,7 +48,19 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13434880).setWaterColor(-13282725).setWaterFogColor(-13282725)
-						.withSkyColor(-13434880).withFoliageColor(-9803191).withGrassColor(-9803191).build();
+						.withSkyColor(-13434880).withFoliageColor(-9803191).withGrassColor(-9803191)
+						.setAmbientSound(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")))
+						.setMoodSound(new MoodSoundAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")),
+								200, 8, 2))
+						.setAdditionsSound(new SoundAdditionsAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")),
+								0.0111D))
+						.setMusic(new BackgroundMusicSelector(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")),
+								12000, 24000, true))
+						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(GrassMillenusBlock.block.getDefaultState(),
 								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));

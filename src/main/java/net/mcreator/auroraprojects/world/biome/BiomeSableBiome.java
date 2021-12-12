@@ -24,7 +24,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.auroraprojects.block.SalemodedeBlock;
 import net.mcreator.auroraprojects.block.SableModdeBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
@@ -50,13 +49,14 @@ public class BiomeSableBiome extends AuroraprojectsModElements.ModElement {
 								.getValue(new ResourceLocation("auroraprojects:ventherbe")), 12000, 24000, true))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
-						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(SalemodedeBlock.block.getDefaultState(),
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(SableModdeBlock.block.getDefaultState(),
 								SableModdeBlock.block.getDefaultState(), SableModdeBlock.block.getDefaultState())));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.CACTUS.getDefaultState()),
 										new ColumnBlockPlacer(1, 2))).tries(1).func_227317_b_().build()));
 				DefaultBiomeFeatures.withDesertDeadBushes(biomeGenerationSettings);
+				DefaultBiomeFeatures.withDesertWells(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.NONE).category(Biome.Category.DESERT).depth(0f).scale(0f).temperature(2f)
 						.downfall(0f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())

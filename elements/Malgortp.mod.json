@@ -1,0 +1,69 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pppppp-convertimage_1.png",
+          "use1Xscale": true,
+          "name": "pppppp-convertimage_1.png",
+          "x": 125,
+          "y": 38
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "marlgork.png",
+          "use1Xscale": true,
+          "name": "marlgork.png",
+          "x": 125,
+          "y": 38
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Téléporter",
+          "onClick": {
+            "name": "Tpversmal"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Téléporter",
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Se téléporter vers Malgork",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Se téléporter vers Malgork",
+          "x": 128,
+          "y": 52
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

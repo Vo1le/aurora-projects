@@ -16,7 +16,7 @@
           "image": "pppppp-convertimage_1.png",
           "use1Xscale": true,
           "name": "pppppp-convertimage_1.png",
-          "x": 124,
+          "x": 125,
           "y": 38
         }
       },
@@ -39,8 +39,8 @@
             "falpha": 0.0
           },
           "name": "Se teleporter vers Amirès",
-          "x": 152,
-          "y": 68
+          "x": 128,
+          "y": 51
         }
       },
       {

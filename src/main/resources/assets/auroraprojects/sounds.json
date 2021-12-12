@@ -25,5 +25,23 @@
         "stream": true
       }
     ]
+  },
+  "pluitorage": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "auroraprojects:storm_pluie_et_orage_id_0124_ls",
+        "stream": true
+      }
+    ]
+  },
+  "foret": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "auroraprojects:windvege_foret_vent_a_la_cime_des_arbres_id_0904_ls",
+        "stream": true
+      }
+    ]
   }
 }

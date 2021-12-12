@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/terrevolcaniqe",
+    "up": "auroraprojects:blocks/terrevolcaniqe",
+    "north": "auroraprojects:blocks/terrevolcaniqe",
+    "east": "auroraprojects:blocks/terrevolcaniqe",
+    "south": "auroraprojects:blocks/terrevolcaniqe",
+    "west": "auroraprojects:blocks/terrevolcaniqe",
+    "particle": "auroraprojects:blocks/terrevolcaniqe"
+  }
+}

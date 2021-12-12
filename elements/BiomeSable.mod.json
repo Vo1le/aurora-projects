@@ -4,7 +4,7 @@
   "definition": {
     "name": "Desert de Amirès",
     "groundBlock": {
-      "value": "CUSTOM:Salemodede"
+      "value": "CUSTOM:SableModde"
     },
     "undergroundBlock": {
       "value": "CUSTOM:SableModde"
@@ -81,7 +81,8 @@
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [
-      "DeadBushes"
+      "DeadBushes",
+      "DesertFeatures"
     ],
     "spawnEntries": []
   }

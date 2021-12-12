@@ -50,6 +50,10 @@ public class AuroraprojectsModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "ventherbe")));
 		sounds.put(new ResourceLocation("auroraprojects", "tire"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "tire")));
 		sounds.put(new ResourceLocation("auroraprojects", "vent"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "vent")));
+		sounds.put(new ResourceLocation("auroraprojects", "pluitorage"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "pluitorage")));
+		sounds.put(new ResourceLocation("auroraprojects", "foret"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "foret")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("auroraprojects").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

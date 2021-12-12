@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="auroraprojects"
 version="1.0.0"
 displayName="Aurora-project"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="ruizn, MCreator"
+credits="nop"
+displayURL="https://amazon.fr"
+logoFile="logo.png"
+authors="Aurora Team"
+description='''
+Bienvenue sur Aurora
+'''
 
 [[dependencies.auroraprojects]]
     modId="minecraft"

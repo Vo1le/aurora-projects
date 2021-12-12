@@ -30,18 +30,18 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:foret"
     },
     "additionsSound": {
-      "value": ""
+      "value": "CUSTOM:foret"
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:foret"
     },
     "moodSound": {
-      "value": ""
+      "value": "CUSTOM:foret"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 200,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -670,23 +670,13 @@
       "path": "~/Amires"
     },
     {
-      "name": "Pasamires",
-      "type": "particle",
+      "name": "SableModdeUpdateTick",
+      "type": "procedure",
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pasamires",
-      "path": "~/Amires"
-    },
-    {
-      "name": "SableModdeEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sable_modde_entity_walks_on_the_block",
+      "registry_name": "sable_modde_update_tick",
       "metadata": {
         "dependencies": [
           {
@@ -707,6 +697,136 @@
           }
         ]
       }
+    },
+    {
+      "name": "AmiresPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amires_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TerreVolcanique",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terre_volcanique",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "MalgorkPlaines",
+      "type": "biome",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malgork_plaines",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Malgork",
+      "type": "dimension",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malgork",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Volcan",
+      "type": "biome",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcan",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Malgorkteleporteur",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malgorkteleporteur",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Malgortp",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malgortp",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Tpversmal",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tpversmal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Volcansoucregrand",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcansoucregrand",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "Petitsourcevolcan",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petitsourcevolcan",
+      "path": "~/Malgork"
     }
   ],
   "variable_elements": [
@@ -741,14 +861,31 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "pluitorage",
+      "files": [
+        "storm_pluie_et_orage_id_0124_ls"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "foret",
+      "files": [
+        "windvege_foret_vent_a_la_cime_des_arbres_id_0904_ls"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "block.auroraprojects.portail_desdimensiondaurora": "Portail Desdimensiondaurora",
+      "block.auroraprojects.malgorkteleporteur": "Malgork téléporteur",
       "block.auroraprojects.cablesligne": "Cablesligne",
-      "biome.auroraprojects.highmontain": "Haute montagne",
       "block.auroraprojects.upjunc": "Cablejuste 1",
+      "biome.auroraprojects.highmontain": "Haute montagne",
       "block.auroraprojects.salemodede": "Salemodede",
       "block.auroraprojects.southjunc": "Cablejuste 1",
       "subtitles.tire": "",
@@ -756,6 +893,7 @@
       "block.auroraprojects.cables_standar": "Cables Standar",
       "block.auroraprojects.teleporteur_millenus": "Teleporteur de Millènus",
       "effect.j": "Tempête",
+      "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.portal_2": "Portal 2",
@@ -769,6 +907,8 @@
       "block.auroraprojects.amires_teleporter": "Teleporteur de Amirès",
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
+      "biome.auroraprojects.volcan": "Volcan",
+      "subtitles.pluitorage": "",
       "subtitles.vent": "",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
@@ -776,8 +916,11 @@
       "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "itemGroup.tabaurora_project": "Aurora Project",
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
+      "item.auroraprojects.malgork": "Malgork Portal Igniter",
       "subtitles.ventherbe": "",
+      "subtitles.foret": "",
       "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
+      "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
       "block.auroraprojects.downjunc": "Cablejuste 1",
       "item.auroraprojects.fragmentdesabledamires": "Fragment de sable d\u0027Amires",
       "item.auroraprojects.amires": "Amires Portal Igniter"
@@ -841,16 +984,19 @@
     "modid": "auroraprojects",
     "modName": "Aurora-project",
     "version": "1.0.0",
-    "author": "ruizn, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "description": "Bienvenue sur Aurora",
+    "author": "Aurora Team",
+    "websiteURL": "https://amazon.fr",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "aurora-projet",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "nop",
     "modElementsPackage": "net.mcreator.auroraprojects",
     "lockBaseModFiles": false
   },
