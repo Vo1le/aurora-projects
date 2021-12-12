@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Marlgork Items",
+    "icon": {
+      "value": "CUSTOM:TerreVolcanique"
+    },
+    "showSearch": false
+  }
+}

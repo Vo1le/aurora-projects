@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AuroraTeleporteurs"
+      "value": "CUSTOM:MarlgorkItems"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

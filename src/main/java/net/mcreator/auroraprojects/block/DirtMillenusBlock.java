@@ -31,7 +31,6 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -43,6 +42,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.auroraprojects.procedures.DirtMillenusBlockAddedProcedure;
+import net.mcreator.auroraprojects.itemgroup.MillenusItemsItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Random;
@@ -65,7 +65,7 @@ public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(MillenusItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

@@ -8,7 +8,7 @@
     "name": "Lingot d'aurium",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MillenusItems"
     },
     "stackSize": 64,
     "enchantability": 0,

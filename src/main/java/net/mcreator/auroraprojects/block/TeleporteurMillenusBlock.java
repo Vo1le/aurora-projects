@@ -17,7 +17,6 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -29,6 +28,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.auroraprojects.procedures.OpenGUITeleporteurMillenusProcedure;
+import net.mcreator.auroraprojects.itemgroup.AuroraTeleporteursItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Map;
@@ -47,7 +47,8 @@ public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModEleme
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(AuroraTeleporteursItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;

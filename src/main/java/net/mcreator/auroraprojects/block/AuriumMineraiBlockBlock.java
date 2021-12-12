@@ -35,7 +35,6 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -48,6 +47,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.auroraprojects.itemgroup.MillenusItemsItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Random;
@@ -68,7 +68,7 @@ public class AuriumMineraiBlockBlock extends AuroraprojectsModElements.ModElemen
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(MillenusItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

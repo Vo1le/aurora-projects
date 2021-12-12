@@ -827,6 +827,26 @@
       "ids": {},
       "registry_name": "petitsourcevolcan",
       "path": "~/Malgork"
+    },
+    {
+      "name": "MarlgorkItems",
+      "type": "tab",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marlgork_items",
+      "path": "~/Malgork"
+    },
+    {
+      "name": "MillenusItems",
+      "type": "tab",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "millenus_items",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -883,6 +903,8 @@
     "en_us": {
       "block.auroraprojects.portail_desdimensiondaurora": "Portail Desdimensiondaurora",
       "block.auroraprojects.malgorkteleporteur": "Malgork téléporteur",
+      "itemGroup.tabmarlgork_items": "Marlgork Items",
+      "itemGroup.tabmillenus_items": "Millenus Items",
       "block.auroraprojects.cablesligne": "Cablesligne",
       "block.auroraprojects.upjunc": "Cablejuste 1",
       "biome.auroraprojects.highmontain": "Haute montagne",

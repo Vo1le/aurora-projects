@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "REDSTONE"
+      "value": "CUSTOM:AuroraTeleporteurs"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
