@@ -29,6 +29,7 @@ import java.util.Collections;
 public class UpjuncBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:upjunc")
 	public static final Block block = null;
+
 	public UpjuncBlock(AuroraprojectsModElements instance) {
 		super(instance, 8);
 	}
@@ -45,6 +46,7 @@ public class UpjuncBlock extends AuroraprojectsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

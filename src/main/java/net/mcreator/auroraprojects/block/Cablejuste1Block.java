@@ -29,6 +29,7 @@ import java.util.Collections;
 public class Cablejuste1Block extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:cablejuste_1")
 	public static final Block block = null;
+
 	public Cablejuste1Block(AuroraprojectsModElements instance) {
 		super(instance, 6);
 	}
@@ -45,6 +46,7 @@ public class Cablejuste1Block extends AuroraprojectsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

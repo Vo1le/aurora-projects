@@ -45,16 +45,19 @@ import net.mcreator.auroraprojects.procedures.DirtMillenusBlockAddedProcedure;
 import net.mcreator.auroraprojects.itemgroup.MillenusItemsItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
+import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @AuroraprojectsModElements.ModElement.Tag
 public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:dirt_millenus")
 	public static final Block block = null;
+
 	public DirtMillenusBlock(AuroraprojectsModElements instance) {
 		super(instance, 34);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -73,6 +76,7 @@ public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 0.5f).setLightLevel(s -> 0)
@@ -104,22 +108,22 @@ public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				DirtMillenusBlockAddedProcedure.executeProcedure($_dependencies);
-			}
+
+			DirtMillenusBlockAddedProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.DIRT)
@@ -155,6 +159,7 @@ public class DirtMillenusBlock extends AuroraprojectsModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:dirt_millenus"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

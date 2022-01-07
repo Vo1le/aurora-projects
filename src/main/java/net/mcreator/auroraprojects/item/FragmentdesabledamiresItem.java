@@ -15,6 +15,7 @@ import net.mcreator.auroraprojects.AuroraprojectsModElements;
 public class FragmentdesabledamiresItem extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:fragmentdesabledamires")
 	public static final Item block = null;
+
 	public FragmentdesabledamiresItem(AuroraprojectsModElements instance) {
 		super(instance, 57);
 	}
@@ -23,6 +24,7 @@ public class FragmentdesabledamiresItem extends AuroraprojectsModElements.ModEle
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AmiresItemsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));

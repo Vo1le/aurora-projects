@@ -41,6 +41,7 @@ import io.netty.buffer.Unpooled;
 public class MalgorkteleporteurBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:malgorkteleporteur")
 	public static final Block block = null;
+
 	public MalgorkteleporteurBlock(AuroraprojectsModElements instance) {
 		super(instance, 64);
 	}
@@ -51,6 +52,7 @@ public class MalgorkteleporteurBlock extends AuroraprojectsModElements.ModElemen
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(AuroraTeleporteursItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)

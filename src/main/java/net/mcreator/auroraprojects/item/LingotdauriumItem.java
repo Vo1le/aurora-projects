@@ -15,6 +15,7 @@ import net.mcreator.auroraprojects.AuroraprojectsModElements;
 public class LingotdauriumItem extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:lingotdaurium")
 	public static final Item block = null;
+
 	public LingotdauriumItem(AuroraprojectsModElements instance) {
 		super(instance, 37);
 	}
@@ -23,6 +24,7 @@ public class LingotdauriumItem extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MillenusItemsItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));

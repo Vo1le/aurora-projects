@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Boss",
+    "icon": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "showSearch": false
+  }
+}

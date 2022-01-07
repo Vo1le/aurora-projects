@@ -16,13 +16,16 @@ import net.minecraft.block.BlockState;
 import net.mcreator.auroraprojects.procedures.PistolRightClickedInAirProcedure;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.HashMap;
+import java.util.AbstractMap;
 
 @AuroraprojectsModElements.ModElement.Tag
 public class PistolItem extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:pistol")
 	public static final Item block = null;
+
 	public PistolItem(AuroraprojectsModElements instance) {
 		super(instance, 38);
 	}
@@ -31,6 +34,7 @@ public class PistolItem extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1).rarity(Rarity.COMMON));
@@ -59,16 +63,12 @@ public class PistolItem extends AuroraprojectsModElements.ModElement {
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("itemstack", itemstack);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				PistolRightClickedInAirProcedure.executeProcedure($_dependencies);
-			}
+
+			PistolRightClickedInAirProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
+							new AbstractMap.SimpleEntry<>("itemstack", itemstack))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ar;
 		}
 	}

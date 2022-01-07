@@ -1,0 +1,34 @@
+newmtl m_0
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd auroraprojects:blocks/diamond_block
+Ns 100.0
+d 1.0
+newmtl m_1
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd auroraprojects:blocks/beehive_end
+Ns 100.0
+d 1.0
+newmtl m_3
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd auroraprojects:blocks/bedrock
+Ns 100.0
+d 1.0
+newmtl m_4
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd auroraprojects:blocks/andesite
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

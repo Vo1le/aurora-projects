@@ -19,10 +19,12 @@ import net.mcreator.auroraprojects.AuroraprojectsModElements;
 @AuroraprojectsModElements.ModElement.Tag
 public class VolcanBiome extends AuroraprojectsModElements.ModElement {
 	public static Biome biome;
+
 	public VolcanBiome(AuroraprojectsModElements instance) {
 		super(instance, 63);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
+
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
@@ -40,6 +42,7 @@ public class VolcanBiome extends AuroraprojectsModElements.ModElement {
 			}
 		}
 	}
+
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 	}

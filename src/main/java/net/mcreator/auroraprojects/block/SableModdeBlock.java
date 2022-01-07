@@ -27,6 +27,7 @@ import java.util.Collections;
 public class SableModdeBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:sable_modde")
 	public static final Block block = null;
+
 	public SableModdeBlock(AuroraprojectsModElements instance) {
 		super(instance, 13);
 	}
@@ -37,6 +38,7 @@ public class SableModdeBlock extends AuroraprojectsModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(AmiresItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)

@@ -15,6 +15,7 @@ import net.mcreator.auroraprojects.AuroraprojectsModElements;
 public class BulletItem extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:bullet")
 	public static final Item block = null;
+
 	public BulletItem(AuroraprojectsModElements instance) {
 		super(instance, 38);
 	}
@@ -23,6 +24,7 @@ public class BulletItem extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(64).rarity(Rarity.COMMON));

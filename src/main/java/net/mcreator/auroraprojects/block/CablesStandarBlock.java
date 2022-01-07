@@ -24,15 +24,18 @@ import net.minecraft.block.Block;
 import net.mcreator.auroraprojects.procedures.Added1Procedure;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @AuroraprojectsModElements.ModElement.Tag
 public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:cables_standar")
 	public static final Block block = null;
+
 	public CablesStandarBlock(AuroraprojectsModElements instance) {
 		super(instance, 2);
 	}
@@ -49,6 +52,7 @@ public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
@@ -80,14 +84,11 @@ public class CablesStandarBlock extends AuroraprojectsModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Added1Procedure.executeProcedure($_dependencies);
-			}
+
+			Added1Procedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_3": "bedrock",
+        "m_4": "andesite",
+        "m_1": "beehive_end",
+        "m_0": "diamond_block"
+      },
+      "name": "default"
+    }
+  }
+}

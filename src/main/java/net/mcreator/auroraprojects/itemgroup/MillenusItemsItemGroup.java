@@ -31,5 +31,6 @@ public class MillenusItemsItemGroup extends AuroraprojectsModElements.ModElement
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

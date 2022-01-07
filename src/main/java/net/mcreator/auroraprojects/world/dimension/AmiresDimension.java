@@ -1,6 +1,7 @@
 
 package net.mcreator.auroraprojects.world.dimension;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
@@ -18,6 +19,7 @@ import net.mcreator.auroraprojects.block.SableModdeBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.Set;
+import java.util.HashSet;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 
@@ -31,14 +33,20 @@ public class AmiresDimension extends AuroraprojectsModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
+		Set<Block> replaceableBlocks = new HashSet<>();
+		replaceableBlocks.add(SableModdeBlock.block);
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:biome_sable")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:biome_sable")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(SableModdeBlock.block).build(), "field_222718_j");
+						.addAll(replaceableBlocks).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(SableModdeBlock.block).build(), "field_222718_j");
+						.addAll(replaceableBlocks).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

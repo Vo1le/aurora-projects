@@ -39,10 +39,12 @@ import net.mcreator.auroraprojects.AuroraprojectsModElements;
 @AuroraprojectsModElements.ModElement.Tag
 public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 	public static Biome biome;
+
 	public DesertMillenusBiome(AuroraprojectsModElements instance) {
 		super(instance, 35);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
+
 	private static class BiomeRegisterHandler {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
@@ -94,6 +96,7 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 			}
 		}
 	}
+
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 	}

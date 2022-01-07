@@ -16,7 +16,13 @@ import net.mcreator.auroraprojects.AuroraprojectsMod;
 import java.util.Map;
 
 public class Added1Procedure {
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure Added1!");
+			return;
+		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
 				AuroraprojectsMod.LOGGER.warn("Failed to load dependency x for procedure Added1!");
@@ -32,16 +38,11 @@ public class Added1Procedure {
 				AuroraprojectsMod.LOGGER.warn("Failed to load dependency z for procedure Added1!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure Added1!");
-			return;
-		}
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
-		if ((CablesStandarBlock.block == (world.getBlockState(new BlockPos((int) (x + 1), (int) (y + 0), (int) (z + 0)))).getBlock())) {
+		if (CablesStandarBlock.block == (world.getBlockState(new BlockPos((int) (x + 1), (int) (y + 0), (int) (z + 0)))).getBlock()) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				BlockState _bs = Cablejuste1Block.block.getDefaultState();

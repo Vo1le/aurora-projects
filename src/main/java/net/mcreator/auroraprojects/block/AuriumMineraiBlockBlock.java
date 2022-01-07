@@ -58,6 +58,7 @@ import java.util.Collections;
 public class AuriumMineraiBlockBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:aurium_minerai_block")
 	public static final Block block = null;
+
 	public AuriumMineraiBlockBlock(AuroraprojectsModElements instance) {
 		super(instance, 36);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -76,8 +77,10 @@ public class AuriumMineraiBlockBlock extends AuroraprojectsModElements.ModElemen
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
@@ -122,12 +125,15 @@ public class AuriumMineraiBlockBlock extends AuroraprojectsModElements.ModElemen
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
@@ -163,6 +169,7 @@ public class AuriumMineraiBlockBlock extends AuroraprojectsModElements.ModElemen
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:aurium_minerai_block"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

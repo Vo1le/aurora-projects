@@ -27,6 +27,7 @@ public class MalgortpGuiWindow extends ContainerScreen<MalgortpGui.GuiContainerM
 	private int x, y, z;
 	private PlayerEntity entity;
 	private final static HashMap guistate = MalgortpGui.guistate;
+
 	public MalgortpGuiWindow(MalgortpGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -37,7 +38,9 @@ public class MalgortpGuiWindow extends ContainerScreen<MalgortpGui.GuiContainerM
 		this.xSize = 176;
 		this.ySize = 166;
 	}
+
 	private static final ResourceLocation texture = new ResourceLocation("auroraprojects:textures/malgortp.png");
+
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -54,10 +57,13 @@ public class MalgortpGuiWindow extends ContainerScreen<MalgortpGui.GuiContainerM
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/pppppp-convertimage_1.png"));
 		this.blit(ms, this.guiLeft + 0, this.guiTop + 1, 0, 0, 204, 20, 204, 20);
+
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/marlgork.png"));
 		this.blit(ms, this.guiLeft + 0, this.guiTop + 1, 0, 0, 62, 15, 62, 15);
+
 		RenderSystem.disableBlend();
 	}
 

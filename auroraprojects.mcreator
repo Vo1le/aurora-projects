@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "CablesStandar",
@@ -7,7 +6,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cables_standar",
       "path": "~/Systemes_electriques/cables"
     },
@@ -17,7 +15,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cablejunction_2faces",
       "path": "~/Systemes_electriques/cables"
     },
@@ -27,7 +24,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cablesligne",
       "path": "~/Systemes_electriques/cables"
     },
@@ -37,7 +33,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "cablejuste_1",
       "path": "~/Systemes_electriques/cables"
     },
@@ -47,7 +42,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "added_1",
       "metadata": {
         "dependencies": [
@@ -77,7 +71,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "upjunc",
       "path": "~/Systemes_electriques/cables"
     },
@@ -87,7 +80,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "downjunc",
       "path": "~/Systemes_electriques/cables"
     },
@@ -97,7 +89,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "northjunc",
       "path": "~/Systemes_electriques/cables"
     },
@@ -107,7 +98,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "southjunc",
       "path": "~/Systemes_electriques/cables"
     },
@@ -117,7 +107,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tour_de_garde_1",
       "path": "~/Amires"
     },
@@ -127,7 +116,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sable_modde",
       "path": "~/Amires"
     },
@@ -137,7 +125,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teste",
       "path": "~/Armes a feu"
     },
@@ -147,7 +134,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "biome_sable",
       "path": "~/Amires"
     },
@@ -157,7 +143,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amires",
       "metadata": {
         "ep": false
@@ -170,7 +155,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "grass_millenus",
       "path": "~/Millenus"
     },
@@ -180,7 +164,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dirt_millenus",
       "path": "~/Millenus"
     },
@@ -190,7 +173,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "open_gui_teleporteur_millenus",
       "metadata": {
         "dependencies": [
@@ -224,7 +206,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "millenus",
       "metadata": {
         "ep": false
@@ -237,7 +218,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "desert_millenus",
       "path": "~/Millenus"
     },
@@ -247,7 +227,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleportation_millenus",
       "metadata": {
         "dependencies": [
@@ -281,7 +260,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleporteur_millenus_gui",
       "path": "~/Millenus"
     },
@@ -291,7 +269,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleporteurmillenuscraft",
       "path": "~/Millenus"
     },
@@ -301,7 +278,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "aurium_minerai_block",
       "path": "~/Millenus"
     },
@@ -311,7 +287,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleporteur_millenus",
       "path": "~/Millenus"
     },
@@ -321,7 +296,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lingotdaurium",
       "path": "~/Millenus"
     },
@@ -331,7 +305,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bullet",
       "path": "~/Armes a feu"
     },
@@ -341,7 +314,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pistol",
       "path": "~/Armes a feu"
     },
@@ -351,7 +323,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bbullet",
       "path": "~/Armes a feu"
     },
@@ -361,7 +332,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "pistol_right_clicked_in_air",
       "metadata": {
         "dependencies": [
@@ -398,7 +368,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleport_amires",
       "metadata": {
         "dependencies": [
@@ -432,7 +401,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "open_amires_teleporter_gui",
       "metadata": {
         "dependencies": [
@@ -466,7 +434,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amires_teleporter_gui",
       "path": "~/Amires"
     },
@@ -476,7 +443,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "teleporteramirscraft",
       "path": "~/Amires"
     },
@@ -486,7 +452,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amires_teleporter",
       "path": "~/Amires"
     },
@@ -496,7 +461,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mineraiauriumverslingot",
       "path": "~/Millenus"
     },
@@ -506,7 +470,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dirt_millenus_block_added",
       "metadata": {
         "dependencies": [
@@ -535,7 +498,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "dirt",
       "path": "~/Millenus"
     },
@@ -545,7 +507,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "j",
       "path": "~/Amires"
     },
@@ -555,7 +516,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "grassblock",
       "path": "~/Millenus"
     },
@@ -565,19 +525,8 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sand",
       "path": "~/Amires"
-    },
-    {
-      "name": "M",
-      "type": "livingentity",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "m",
-      "path": "~/tentative refonde tp"
     },
     {
       "name": "AuroraTeleporteurs",
@@ -585,29 +534,7 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "aurora_teleporteurs",
-      "path": "~/tentative refonde tp"
-    },
-    {
-      "name": "PortailDesdimensiondaurora",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "portail_desdimensiondaurora",
-      "path": "~/tentative refonde tp"
-    },
-    {
-      "name": "Portal2",
-      "type": "block",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "portal_2",
-      "path": "~/tentative refonde tp"
+      "registry_name": "aurora_teleporteurs"
     },
     {
       "name": "Highmontain",
@@ -615,7 +542,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "highmontain",
       "path": "~/Millenus"
     },
@@ -625,7 +551,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "forest",
       "path": "~/Millenus"
     },
@@ -635,7 +560,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amires_items",
       "path": "~/Amires"
     },
@@ -645,7 +569,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "salemodede",
       "path": "~/Amires"
     },
@@ -655,7 +578,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "fragmentdesabledamires",
       "path": "~/Amires"
     },
@@ -665,7 +587,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sablereconstruction",
       "path": "~/Amires"
     },
@@ -675,7 +596,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sable_modde_update_tick",
       "metadata": {
         "dependencies": [
@@ -704,7 +624,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "amires_player_enters_dimension",
       "metadata": {
         "dependencies": [
@@ -733,7 +652,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "terre_volcanique",
       "path": "~/Malgork"
     },
@@ -743,7 +661,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "malgork_plaines",
       "path": "~/Malgork"
     },
@@ -753,7 +670,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "malgork",
       "metadata": {
         "ep": false
@@ -766,7 +682,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "volcan",
       "path": "~/Malgork"
     },
@@ -776,7 +691,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "malgorkteleporteur",
       "path": "~/Malgork"
     },
@@ -786,7 +700,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "malgortp",
       "path": "~/Malgork"
     },
@@ -796,7 +709,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tpversmal",
       "metadata": {
         "dependencies": [
@@ -814,7 +726,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "volcansoucregrand",
       "path": "~/Malgork"
     },
@@ -824,7 +735,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "petitsourcevolcan",
       "path": "~/Malgork"
     },
@@ -834,7 +744,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "marlgork_items",
       "path": "~/Malgork"
     },
@@ -844,9 +753,97 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "millenus_items",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Boss",
+      "type": "tab",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boss",
+      "path": "~/Boss"
+    },
+    {
+      "name": "Pierreinvoc",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierreinvoc",
+      "path": "~/Boss"
+    },
+    {
+      "name": "Boom",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boss"
+    },
+    {
+      "name": "Gollemus",
+      "type": "livingentity",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gollemus",
+      "path": "~/Boss"
+    },
+    {
+      "name": "Gollemushitfloor",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gollemushitfloor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boss"
     }
   ],
   "variable_elements": [
@@ -901,10 +898,11 @@
   ],
   "language_map": {
     "en_us": {
-      "block.auroraprojects.portail_desdimensiondaurora": "Portail Desdimensiondaurora",
+      "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
+      "itemGroup.tabboss": "Boss",
       "block.auroraprojects.malgorkteleporteur": "Malgork téléporteur",
-      "itemGroup.tabmarlgork_items": "Marlgork Items",
       "itemGroup.tabmillenus_items": "Millenus Items",
+      "itemGroup.tabmarlgork_items": "Marlgork Items",
       "block.auroraprojects.cablesligne": "Cablesligne",
       "block.auroraprojects.upjunc": "Cablejuste 1",
       "biome.auroraprojects.highmontain": "Haute montagne",
@@ -918,11 +916,8 @@
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "item.auroraprojects.pistol": "Pistol",
-      "block.auroraprojects.portal_2": "Portal 2",
       "block.auroraprojects.northjunc": "Cablejuste 1",
-      "entity.auroraprojects.m": "vaisseau",
       "item.auroraprojects.bullet": "Bullet",
-      "item.auroraprojects.m_spawn_egg": "vaisseau Spawn Egg",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
       "itemGroup.tabaurora_teleporteurs": "Aurora Téléporteurs",
       "item.auroraprojects.bbullet": "Bullet",
@@ -936,9 +931,11 @@
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "biome.auroraprojects.desert_millenus": "Desert Millènusien",
       "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
+      "entity.auroraprojects.gollemus": "Gollemus",
       "itemGroup.tabaurora_project": "Aurora Project",
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "item.auroraprojects.malgork": "Malgork Portal Igniter",
+      "block.auroraprojects.pierreinvoc": "Pierreinvoc",
       "subtitles.ventherbe": "",
       "subtitles.foret": "",
       "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
@@ -995,10 +992,6 @@
       {
         "name": "Millenus",
         "children": []
-      },
-      {
-        "name": "tentative refonde tp",
-        "children": []
       }
     ]
   },
@@ -1022,5 +1015,5 @@
     "modElementsPackage": "net.mcreator.auroraprojects",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202100353117
 }

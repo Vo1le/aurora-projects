@@ -52,6 +52,7 @@ import java.util.Collections;
 public class GrassMillenusBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:grass_millenus")
 	public static final Block block = null;
+
 	public GrassMillenusBlock(AuroraprojectsModElements instance) {
 		super(instance, 33);
 		MinecraftForge.EVENT_BUS.register(this);
@@ -70,6 +71,7 @@ public class GrassMillenusBlock extends AuroraprojectsModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.WET_GRASS).hardnessAndResistance(0.6f, 0.6f).setLightLevel(s -> 0)
@@ -95,12 +97,15 @@ public class GrassMillenusBlock extends AuroraprojectsModElements.ModElement {
 			return Collections.singletonList(new ItemStack(DirtMillenusBlock.block));
 		}
 	}
+
 	private static Feature<OreFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+
 	private static class CustomRuleTest extends RuleTest {
 		static final CustomRuleTest INSTANCE = new CustomRuleTest();
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
 			return blockCriteria;
@@ -134,6 +139,7 @@ public class GrassMillenusBlock extends AuroraprojectsModElements.ModElement {
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:grass_millenus"), configuredFeature);
 		}
 	}
+
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

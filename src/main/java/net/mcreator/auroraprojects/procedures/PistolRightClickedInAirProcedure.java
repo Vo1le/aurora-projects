@@ -20,15 +20,11 @@ import java.util.Random;
 import java.util.Map;
 
 public class PistolRightClickedInAirProcedure {
+
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("entity") == null) {
-			if (!dependencies.containsKey("entity"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure PistolRightClickedInAir!");
-			return;
-		}
-		if (dependencies.get("itemstack") == null) {
-			if (!dependencies.containsKey("itemstack"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency itemstack for procedure PistolRightClickedInAir!");
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure PistolRightClickedInAir!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
@@ -46,17 +42,22 @@ public class PistolRightClickedInAirProcedure {
 				AuroraprojectsMod.LOGGER.warn("Failed to load dependency z for procedure PistolRightClickedInAir!");
 			return;
 		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				AuroraprojectsMod.LOGGER.warn("Failed to load dependency world for procedure PistolRightClickedInAir!");
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency entity for procedure PistolRightClickedInAir!");
 			return;
 		}
-		Entity entity = (Entity) dependencies.get("entity");
-		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+		if (dependencies.get("itemstack") == null) {
+			if (!dependencies.containsKey("itemstack"))
+				AuroraprojectsMod.LOGGER.warn("Failed to load dependency itemstack for procedure PistolRightClickedInAir!");
+			return;
+		}
+		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
+		Entity entity = (Entity) dependencies.get("entity");
+		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if (entity instanceof LivingEntity) {
 			Entity _ent = entity;
 			if (!_ent.world.isRemote()) {
@@ -74,6 +75,6 @@ public class PistolRightClickedInAirProcedure {
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
 		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).getCooldownTracker().setCooldown((itemstack).getItem(), (int) 20);
+			((PlayerEntity) entity).getCooldownTracker().setCooldown(itemstack.getItem(), (int) 20);
 	}
 }

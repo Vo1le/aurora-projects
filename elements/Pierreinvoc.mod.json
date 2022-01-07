@@ -2,15 +2,15 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "texturemmm",
+    "texture": "terrevolcaniqe",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "portailun:default",
-    "rotationMode": 1,
+    "renderType": 3,
+    "customModelName": "model:default",
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Portal 2",
+    "name": "Pierreinvoc",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

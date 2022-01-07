@@ -45,8 +45,10 @@ public class AuroraprojectsModVariables {
 						new WorldSavedDataSyncMessage(1, worlddata));
 		}
 	}
+
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "auroraprojects_worldvars";
+
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -70,7 +72,9 @@ public class AuroraprojectsModVariables {
 				AuroraprojectsMod.PACKET_HANDLER.send(PacketDistributor.DIMENSION.with(((World) world)::getDimensionKey),
 						new WorldSavedDataSyncMessage(1, this));
 		}
+
 		static WorldVariables clientSide = new WorldVariables();
+
 		public static WorldVariables get(IWorld world) {
 			if (world instanceof ServerWorld) {
 				return ((ServerWorld) world).getSavedData().getOrCreate(WorldVariables::new, DATA_NAME);
@@ -83,6 +87,7 @@ public class AuroraprojectsModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "auroraprojects_mapvars";
 		public double pistorlingame = 0;
+
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -107,7 +112,9 @@ public class AuroraprojectsModVariables {
 			if (world instanceof World && !world.isRemote())
 				AuroraprojectsMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(), new WorldSavedDataSyncMessage(0, this));
 		}
+
 		static MapVariables clientSide = new MapVariables();
+
 		public static MapVariables get(IWorld world) {
 			if (world instanceof IServerWorld) {
 				return ((IServerWorld) world).getWorld().getServer().getWorld(World.OVERWORLD).getSavedData().getOrCreate(MapVariables::new,
@@ -121,6 +128,7 @@ public class AuroraprojectsModVariables {
 	public static class WorldSavedDataSyncMessage {
 		public int type;
 		public WorldSavedData data;
+
 		public WorldSavedDataSyncMessage(PacketBuffer buffer) {
 			this.type = buffer.readInt();
 			this.data = this.type == 0 ? new MapVariables() : new WorldVariables();

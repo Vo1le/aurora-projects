@@ -31,5 +31,6 @@ public class MarlgorkItemsItemGroup extends AuroraprojectsModElements.ModElement
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

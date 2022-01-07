@@ -25,6 +25,7 @@ import java.util.Collections;
 public class TerreVolcaniqueBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:terre_volcanique")
 	public static final Block block = null;
+
 	public TerreVolcaniqueBlock(AuroraprojectsModElements instance) {
 		super(instance, 61);
 	}
@@ -35,6 +36,7 @@ public class TerreVolcaniqueBlock extends AuroraprojectsModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(MarlgorkItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)

@@ -27,6 +27,7 @@ public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleport
 	private int x, y, z;
 	private PlayerEntity entity;
 	private final static HashMap guistate = AmiresTeleporterGUIGui.guistate;
+
 	public AmiresTeleporterGUIGuiWindow(AmiresTeleporterGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
@@ -42,7 +43,9 @@ public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleport
 	public boolean isPauseScreen() {
 		return true;
 	}
+
 	private static final ResourceLocation texture = new ResourceLocation("auroraprojects:textures/amires_teleporter_gui.png");
+
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -59,10 +62,13 @@ public class AmiresTeleporterGUIGuiWindow extends ContainerScreen<AmiresTeleport
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/pppppp-convertimage_1.png"));
 		this.blit(ms, this.guiLeft + 0, this.guiTop + 1, 0, 0, 204, 20, 204, 20);
+
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/amires.png"));
 		this.blit(ms, this.guiLeft + -1, this.guiTop + 1, 0, 0, 44, 15, 44, 15);
+
 		RenderSystem.disableBlend();
 	}
 

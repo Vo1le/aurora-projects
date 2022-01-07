@@ -31,5 +31,6 @@ public class AmiresItemsItemGroup extends AuroraprojectsModElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
 }

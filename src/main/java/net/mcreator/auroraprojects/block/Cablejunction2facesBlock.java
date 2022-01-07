@@ -29,6 +29,7 @@ import java.util.Collections;
 public class Cablejunction2facesBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:cablejunction_2faces")
 	public static final Block block = null;
+
 	public Cablejunction2facesBlock(AuroraprojectsModElements instance) {
 		super(instance, 4);
 	}
@@ -45,6 +46,7 @@ public class Cablejunction2facesBlock extends AuroraprojectsModElements.ModEleme
 	public void clientLoad(FMLClientSetupEvent event) {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()

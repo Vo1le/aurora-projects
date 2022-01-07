@@ -25,6 +25,7 @@ import java.util.Collections;
 public class SalemodedeBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:salemodede")
 	public static final Block block = null;
+
 	public SalemodedeBlock(AuroraprojectsModElements instance) {
 		super(instance, 56);
 	}
@@ -35,6 +36,7 @@ public class SalemodedeBlock extends AuroraprojectsModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(AmiresItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)

@@ -31,15 +31,18 @@ import net.mcreator.auroraprojects.procedures.OpenGUITeleporteurMillenusProcedur
 import net.mcreator.auroraprojects.itemgroup.AuroraTeleporteursItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
+import java.util.stream.Stream;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @AuroraprojectsModElements.ModElement.Tag
 public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModElement {
 	@ObjectHolder("auroraprojects:teleporteur_millenus")
 	public static final Block block = null;
+
 	public TeleporteurMillenusBlock(AuroraprojectsModElements instance) {
 		super(instance, 27);
 	}
@@ -50,8 +53,10 @@ public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModEleme
 		elements.items.add(
 				() -> new BlockItem(block, new Item.Properties().group(AuroraTeleporteursItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 1200f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
@@ -102,15 +107,11 @@ public class TeleporteurMillenusBlock extends AuroraprojectsModElements.ModEleme
 			double hitY = hit.getHitVec().y;
 			double hitZ = hit.getHitVec().z;
 			Direction direction = hit.getFace();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				OpenGUITeleporteurMillenusProcedure.executeProcedure($_dependencies);
-			}
+
+			OpenGUITeleporteurMillenusProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ActionResultType.SUCCESS;
 		}
 	}

@@ -46,6 +46,7 @@ public class AuroraprojectsMod {
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("auroraprojects", "auroraprojects"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public AuroraprojectsModElements elements;
+
 	public AuroraprojectsMod() {
 		elements = new AuroraprojectsModElements();
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -86,8 +87,10 @@ public class AuroraprojectsMod {
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
 	}
+
 	private static class AuroraprojectsModFMLBusEvents {
 		private final AuroraprojectsMod parent;
+
 		AuroraprojectsModFMLBusEvents(AuroraprojectsMod parent) {
 			this.parent = parent;
 		}

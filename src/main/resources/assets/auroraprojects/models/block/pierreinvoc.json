@@ -1,0 +1,20 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "auroraprojects:models/item/model.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#m_3": "auroraprojects:blocks/bedrock",
+        "#m_4": "auroraprojects:blocks/andesite",
+        "#m_1": "auroraprojects:blocks/beehive_end",
+        "#m_0": "auroraprojects:blocks/diamond_block"
+      }
+    }
+  },
+  "textures": {
+    "particle": "auroraprojects:blocks/terrevolcaniqe"
+  }
+}
