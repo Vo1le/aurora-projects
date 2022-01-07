@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/gcompleate"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/gcompleate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/gcompleate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/gcompleate",
+      "y": 270
+    }
+  }
+}

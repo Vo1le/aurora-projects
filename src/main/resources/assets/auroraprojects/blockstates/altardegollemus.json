@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/altardegollemus"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/altardegollemus",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/altardegollemus",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/altardegollemus",
+      "y": 270
+    }
+  }
+}

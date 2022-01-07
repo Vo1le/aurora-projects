@@ -1,0 +1,13 @@
+{
+  "parent": "auroraprojects:custom/altargollemus2d",
+  "textures": {
+    "all": "auroraprojects:blocks/bedrock",
+    "particle": "auroraprojects:blocks/bedrock",
+    "0": "auroraprojects:blocks/diamond_ore",
+    "1": "auroraprojects:blocks/gold_ore",
+    "2": "auroraprojects:blocks/iron_ore",
+    "3": "auroraprojects:blocks/coal_ore",
+    "4": "auroraprojects:blocks/stone",
+    "missing": "auroraprojects:blocks/"
+  }
+}

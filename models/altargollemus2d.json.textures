@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "diamond_ore",
+        "1": "gold_ore",
+        "2": "iron_ore",
+        "3": "coal_ore",
+        "4": "stone",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

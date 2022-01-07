@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/g_1_d"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/g_1_d",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/g_1_d",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/g_1_d",
+      "y": 270
+    }
+  }
+}
