@@ -5,14 +5,16 @@ import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.Explosion;
 import net.minecraft.particles.ParticleTypes;
-import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.auroraprojects.item.BbulletItem;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
 import java.util.Random;
 import java.util.Map;
+import java.util.Collections;
 
 public class BoomProcedure {
 
@@ -55,21 +57,25 @@ public class BoomProcedure {
 			}
 		}
 		if (localnumber == 5) {
-			for (int index0 = 0; index0 < (int) (5); index0++) {
-				if (entity instanceof LivingEntity) {
-					Entity _ent = entity;
-					if (!_ent.world.isRemote()) {
-						ArrowEntity entityToSpawn = new ArrowEntity(_ent.world, (LivingEntity) entity);
-						entityToSpawn.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, (float) 1, 0);
-						entityToSpawn.setDamage((float) 5);
-						entityToSpawn.setKnockbackStrength((int) 5);
-						_ent.world.addEntity(entityToSpawn);
-					}
+			if (entity instanceof LivingEntity) {
+				Entity _ent = entity;
+				if (!_ent.world.isRemote()) {
+					BbulletItem.shoot(_ent.world, (LivingEntity) entity, new Random(), (float) 1, (float) 5, (int) 1);
 				}
 			}
-			for (int index1 = 0; index1 < (int) (10); index1++) {
+			for (int index0 = 0; index0 < (int) (10); index0++) {
 				if (world instanceof ServerWorld) {
 					((ServerWorld) world).spawnParticle(ParticleTypes.SPIT, x, y, z, (int) 50, 5, 10, 5, 0.01);
+				}
+			}
+		}
+		if (localnumber == 8) {
+			{
+				Entity _ent = entity;
+				_ent.setPositionAndUpdate(x, (y + 10), z);
+				if (_ent instanceof ServerPlayerEntity) {
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, (y + 10), z, _ent.rotationYaw, _ent.rotationPitch,
+							Collections.emptySet());
 				}
 			}
 		}

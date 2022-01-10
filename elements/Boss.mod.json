@@ -4,7 +4,7 @@
   "definition": {
     "name": "Boss",
     "icon": {
-      "value": "Blocks.COMMAND_BLOCK"
+      "value": "Items.NETHERITE_SWORD"
     },
     "showSearch": false
   }

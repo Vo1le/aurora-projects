@@ -4,9 +4,9 @@ package net.mcreator.auroraprojects.itemgroup;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
@@ -22,7 +22,7 @@ public class BossItemGroup extends AuroraprojectsModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.COMMAND_BLOCK);
+				return new ItemStack(Items.NETHERITE_SWORD);
 			}
 
 			@OnlyIn(Dist.CLIENT)
