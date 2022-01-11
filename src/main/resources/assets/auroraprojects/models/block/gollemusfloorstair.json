@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "auroraprojects:blocks/golemusfloors",
+    "top": "auroraprojects:blocks/golemusfloors",
+    "side": "auroraprojects:blocks/golemusfloors"
+  }
+}
