@@ -53,10 +53,10 @@ public class TesteOverlay {
 				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -196, posY + -171, 0, 0, 360, 360, 360, 360);
 
 				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/testeoverlay2.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 126, posY + -197, 0, 0, 360, 360, 360, 360);
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + 126, posY + -197, 0, 0, -1, -1, -1, -1);
 
 				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("auroraprojects:textures/testeoverlay2.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -471, posY + -138, 0, 0, 360, 360, 360, 360);
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -471, posY + -138, 0, 0, -1, -1, -1, -1);
 
 			}
 			RenderSystem.depthMask(true);

@@ -17,7 +17,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.auroraprojects.itemgroup.AmiresItemsItemGroup;
-import net.mcreator.auroraprojects.item.FragmentdesabledamiresItem;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.List;
@@ -56,7 +55,7 @@ public class SableModdeBlock extends AuroraprojectsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(FragmentdesabledamiresItem.block, (int) (4)));
+			return Collections.singletonList(new ItemStack(this, 4));
 		}
 	}
 }

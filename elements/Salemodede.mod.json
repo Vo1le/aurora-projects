@@ -44,7 +44,7 @@
     },
     "destroyTool": "shovel",
     "customDrop": {
-      "value": "CUSTOM:Fragmentdesabledamires"
+      "value": ""
     },
     "dropAmount": 2,
     "useLootTableForDrops": false,

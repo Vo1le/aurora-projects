@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Desert Millènusien",
+    "name": "Biome Millènusien",
     "groundBlock": {
       "value": "CUSTOM:GrassMillenus"
     },
