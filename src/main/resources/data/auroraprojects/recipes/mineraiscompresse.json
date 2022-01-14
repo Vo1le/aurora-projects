@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ore"
+    },
+    "1": {
+      "item": "minecraft:gold_ore"
+    },
+    "2": {
+      "item": "minecraft:iron_ore"
+    },
+    "3": {
+      "item": "minecraft:coal_ore"
+    },
+    "4": {
+      "item": "minecraft:diamond_ore"
+    },
+    "5": {
+      "item": "minecraft:coal_ore"
+    },
+    "6": {
+      "item": "minecraft:iron_ore"
+    },
+    "7": {
+      "item": "minecraft:gold_ore"
+    },
+    "8": {
+      "item": "minecraft:iron_ore"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:mineraiscompprese",
+    "count": 1
+  }
+}

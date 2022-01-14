@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/compressedmineral",
+    "up": "auroraprojects:blocks/compressedmineral",
+    "north": "auroraprojects:blocks/compressedmineral",
+    "east": "auroraprojects:blocks/compressedmineral",
+    "south": "auroraprojects:blocks/compressedmineral",
+    "west": "auroraprojects:blocks/compressedmineral",
+    "particle": "auroraprojects:blocks/compressedmineral"
+  }
+}

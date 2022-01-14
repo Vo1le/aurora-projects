@@ -25,7 +25,7 @@
     },
     "isBoss": true,
     "bossBarColor": "WHITE",
-    "bossBarType": "PROGRESS",
+    "bossBarType": "NOTCHED_10",
     "equipmentMainHand": {
       "value": ""
     },
@@ -52,7 +52,7 @@
     "movementSpeed": 0.25,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 100,
+    "health": 200,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -105,8 +105,8 @@
       "name": "Boom"
     },
     "hasAI": true,
-    "aiBase": "Zombie",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" inline=\"false\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">1.2</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

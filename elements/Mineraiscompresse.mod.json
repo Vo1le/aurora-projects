@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Fragmentdesabledamires"
+        "value": "Blocks.IRON_ORE"
       },
       {
-        "value": "CUSTOM:Fragmentdesabledamires"
+        "value": "Blocks.GOLD_ORE"
       },
       {
-        "value": ""
+        "value": "Blocks.IRON_ORE"
       },
       {
-        "value": "CUSTOM:Fragmentdesabledamires"
+        "value": "Blocks.COAL_ORE"
       },
       {
-        "value": "CUSTOM:Fragmentdesabledamires"
+        "value": "Blocks.DIAMOND_ORE"
       },
       {
-        "value": ""
+        "value": "Blocks.COAL_ORE"
       },
       {
-        "value": ""
+        "value": "Blocks.IRON_ORE"
       },
       {
-        "value": ""
+        "value": "Blocks.GOLD_ORE"
       },
       {
-        "value": ""
+        "value": "Blocks.IRON_ORE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SableModde"
+      "value": "CUSTOM:Mineraiscompprese"
     },
-    "name": "sable_reconstruction",
+    "name": "mineraiscompresse",
     "namespace": "mod"
   }
 }

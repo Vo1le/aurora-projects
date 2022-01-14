@@ -20,7 +20,9 @@
   "itemGroup.tabaurora_project": "Aurora Project",
   "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
   "block.auroraprojects.pierreinvoc": "Pierreinvoc",
+  "block.auroraprojects.emplacementtotemblock": "Socle du totem",
   "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
+  "block.auroraprojects.mineraiscompprese": "Minerais compréssé",
   "itemGroup.tabmillenus_items": "Millenus Items",
   "biome.auroraprojects.highmontain": "Haute montagne",
   "block.auroraprojects.salemodede": "Salemodede",
@@ -44,5 +46,6 @@
   "subtitles.foret": "",
   "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
   "block.auroraprojects.downjunc": "Cablejuste 1",
-  "item.auroraprojects.amires": "Amires Portal Igniter"
+  "item.auroraprojects.amires": "Amires Portal Igniter",
+  "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé"
 }

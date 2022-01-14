@@ -573,15 +573,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "Sablereconstruction",
-      "type": "recipe",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sablereconstruction",
-      "path": "~/Amires"
-    },
-    {
       "name": "SableModdeUpdateTick",
       "type": "procedure",
       "sortid": 59,
@@ -853,6 +844,84 @@
       "locked_code": false,
       "registry_name": "gollemusfloorstair",
       "path": "~/Boss/totem"
+    },
+    {
+      "name": "Coblestonecompresse",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coblestonecompresse",
+      "path": "~/Boss/totem"
+    },
+    {
+      "name": "Mineraiscompprese",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineraiscompprese",
+      "path": "~/Boss/totem"
+    },
+    {
+      "name": "Mineraiscompresse",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineraiscompresse",
+      "path": "~/Boss/totem"
+    },
+    {
+      "name": "Compressecoble",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressecoble",
+      "path": "~/Boss/totem"
+    },
+    {
+      "name": "Emplacementtotemblock",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emplacementtotemblock",
+      "path": "~/Boss/totem"
+    },
+    {
+      "name": "Totemcre",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totemcre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boss"
     }
   ],
   "variable_elements": [
@@ -928,7 +997,9 @@
       "itemGroup.tabaurora_project": "Aurora Project",
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.pierreinvoc": "Pierreinvoc",
+      "block.auroraprojects.emplacementtotemblock": "Socle du totem",
       "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
+      "block.auroraprojects.mineraiscompprese": "Minerais compréssé",
       "itemGroup.tabmillenus_items": "Millenus Items",
       "biome.auroraprojects.highmontain": "Haute montagne",
       "block.auroraprojects.salemodede": "Salemodede",
@@ -952,7 +1023,8 @@
       "subtitles.foret": "",
       "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.downjunc": "Cablejuste 1",
-      "item.auroraprojects.amires": "Amires Portal Igniter"
+      "item.auroraprojects.amires": "Amires Portal Igniter",
+      "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé"
     }
   },
   "foldersRoot": {
