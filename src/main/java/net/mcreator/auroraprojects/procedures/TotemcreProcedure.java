@@ -6,6 +6,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.Property;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.SpawnReason;
@@ -110,6 +111,9 @@ public class TotemcreProcedure {
 				world.setBlockState(_bp, _bs, 3);
 			}
 			resetsafe = 0;
+			for (int index0 = 0; index0 < (int) (30); index0++) {
+				world.addParticle(ParticleTypes.SPIT, x, y, z, 5, 5, 5);
+			}
 			if (world instanceof ServerWorld) {
 				Entity entityToSpawn = new GollemusEntity.CustomEntity(GollemusEntity.entity, (World) world);
 				entityToSpawn.setLocationAndAngles(x, (y + 1), z, world.getRandom().nextFloat() * 360F, 0);

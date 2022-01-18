@@ -20,7 +20,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
@@ -79,7 +79,7 @@ public class GollemusEntity extends AuroraprojectsModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends IronGolemEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
