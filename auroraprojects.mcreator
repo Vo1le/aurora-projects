@@ -922,6 +922,48 @@
         ]
       },
       "path": "~/Boss"
+    },
+    {
+      "name": "Gsaut",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gsaut",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Grenouille",
+      "type": "livingentity",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenouille",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -991,13 +1033,14 @@
       "item.auroraprojects.bbullet": "Bullet",
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "biome.auroraprojects.volcan": "Volcan",
+      "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
       "subtitles.pluitorage": "",
       "biome.auroraprojects.desert_millenus": "Biome Millènusien",
       "block.auroraprojects.gollemusfloorstair": "Gollemusfloorstair",
       "itemGroup.tabaurora_project": "Aurora Project",
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
-      "block.auroraprojects.pierreinvoc": "Pierreinvoc",
       "block.auroraprojects.emplacementtotemblock": "Socle du totem",
+      "block.auroraprojects.pierreinvoc": "Pierreinvoc",
       "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
       "block.auroraprojects.mineraiscompprese": "Minerais compréssé",
       "itemGroup.tabmillenus_items": "Millenus Items",
@@ -1016,6 +1059,7 @@
       "subtitles.vent": "",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
+      "entity.auroraprojects.grenouille": "Grenouille",
       "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "entity.auroraprojects.gollemus": "Gollemus",
       "item.auroraprojects.malgork": "Malgork Portal Igniter",
