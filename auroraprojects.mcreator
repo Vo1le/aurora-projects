@@ -1039,8 +1039,8 @@
       "block.auroraprojects.gollemusfloorstair": "Gollemusfloorstair",
       "itemGroup.tabaurora_project": "Aurora Project",
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
-      "block.auroraprojects.emplacementtotemblock": "Socle du totem",
       "block.auroraprojects.pierreinvoc": "Pierreinvoc",
+      "block.auroraprojects.emplacementtotemblock": "Socle du totem",
       "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
       "block.auroraprojects.mineraiscompprese": "Minerais compréssé",
       "itemGroup.tabmillenus_items": "Millenus Items",
@@ -1146,5 +1146,5 @@
     "modElementsPackage": "net.mcreator.auroraprojects",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202100354000
 }
