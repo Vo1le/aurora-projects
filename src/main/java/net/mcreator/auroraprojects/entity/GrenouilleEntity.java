@@ -30,17 +30,10 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.auroraprojects.procedures.GsautProcedure;
 import net.mcreator.auroraprojects.entity.renderer.GrenouilleRenderer;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
-
-import java.util.stream.Stream;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
 
 @AuroraprojectsModElements.ModElement.Tag
 public class GrenouilleEntity extends AuroraprojectsModElements.ModElement {
@@ -129,20 +122,6 @@ public class GrenouilleEntity extends AuroraprojectsModElements.ModElement {
 			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
-		}
-
-		@Override
-		public void baseTick() {
-			super.baseTick();
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
-
-			GsautProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }
