@@ -13,22 +13,6 @@
       "value": -13434880,
       "falpha": 0.0
     },
-    "grassColor": {
-      "value": -9803191,
-      "falpha": 0.0
-    },
-    "foliageColor": {
-      "value": -9803191,
-      "falpha": 0.0
-    },
-    "waterColor": {
-      "value": -13282725,
-      "falpha": 0.0
-    },
-    "waterFogColor": {
-      "value": -13282725,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": "CUSTOM:foret"
     },

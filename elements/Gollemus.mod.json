@@ -98,8 +98,8 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "whenMobFalls": {
-      "name": "Gollemushitfloor"
+    "whenMobIsHurt": {
+      "name": "Boom"
     },
     "onPlayerCollidesWith": {
       "name": "Boom"

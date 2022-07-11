@@ -49,8 +49,8 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13434880).setWaterColor(-13282725).setWaterFogColor(-13282725)
-						.withSkyColor(-13434880).withFoliageColor(-9803191).withGrassColor(-9803191)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13434880).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(-13434880).withFoliageColor(10387789).withGrassColor(9470285)
 						.setAmbientSound(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")))
 						.setMoodSound(new MoodSoundAmbience(
@@ -92,7 +92,7 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.1f).scale(0.2f)
 						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
-				event.getRegistry().register(biome.setRegistryName("auroraprojects:desert_millenus"));
+				event.getRegistry().register(biome.setRegistryName("auroraprojects:plaines_millenus"));
 			}
 		}
 	}

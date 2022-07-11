@@ -17,12 +17,9 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.auroraprojects.item.BbulletItem;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
-import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
-import java.util.HashMap;
 import java.util.Collections;
-import java.util.AbstractMap;
 
 public class BoomProcedure {
 
@@ -99,10 +96,14 @@ public class BoomProcedure {
 					}
 				}
 				while (entity.isOnGround()) {
-					GollemushitfloorProcedure.executeProcedure(Stream
-							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+					if (world instanceof World && !((World) world).isRemote) {
+						((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 2, Explosion.Mode.NONE);
+					}
+					for (int index2 = 0; index2 < (int) (10); index2++) {
+						if (world instanceof ServerWorld) {
+							((ServerWorld) world).spawnParticle(ParticleTypes.SPIT, x, y, z, (int) 50, 5, 10, 5, 0.01);
+						}
+					}
 				}
 			}
 		}
