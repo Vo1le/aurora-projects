@@ -22,8 +22,11 @@
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
-    "hasSkyLight": false,
-    "imitateOverworldBehaviour": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "MillenusPlayerEntersDimension"
+    },
     "portalFrame": {
       "value": ""
     },

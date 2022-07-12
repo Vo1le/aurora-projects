@@ -49,8 +49,8 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-13434880).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-13434880).withFoliageColor(10387789).withGrassColor(9470285)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285)
 						.setAmbientSound(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")))
 						.setMoodSound(new MoodSoundAmbience(

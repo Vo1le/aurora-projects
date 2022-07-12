@@ -9,10 +9,6 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
-    "airColor": {
-      "value": -13434880,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": "CUSTOM:foret"
     },

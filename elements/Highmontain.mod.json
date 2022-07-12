@@ -87,7 +87,8 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "Lakes"
     ],
     "spawnEntries": []
   }
