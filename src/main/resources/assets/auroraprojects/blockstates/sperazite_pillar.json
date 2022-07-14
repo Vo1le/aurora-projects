@@ -1,7 +1,27 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "auroraprojects:block/sperazite_pillar"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/sperazite_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/sperazite_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/sperazite_pillar",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "auroraprojects:block/sperazite_pillar",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "auroraprojects:block/sperazite_pillar",
+      "x": 90
     }
   }
 }
