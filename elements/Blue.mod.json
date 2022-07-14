@@ -6,7 +6,7 @@
     "mobLabel": "",
     "mobModelName": "Modelblue",
     "mobModelTexture": "texturemob.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "texturemob.png",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "CUSTOM:MillenusItems"
+      "value": "CUSTOM:AtyotisTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -55,7 +55,7 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -68,7 +68,7 @@
     "immuneToFallDamage": false,
     "immuneToCactus": false,
     "immuneToDrowning": false,
-    "immuneToLightning": false,
+    "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
@@ -91,7 +91,7 @@
     "stepSound": {
       "value": ""
     },
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "WATER_BUBBLE"
     },
@@ -115,11 +115,7 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:DesertMillenus"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }
