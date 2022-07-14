@@ -47,12 +47,6 @@ public static class Modelblue extends EntityModel<Entity> {
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks,
-			float netHeadYaw, float headPitch) {
-		// previously the render function, render code was moved to a method below
-	}
-
-	@Override
 	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red,
 			float green, float blue, float alpha) {
 		body2.render(matrixStack, buffer, packedLight, packedOverlay);
@@ -67,5 +61,14 @@ public static class Modelblue extends EntityModel<Entity> {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
 		modelRenderer.rotateAngleZ = z;
+	}
+
+	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
+		this.rightleg4.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+		this.rightleg3.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+		this.head2.rotateAngleY = f3 / (180F / (float) Math.PI);
+		this.head2.rotateAngleX = f4 / (180F / (float) Math.PI);
+		this.leftleg4.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
+		this.leftleg3.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
 	}
 }
