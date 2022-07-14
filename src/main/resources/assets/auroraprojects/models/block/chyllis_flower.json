@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "auroraprojects:blocks/atyotisplante4no",
+    "particle": "auroraprojects:blocks/atyotisplante4no"
+  }
+}

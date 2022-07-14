@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/blue_pillar"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/blue_pillar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/blue_pillar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/blue_pillar",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "auroraprojects:block/blue_pillar",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "auroraprojects:block/blue_pillar",
+      "x": 90
+    }
+  }
+}

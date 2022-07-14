@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/speraziteore",
+    "up": "auroraprojects:blocks/speraziteore",
+    "north": "auroraprojects:blocks/speraziteore",
+    "east": "auroraprojects:blocks/speraziteore",
+    "south": "auroraprojects:blocks/speraziteore",
+    "west": "auroraprojects:blocks/speraziteore",
+    "particle": "auroraprojects:blocks/speraziteore"
+  }
+}

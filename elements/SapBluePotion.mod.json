@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Sap Blue",
+    "splashName": "Splash Potion of Sap Blue",
+    "lingeringName": "Lingering Potion of Sap Blue",
+    "arrowName": "Arrow of Sap Blue",
+    "effects": [
+      {
+        "effect": {
+          "value": "WATER_BREATHING"
+        },
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": true,
+        "showParticles": true
+      }
+    ]
+  }
+}

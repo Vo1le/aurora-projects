@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "auroraprojects:block/sperazite_slab_brick"
+    },
+    "type=top": {
+      "model": "auroraprojects:block/sperazite_slab_brick_top"
+    },
+    "type=double": {
+      "model": "auroraprojects:block/sperazite_slab_brick_full"
+    }
+  }
+}

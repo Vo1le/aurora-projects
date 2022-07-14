@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "auroraprojects:block/atyotis_slab_stone"
+    },
+    "type=top": {
+      "model": "auroraprojects:block/atyotis_slab_stone_top"
+    },
+    "type=double": {
+      "model": "auroraprojects:block/atyotis_slab_stone_full"
+    }
+  }
+}

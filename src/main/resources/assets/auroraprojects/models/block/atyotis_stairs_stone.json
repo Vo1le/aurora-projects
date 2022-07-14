@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "auroraprojects:blocks/atyotisrockbrick",
+    "top": "auroraprojects:blocks/atyotisrockbrick",
+    "side": "auroraprojects:blocks/atyotisrockbrick"
+  }
+}

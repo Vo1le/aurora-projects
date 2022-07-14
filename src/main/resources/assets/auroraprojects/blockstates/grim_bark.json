@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "auroraprojects:block/grim_bark"
+    },
+    "facing=east": {
+      "model": "auroraprojects:block/grim_bark",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "auroraprojects:block/grim_bark",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "auroraprojects:block/grim_bark",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "auroraprojects:block/grim_bark",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "auroraprojects:block/grim_bark",
+      "x": 90
+    }
+  }
+}
