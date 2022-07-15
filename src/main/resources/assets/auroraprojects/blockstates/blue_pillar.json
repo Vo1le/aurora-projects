@@ -1,25 +1,14 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "auroraprojects:block/blue_pillar"
-    },
-    "facing=east": {
+    "axis=x": {
       "model": "auroraprojects:block/blue_pillar",
+      "x": 90,
       "y": 90
     },
-    "facing=south": {
-      "model": "auroraprojects:block/blue_pillar",
-      "y": 180
+    "axis=y": {
+      "model": "auroraprojects:block/blue_pillar"
     },
-    "facing=west": {
-      "model": "auroraprojects:block/blue_pillar",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "auroraprojects:block/blue_pillar",
-      "x": 270
-    },
-    "facing=down": {
+    "axis=z": {
       "model": "auroraprojects:block/blue_pillar",
       "x": 90
     }

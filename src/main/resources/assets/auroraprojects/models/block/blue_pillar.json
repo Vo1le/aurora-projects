@@ -3,10 +3,10 @@
   "textures": {
     "down": "auroraprojects:blocks/topbluepilar",
     "up": "auroraprojects:blocks/topbluepilar",
-    "north": "auroraprojects:blocks/atyotisbluepilar",
-    "east": "auroraprojects:blocks/atyotisbluepilar",
-    "south": "auroraprojects:blocks/atyotisbluepilar",
-    "west": "auroraprojects:blocks/atyotisbluepilar",
+    "north": "auroraprojects:blocks/bluepillar",
+    "east": "auroraprojects:blocks/bluepillar",
+    "south": "auroraprojects:blocks/bluepillar",
+    "west": "auroraprojects:blocks/bluepillar",
     "particle": "auroraprojects:blocks/topbluepilar"
   }
 }

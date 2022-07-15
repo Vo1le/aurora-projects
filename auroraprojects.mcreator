@@ -1190,6 +1190,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "redus_vine"
+    },
+    {
+      "name": "BlueCrystalParticule",
+      "type": "particle",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal_particule",
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
