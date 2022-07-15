@@ -1182,6 +1182,14 @@
       "locked_code": false,
       "registry_name": "atyotis_stairs_stone",
       "path": "~/atyotis"
+    },
+    {
+      "name": "RedusVine",
+      "type": "plant",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redus_vine"
     }
   ],
   "variable_elements": [
@@ -1248,8 +1256,8 @@
       "subtitles.tire": "",
       "block.auroraprojects.gollemusdugeonfloors": "Gollemus dugeon floors",
       "effect.j": "Tempête",
-      "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "block.auroraprojects.sperazite_stairs": "Sperazite Brick",
+      "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "item.minecraft.splash_potion.effect.sap_blue_potion": "Splash Potion of Sap Blue",
       "block.auroraprojects.sperazite_brick": "Sperazite Brick",
       "item.auroraprojects.bullet": "Bullet",
@@ -1298,6 +1306,7 @@
       "itemGroup.tabatyotis_tab": "Atyotis",
       "item.auroraprojects.blue_spawn_egg": "Blue Spawn Egg",
       "subtitles.vent": "",
+      "block.auroraprojects.redus_vine": "Redus Vine",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",

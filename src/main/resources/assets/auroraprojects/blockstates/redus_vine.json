@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=1": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=2": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=3": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=4": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=5": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=6": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=7": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=8": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=9": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=10": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=11": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=12": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=13": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=14": {
+      "model": "auroraprojects:block/redus_vine"
+    },
+    "age=15": {
+      "model": "auroraprojects:block/redus_vine"
+    }
+  }
+}
