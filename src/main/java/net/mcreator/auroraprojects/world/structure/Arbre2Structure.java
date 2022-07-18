@@ -33,7 +33,7 @@ import net.minecraft.block.BlockState;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class Chanpi1Structure {
+public class Arbre2Structure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -52,7 +52,7 @@ public class Chanpi1Structure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 10000) {
+					if ((random.nextInt(1000000) + 1) <= 1000000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -72,7 +72,7 @@ public class Chanpi1Structure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "champi1"));
+									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "arbre2"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -86,8 +86,8 @@ public class Chanpi1Structure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("chanpi_1"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:chanpi_1"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("arbre_2"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:arbre_2"), configuredFeature);
 		}
 	}
 

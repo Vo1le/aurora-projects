@@ -6,6 +6,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -22,7 +23,10 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.RegistryKey;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
@@ -73,7 +77,7 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				DefaultBiomeFeatures.withTallGrass(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.1f).scale(0.2f)
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.1f).scale(0.2f)
 						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("auroraprojects:plaines_millenus"));
@@ -83,5 +87,6 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
+		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.PLAINS);
 	}
 }

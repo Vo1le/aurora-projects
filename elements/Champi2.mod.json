@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "champi1",
+    "structure": "chanpi2",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 10000,

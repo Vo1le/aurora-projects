@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "champi1",
+    "structure": "arbre1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 1000000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

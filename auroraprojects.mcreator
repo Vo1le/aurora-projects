@@ -1219,6 +1219,51 @@
       "locked_code": false,
       "registry_name": "chanpi_1",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Champi2",
+      "type": "structure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_2",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi3",
+      "type": "structure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_3",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi4",
+      "type": "structure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_4",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbre1",
+      "type": "structure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbre_1",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbre2",
+      "type": "structure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbre_2",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [

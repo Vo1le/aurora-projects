@@ -33,7 +33,7 @@ import net.minecraft.block.BlockState;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class Chanpi1Structure {
+public class Champi2Structure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -72,7 +72,7 @@ public class Chanpi1Structure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "champi1"));
+									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "chanpi2"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -86,8 +86,8 @@ public class Chanpi1Structure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("chanpi_1"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:chanpi_1"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("champi_2"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:champi_2"), configuredFeature);
 		}
 	}
 

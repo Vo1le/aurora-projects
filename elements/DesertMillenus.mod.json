@@ -27,9 +27,9 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "FOREST",
+    "biomeCategory": "PLAINS",
     "parent": {
-      "value": "forest"
+      "value": "plains"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -38,7 +38,9 @@
     "biomeType": "WARM",
     "spawnBiome": false,
     "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
     "grassPerChunk": 10,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
