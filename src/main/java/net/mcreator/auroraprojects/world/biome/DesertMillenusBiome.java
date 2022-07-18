@@ -33,7 +33,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.auroraprojects.block.GrassMillenusBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 @AuroraprojectsModElements.ModElement.Tag
@@ -64,7 +63,7 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 								12000, 24000, true))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
-						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(GrassMillenusBlock.block.getDefaultState(),
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withStructure(StructureFeatures.PILLAGER_OUTPOST);

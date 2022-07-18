@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.auroraprojects.block.GrassMillenusBlock;
+import net.mcreator.auroraprojects.block.TeleporteurMillenusBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 @AuroraprojectsModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class MillenusItemsItemGroup extends AuroraprojectsModElements.ModElement
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(GrassMillenusBlock.block);
+				return new ItemStack(TeleporteurMillenusBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
