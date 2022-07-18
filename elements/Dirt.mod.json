@@ -4,14 +4,7 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [
-      {
-        "value": "CUSTOM:GrassMillenus"
-      },
-      {
-        "value": "CUSTOM:DirtMillenus"
-      }
-    ],
+    "blocks": [],
     "functions": [],
     "entities": [],
     "name": "dirt",

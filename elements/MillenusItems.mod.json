@@ -4,7 +4,7 @@
   "definition": {
     "name": "Millenus Items",
     "icon": {
-      "value": "CUSTOM:GrassMillenus"
+      "value": "CUSTOM:TeleporteurMillenus"
     },
     "showSearch": false
   }
