@@ -150,6 +150,24 @@
       "path": "~/Amires"
     },
     {
+      "name": "GrassMillenus",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "DirtMillenus",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_millenus",
+      "path": "~/Millenus"
+    },
+    {
       "name": "OpenGUITeleporteurMillenus",
       "type": "procedure",
       "sortid": 30,
@@ -445,6 +463,34 @@
       "locked_code": false,
       "registry_name": "mineraiauriumverslingot",
       "path": "~/Millenus"
+    },
+    {
+      "name": "DirtMillenusBlockAdded",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_millenus_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
       "name": "Dirt",
@@ -1155,7 +1201,6 @@
       "path": "~/atyotis"
     },
     {
-<<<<<<< HEAD
       "name": "AtyotisLeave",
       "type": "block",
       "sortid": 107,
@@ -1184,44 +1229,6 @@
         "ep": true
       },
       "path": "~/atyotis"
-=======
-      "name": "Devc",
-      "type": "procedure",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "devc",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/dev"
-    },
-    {
-      "name": "Dev",
-      "type": "command",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dev",
-      "path": "~/dev"
->>>>>>> c6774400df139b0022a626dfaf4a58eda4cbde4c
     }
   ],
   "variable_elements": [
@@ -1299,7 +1306,7 @@
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
-      "biome.auroraprojects.plaines_millenus": "eté Millensu",
+      "biome.auroraprojects.plaines_millenus": "Biome Millènusien",
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
       "subtitles.pluitorage": "",
       "block.auroraprojects.chyllis_bush_stage_2": "Chyllis Bush Stage 2",
@@ -1345,10 +1352,12 @@
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",
+      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "entity.auroraprojects.gollemus": "Gollemus",
       "item.auroraprojects.malgork": "Malgork Portal Igniter",
       "subtitles.ventherbe": "",
       "subtitles.foret": "",
+      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.atyotis_rock": "Atyotis Stone",
       "block.auroraprojects.downjunc": "Cablejuste 1",
       "item.minecraft.potion.effect.sap_blue_potion": "Potion of Sap Blue",
@@ -1407,10 +1416,6 @@
       },
       {
         "name": "Millenus",
-        "children": []
-      },
-      {
-        "name": "dev",
         "children": []
       }
     ]
