@@ -24,9 +24,6 @@
     "sleepResult": "DENY",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
-    "onPlayerEntersDimension": {
-      "name": "MillenusPlayerEntersDimension"
-    },
     "portalFrame": {
       "value": ""
     },

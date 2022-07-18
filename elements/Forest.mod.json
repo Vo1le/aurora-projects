@@ -4,11 +4,7 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [
-      {
-        "value": "CUSTOM:GrassMillenus"
-      }
-    ],
+    "blocks": [],
     "functions": [],
     "entities": [],
     "name": "grass_block",
