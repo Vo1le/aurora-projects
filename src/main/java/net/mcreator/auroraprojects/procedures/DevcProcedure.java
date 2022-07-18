@@ -50,7 +50,7 @@ public class DevcProcedure {
 		if (world instanceof ServerWorld) {
 			((World) world).getServer().getCommandManager().handleCommand(new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z),
 					Vector2f.ZERO, (ServerWorld) world, 4, "", new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"give @s structure_void");
+					"give @p structure_void");
 		}
 	}
 }
