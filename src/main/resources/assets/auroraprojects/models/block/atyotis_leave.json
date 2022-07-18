@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/atyotisleave",
+    "up": "auroraprojects:blocks/atyotisleave",
+    "north": "auroraprojects:blocks/atyotisleave",
+    "east": "auroraprojects:blocks/atyotisleave",
+    "south": "auroraprojects:blocks/atyotisleave",
+    "west": "auroraprojects:blocks/atyotisleave",
+    "particle": "auroraprojects:blocks/atyotisleave"
+  }
+}

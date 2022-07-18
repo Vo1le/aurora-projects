@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "auroraprojects:block/atyotis_portal_ew"
+    },
+    "axis=x": {
+      "model": "auroraprojects:block/atyotis_portal_ns"
+    }
+  }
+}

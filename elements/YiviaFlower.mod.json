@@ -80,9 +80,13 @@
     "canBePlacedOn": [],
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Atyotis"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:AtyotisB1"
+      }
+    ],
     "patchSize": 64
   }
 }

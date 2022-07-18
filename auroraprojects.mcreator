@@ -1199,6 +1199,36 @@
       "locked_code": false,
       "registry_name": "blue_crystal_particule",
       "path": "~/atyotis"
+    },
+    {
+      "name": "AtyotisLeave",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atyotis_leave",
+      "path": "~/atyotis"
+    },
+    {
+      "name": "AtyotisB1",
+      "type": "biome",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atyotis_b_1",
+      "path": "~/atyotis"
+    },
+    {
+      "name": "Atyotis",
+      "type": "dimension",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atyotis",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
@@ -1265,14 +1295,16 @@
       "subtitles.tire": "",
       "block.auroraprojects.gollemusdugeonfloors": "Gollemus dugeon floors",
       "effect.j": "Tempête",
-      "block.auroraprojects.sperazite_stairs": "Sperazite Brick",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
+      "block.auroraprojects.sperazite_stairs": "Sperazite Brick",
       "item.minecraft.splash_potion.effect.sap_blue_potion": "Splash Potion of Sap Blue",
       "block.auroraprojects.sperazite_brick": "Sperazite Brick",
       "item.auroraprojects.bullet": "Bullet",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
+      "biome.auroraprojects.atyotis_b_1": "Atyotis B 1",
       "item.auroraprojects.bbullet": "Bullet",
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
+      "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
       "biome.auroraprojects.plaines_millenus": "Biome Millènusien",
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
@@ -1293,6 +1325,7 @@
       "itemGroup.tabmillenus_items": "Millenus Items",
       "biome.auroraprojects.highmontain": "Haute montagne",
       "block.auroraprojects.salemodede": "Salemodede",
+      "block.auroraprojects.atyotis_leave": "Atyotis Leave",
       "itemGroup.tabamires_items": "Amires Items",
       "block.auroraprojects.abraisie_plante": "Abraisie Plante",
       "block.auroraprojects.cables_standar": "Cables Standar",
