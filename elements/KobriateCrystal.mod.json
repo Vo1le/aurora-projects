@@ -97,13 +97,13 @@
     "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
       "value": "CUSTOM:BlueCrystalParticule"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 1,
+    "particleAmount": 3,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

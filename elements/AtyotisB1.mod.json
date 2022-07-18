@@ -65,7 +65,7 @@
       "value": "Blocks.AIR"
     },
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -86,7 +86,8 @@
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "Ores",
-      "Caves"
+      "Caves",
+      "SavannaTrees"
     ],
     "spawnEntries": [
       {

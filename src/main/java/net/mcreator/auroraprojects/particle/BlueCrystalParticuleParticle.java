@@ -45,9 +45,9 @@ public class BlueCrystalParticuleParticle {
 			this.maxAge = 7;
 			this.particleGravity = (float) 0;
 			this.canCollide = true;
-			this.motionX = vx * 1;
-			this.motionY = vy * 1;
-			this.motionZ = vz * 1;
+			this.motionX = vx * 0.4;
+			this.motionY = vy * 0.4;
+			this.motionZ = vz * 0.4;
 			this.selectSpriteRandomly(spriteSet);
 		}
 

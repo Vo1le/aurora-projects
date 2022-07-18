@@ -18,6 +18,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.FeatureSpread;
@@ -73,6 +74,7 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(AtyotisGrassBlock.block.getDefaultState(),
 								AtyotisRockBlock.block.getDefaultState(), AtyotisRockBlock.block.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(GrimBarkBlock.block.getDefaultState()),
 								new SimpleBlockStateProvider(AtyotisLeaveBlock.block.getDefaultState()),
@@ -88,6 +90,7 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 1))));
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
+				DefaultBiomeFeatures.withSavannaTrees(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(BlueEntity.entity, 5, 1, 2));
 				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(GrenouilleEntity.entity, 16, 2, 5));
