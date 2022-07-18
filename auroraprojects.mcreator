@@ -1238,6 +1238,21 @@
       "locked_code": false,
       "registry_name": "atyotis_door",
       "path": "~/atyotis"
+    },
+    {
+      "name": "SparaziteArmor",
+      "type": "armor",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparazite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
@@ -1311,6 +1326,7 @@
       "item.auroraprojects.bullet": "Bullet",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
       "biome.auroraprojects.atyotis_b_1": "Atyotis B 1",
+      "item.auroraprojects.sparazite_armor_boots": "Bottes en Sparazite Armor",
       "item.auroraprojects.bbullet": "Bullet",
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
@@ -1343,6 +1359,7 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "item.auroraprojects.sparazite_armor_chestplate": "Plastron de Sparazite Armor",
       "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "block.auroraprojects.northjunc": "Cablejuste 1",
@@ -1360,6 +1377,7 @@
       "subtitles.vent": "",
       "block.auroraprojects.redus_vine": "Redus Vine",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
+      "item.auroraprojects.sparazite_armor_leggings": "Jambières de Sparazite Armor",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",
       "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
@@ -1372,6 +1390,7 @@
       "block.auroraprojects.downjunc": "Cablejuste 1",
       "item.minecraft.potion.effect.sap_blue_potion": "Potion of Sap Blue",
       "item.auroraprojects.amires": "Amires Portal Igniter",
+      "item.auroraprojects.sparazite_armor_helmet": "Casque en Sparazite Armor",
       "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé"
     }
   },
