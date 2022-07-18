@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "auroraprojects:blocks/slimed_door_bottom",
+    "top": "auroraprojects:blocks/slimed_door_top"
+  }
+}
