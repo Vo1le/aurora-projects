@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/atyotisblocofdeco2",
+    "up": "auroraprojects:blocks/atyotisblocofdeco2",
+    "north": "auroraprojects:blocks/atyotisblocofdeco2",
+    "east": "auroraprojects:blocks/atyotisblocofdeco2",
+    "south": "auroraprojects:blocks/atyotisblocofdeco2",
+    "west": "auroraprojects:blocks/atyotisblocofdeco2",
+    "particle": "auroraprojects:blocks/atyotisblocofdeco2"
+  }
+}
