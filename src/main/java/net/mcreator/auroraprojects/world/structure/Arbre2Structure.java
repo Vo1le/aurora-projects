@@ -57,7 +57,7 @@ public class Arbre2Structure {
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
-							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
+							int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
 							j -= 1;
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
@@ -75,9 +75,8 @@ public class Arbre2Structure {
 									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "arbre2"));
 							if (template == null)
 								return false;
-							template.func_237144_a_(world, spawnTo,
-									new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-											.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
+							template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+									.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
 									random);
 						}
 					}

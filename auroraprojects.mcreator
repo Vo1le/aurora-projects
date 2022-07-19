@@ -183,18 +183,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "Millenus",
-      "type": "dimension",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "millenus",
-      "metadata": {
-        "ep": false
-      },
-      "path": "~/Millenus"
-    },
-    {
       "name": "DesertMillenus",
       "type": "biome",
       "sortid": 35,
@@ -447,15 +435,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "Dirt",
-      "type": "tag",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt",
-      "path": "~/Millenus"
-    },
-    {
       "name": "J",
       "type": "potioneffect",
       "sortid": 46,
@@ -463,15 +442,6 @@
       "locked_code": false,
       "registry_name": "j",
       "path": "~/Amires"
-    },
-    {
-      "name": "Grassblock",
-      "type": "tag",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grassblock",
-      "path": "~/Millenus"
     },
     {
       "name": "Sand",
@@ -497,15 +467,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "highmontain",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Forest",
-      "type": "tag",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "forest",
       "path": "~/Millenus"
     },
     {
@@ -1264,6 +1225,27 @@
       "locked_code": false,
       "registry_name": "arbre_2",
       "path": "~/Millenus"
+    },
+    {
+      "name": "AutomneMillenus",
+      "type": "biome",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "automne_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Millenus",
+      "type": "dimension",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "millenus",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -1329,6 +1311,7 @@
       "block.auroraprojects.southjunc": "Cablejuste 1",
       "subtitles.tire": "",
       "block.auroraprojects.gollemusdugeonfloors": "Gollemus dugeon floors",
+      "biome.auroraprojects.automne_millenus": "Automne Millenus",
       "effect.j": "Tempête",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "block.auroraprojects.sperazite_stairs": "Sperazite Brick",

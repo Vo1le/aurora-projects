@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableSet;
 @AuroraprojectsModElements.ModElement.Tag
 public class MillenusDimension extends AuroraprojectsModElements.ModElement {
 	public MillenusDimension(AuroraprojectsModElements instance) {
-		super(instance, 26);
+		super(instance, 118);
 	}
 
 	@Override
@@ -42,6 +42,10 @@ public class MillenusDimension extends AuroraprojectsModElements.ModElement {
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:highmontain")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:highmontain")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:automne_millenus")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:automne_millenus")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		DeferredWorkQueue.runLater(() -> {
 			try {
