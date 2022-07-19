@@ -27,7 +27,7 @@
       "value": "CUSTOM:BlueCrystalParticule"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "PLAINS",
     "parent": {
       "value": "No parent"
     },
