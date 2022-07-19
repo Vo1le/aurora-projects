@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/dark_blue_shroomlight",
+    "up": "auroraprojects:blocks/dark_blue_shroomlight",
+    "north": "auroraprojects:blocks/dark_blue_shroomlight",
+    "east": "auroraprojects:blocks/dark_blue_shroomlight",
+    "south": "auroraprojects:blocks/dark_blue_shroomlight",
+    "west": "auroraprojects:blocks/dark_blue_shroomlight",
+    "particle": "auroraprojects:blocks/dark_blue_shroomlight"
+  }
+}

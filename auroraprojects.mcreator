@@ -1289,6 +1289,24 @@
       "locked_code": false,
       "registry_name": "atyotis_plank",
       "path": "~/atyotis"
+    },
+    {
+      "name": "BlueShroomLight",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_shroom_light",
+      "path": "~/atyotis"
+    },
+    {
+      "name": "PurpleShroomLight",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_shroom_light",
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
@@ -1385,6 +1403,7 @@
       "block.auroraprojects.sperazite_pillar": "Sperazite Pillar",
       "block.auroraprojects.blue_pillar": "Blue Pillar",
       "block.auroraprojects.kobriate_crystal": "Kobriate Crystal",
+      "block.auroraprojects.blue_shroom_light": "Blue Shroom Light",
       "block.auroraprojects.mineraiscompprese": "Minerais compréssé",
       "itemGroup.tabmillenus_items": "Millenus Items",
       "biome.auroraprojects.highmontain": "Haute montagne",
@@ -1400,6 +1419,7 @@
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
       "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
+      "block.auroraprojects.purple_shroom_light": "Blue Shroom Light",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "block.auroraprojects.estrole_flower": "Estrole Flower",
       "entity.auroraprojects.blue": "Blue",
