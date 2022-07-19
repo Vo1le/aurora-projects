@@ -28,17 +28,13 @@ import com.google.common.collect.ImmutableSet;
 @AuroraprojectsModElements.ModElement.Tag
 public class MillenusDimension extends AuroraprojectsModElements.ModElement {
 	public MillenusDimension(AuroraprojectsModElements instance) {
-		super(instance, 26);
+		super(instance, 119);
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		Set<Block> replaceableBlocks = new HashSet<>();
 		replaceableBlocks.add(Blocks.STONE);
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:plaines_millenus")).getGenerationSettings()
-				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
-		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:plaines_millenus")).getGenerationSettings()
-				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:highmontain")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:highmontain")).getGenerationSettings()

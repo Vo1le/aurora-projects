@@ -4,13 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:DesertMillenus"
-      },
-      {
         "value": "CUSTOM:Highmontain"
-      },
-      {
-        "value": "CUSTOM:AutomneMillenus"
       }
     ],
     "worldGenType": "Normal world gen",

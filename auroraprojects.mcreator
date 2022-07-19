@@ -183,18 +183,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "Millenus",
-      "type": "dimension",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "millenus",
-      "metadata": {
-        "ep": false
-      },
-      "path": "~/Millenus"
-    },
-    {
       "name": "DesertMillenus",
       "type": "biome",
       "sortid": 35,
@@ -1243,6 +1231,18 @@
       "locked_code": false,
       "registry_name": "dirt",
       "path": "~/atyotis"
+    },
+    {
+      "name": "Millenus",
+      "type": "dimension",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "millenus",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -1372,8 +1372,8 @@
       "item.auroraprojects.blue_spawn_egg": "Blue Spawn Egg",
       "subtitles.vent": "",
       "block.auroraprojects.redus_vine": "Redus Vine",
-      "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "item.auroraprojects.sparazite_armor_leggings": "Jambières de Sparazite Armor",
+      "item.auroraprojects.millenus": "Millenus Portal Igniter",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",
       "entity.auroraprojects.gollemus": "Gollemus",
