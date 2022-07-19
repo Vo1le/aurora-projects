@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": 0,
       "temperature_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.53,
         "amplitudes": [
           2,
           2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.53,
         "amplitudes": [
           2,
           2
         ]
       },
       "altitude_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.53,
         "amplitudes": [
           2,
           2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -5.32,
+        "firstOctave": -5.53,
         "amplitudes": [
           2,
           2
@@ -48,10 +48,20 @@
         {
           "biome": "auroraprojects:highmontain",
           "parameters": {
-            "temperature": -1,
-            "humidity": 1,
+            "temperature": 0,
+            "humidity": 0,
             "altitude": -0.75,
             "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "auroraprojects:automne_millenus",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 1,
+            "altitude": 0.75,
+            "weirdness": -1.5,
             "offset": 0
           }
         }
@@ -62,7 +72,7 @@
       "bedrock_roof_position": -10,
       "bedrock_floor_position": 0,
       "sea_level": 63,
-      "disable_mob_generation": true,
+      "disable_mob_generation": false,
       "default_block": {
         "Name": "minecraft:stone"
       },

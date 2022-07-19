@@ -70,6 +70,6 @@ public class TeleportationMillenusProcedure {
 			}
 		}
 		world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
-		world.destroyBlock(new BlockPos((int) x, (int) y, (int) (z + 1)), false);
+		world.destroyBlock(new BlockPos((int) x, (int) (y + 1), (int) z), false);
 	}
 }

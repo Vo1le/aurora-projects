@@ -8,6 +8,9 @@
       },
       {
         "value": "CUSTOM:Highmontain"
+      },
+      {
+        "value": "CUSTOM:AutomneMillenus"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -21,17 +24,14 @@
     "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "DENY",
-    "hasSkyLight": true,
-    "imitateOverworldBehaviour": false,
-    "onPlayerEntersDimension": {
-      "name": "MillenusPlayerEntersDimension"
-    },
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": ""
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:BlueCrystalParticule"
     },
     "portalLuminance": 0,
     "portalSound": {

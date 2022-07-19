@@ -2,42 +2,34 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "eté Millensu",
+    "name": "Automne Millenus",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
-    "grassColor": {
-      "value": -12491976,
-      "falpha": 0.0
-    },
-    "foliageColor": {
-      "value": -13468656,
-      "falpha": 0.0
-    },
     "ambientSound": {
-      "value": "CUSTOM:foret"
+      "value": ""
     },
     "additionsSound": {
-      "value": "CUSTOM:foret"
+      "value": ""
     },
     "music": {
-      "value": "CUSTOM:foret"
+      "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:foret"
+      "value": ""
     },
-    "moodSoundDelay": 200,
+    "moodSoundDelay": 6000,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:BlueCrystalParticule"
     },
     "particlesProbability": 0.5,
     "biomeCategory": "PLAINS",
     "parent": {
-      "value": "CUSTOM:AutomneMillenus"
+      "value": "CUSTOM:DesertMillenus"
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -49,7 +41,7 @@
     "biomeDictionaryTypes": [
       "PLAINS"
     ],
-    "grassPerChunk": 10,
+    "grassPerChunk": 4,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
@@ -75,10 +67,10 @@
       "value": ""
     },
     "spawnStronghold": false,
-    "spawnMineshaft": true,
+    "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
-    "spawnPillagerOutpost": true,
-    "villageType": "plains",
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -97,8 +89,7 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer",
-      "PlainsTallGrass"
+      "FrozenTopLayer"
     ],
     "spawnEntries": []
   }

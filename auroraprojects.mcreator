@@ -150,24 +150,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "GrassMillenus",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_millenus",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "DirtMillenus",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_millenus",
-      "path": "~/Millenus"
-    },
-    {
       "name": "OpenGUITeleporteurMillenus",
       "type": "procedure",
       "sortid": 30,
@@ -197,18 +179,6 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Millenus",
-      "type": "dimension",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "millenus",
-      "metadata": {
-        "ep": false
       },
       "path": "~/Millenus"
     },
@@ -465,43 +435,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "DirtMillenusBlockAdded",
-      "type": "procedure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_millenus_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Dirt",
-      "type": "tag",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt",
-      "path": "~/Millenus"
-    },
-    {
       "name": "J",
       "type": "potioneffect",
       "sortid": 46,
@@ -509,15 +442,6 @@
       "locked_code": false,
       "registry_name": "j",
       "path": "~/Amires"
-    },
-    {
-      "name": "Grassblock",
-      "type": "tag",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grassblock",
-      "path": "~/Millenus"
     },
     {
       "name": "Sand",
@@ -543,15 +467,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "highmontain",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Forest",
-      "type": "tag",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "forest",
       "path": "~/Millenus"
     },
     {
@@ -1240,6 +1155,7 @@
       "path": "~/atyotis"
     },
     {
+<<<<<<< HEAD
       "name": "SparaziteArmor",
       "type": "armor",
       "sortid": 110,
@@ -1253,6 +1169,99 @@
         "ec": true
       },
       "path": "~/atyotis"
+=======
+      "name": "Feulliageorange",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feulliageorange",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Feuillagerouge",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuillagerouge",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Chanpi1",
+      "type": "structure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chanpi_1",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi2",
+      "type": "structure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_2",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi3",
+      "type": "structure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_3",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi4",
+      "type": "structure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_4",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbre1",
+      "type": "structure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbre_1",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbre2",
+      "type": "structure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbre_2",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "AutomneMillenus",
+      "type": "biome",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "automne_millenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Millenus",
+      "type": "dimension",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "millenus",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Millenus"
+>>>>>>> 1c46a378bb58509342d50dbfeff464a3e5d396c5
     }
   ],
   "variable_elements": [
@@ -1318,6 +1327,7 @@
       "block.auroraprojects.southjunc": "Cablejuste 1",
       "subtitles.tire": "",
       "block.auroraprojects.gollemusdugeonfloors": "Gollemus dugeon floors",
+      "biome.auroraprojects.automne_millenus": "Automne Millenus",
       "effect.j": "Tempête",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "block.auroraprojects.sperazite_stairs": "Sperazite Brick",
@@ -1331,8 +1341,9 @@
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
-      "biome.auroraprojects.plaines_millenus": "Biome Millènusien",
+      "biome.auroraprojects.plaines_millenus": "eté Millensu",
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
+      "block.auroraprojects.feuillagerouge": "Feuillagerouge",
       "subtitles.pluitorage": "",
       "block.auroraprojects.chyllis_bush_stage_2": "Chyllis Bush Stage 2",
       "block.auroraprojects.gollemusfloorstair": "Gollemusfloorstair",
@@ -1342,6 +1353,7 @@
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.pierreinvoc": "Pierreinvoc",
       "block.auroraprojects.emplacementtotemblock": "Socle du totem",
+      "block.auroraprojects.feulliageorange": "Feulliageorange",
       "biome.auroraprojects.malgork_plaines": "Malgork Plaines",
       "block.auroraprojects.atyotis_door": "Atyotis Door",
       "block.auroraprojects.sperazite_pillar": "Sperazite Pillar",
@@ -1380,12 +1392,10 @@
       "item.auroraprojects.sparazite_armor_leggings": "Jambières de Sparazite Armor",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",
-      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "entity.auroraprojects.gollemus": "Gollemus",
       "item.auroraprojects.malgork": "Malgork Portal Igniter",
       "subtitles.ventherbe": "",
       "subtitles.foret": "",
-      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.atyotis_rock": "Atyotis Stone",
       "block.auroraprojects.downjunc": "Cablejuste 1",
       "item.minecraft.potion.effect.sap_blue_potion": "Potion of Sap Blue",
