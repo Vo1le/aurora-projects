@@ -150,24 +150,6 @@
       "path": "~/Amires"
     },
     {
-      "name": "GrassMillenus",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grass_millenus",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "DirtMillenus",
-      "type": "block",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_millenus",
-      "path": "~/Millenus"
-    },
-    {
       "name": "OpenGUITeleporteurMillenus",
       "type": "procedure",
       "sortid": 30,
@@ -465,43 +447,6 @@
       "path": "~/Millenus"
     },
     {
-      "name": "DirtMillenusBlockAdded",
-      "type": "procedure",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_millenus_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Dirt",
-      "type": "tag",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt",
-      "path": "~/Millenus"
-    },
-    {
       "name": "J",
       "type": "potioneffect",
       "sortid": 46,
@@ -509,15 +454,6 @@
       "locked_code": false,
       "registry_name": "j",
       "path": "~/Amires"
-    },
-    {
-      "name": "Grassblock",
-      "type": "tag",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grassblock",
-      "path": "~/Millenus"
     },
     {
       "name": "Sand",
@@ -543,15 +479,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "highmontain",
-      "path": "~/Millenus"
-    },
-    {
-      "name": "Forest",
-      "type": "tag",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "forest",
       "path": "~/Millenus"
     },
     {
@@ -1307,6 +1234,15 @@
       "locked_code": false,
       "registry_name": "purple_shroom_light",
       "path": "~/atyotis"
+    },
+    {
+      "name": "Dirt",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
@@ -1382,11 +1318,12 @@
       "item.auroraprojects.bullet": "Bullet",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
       "biome.auroraprojects.atyotis_b_1": "Atyotis B 1",
+      "item.auroraprojects.sparazite_armor_boots": "Bottes en Sparazite Armor",
       "item.auroraprojects.bbullet": "Bullet",
       "block.auroraprojects.sable_modde": "Sable d\u0027Amires",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
-      "biome.auroraprojects.plaines_millenus": "Biome Millènusien",
+      "biome.auroraprojects.plaines_millenus": "eté Millensu",
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
       "subtitles.pluitorage": "",
       "block.auroraprojects.chyllis_bush_stage_2": "Chyllis Bush Stage 2",
@@ -1417,6 +1354,7 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.cablejuste_1": "Cablejuste 1",
+      "item.auroraprojects.sparazite_armor_chestplate": "Plastron de Sparazite Armor",
       "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "block.auroraprojects.purple_shroom_light": "Blue Shroom Light",
@@ -1435,18 +1373,18 @@
       "subtitles.vent": "",
       "block.auroraprojects.redus_vine": "Redus Vine",
       "item.auroraprojects.millenus": "Millenus Portal Igniter",
+      "item.auroraprojects.sparazite_armor_leggings": "Jambières de Sparazite Armor",
       "biome.auroraprojects.biome_sable": "Desert de Amirès",
       "entity.auroraprojects.grenouille": "Grenouille",
-      "block.auroraprojects.dirt_millenus": "Bloc de terre de Millènus",
       "entity.auroraprojects.gollemus": "Gollemus",
       "item.auroraprojects.malgork": "Malgork Portal Igniter",
       "subtitles.ventherbe": "",
       "subtitles.foret": "",
-      "block.auroraprojects.grass_millenus": "Bloc d\u0027herbe de Millènus",
       "block.auroraprojects.atyotis_rock": "Atyotis Stone",
       "block.auroraprojects.downjunc": "Cablejuste 1",
       "item.minecraft.potion.effect.sap_blue_potion": "Potion of Sap Blue",
       "item.auroraprojects.amires": "Amires Portal Igniter",
+      "item.auroraprojects.sparazite_armor_helmet": "Casque en Sparazite Armor",
       "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé"
     }
   },
