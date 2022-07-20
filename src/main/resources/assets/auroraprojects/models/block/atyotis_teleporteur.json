@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/ok",
+    "up": "auroraprojects:blocks/ok",
+    "north": "auroraprojects:blocks/amiresteleporterfaceanim",
+    "east": "auroraprojects:blocks/amiresteleporterfaceanim",
+    "south": "auroraprojects:blocks/amiresteleporterfaceanim",
+    "west": "auroraprojects:blocks/amiresteleporterfaceanim",
+    "particle": "auroraprojects:blocks/ok"
+  }
+}

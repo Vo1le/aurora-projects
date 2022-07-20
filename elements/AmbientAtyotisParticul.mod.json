@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "particle",
+  "definition": {
+    "texture": "atyotispart.png",
+    "animate": true,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 0.19999999999999998,
+    "speedFactor": 0.2,
+    "gravity": 0.0,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.2,
+    "angularAcceleration": 0.02,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

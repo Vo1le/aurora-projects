@@ -26,6 +26,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -41,9 +42,9 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.auroraprojects.particle.AmbientAtyotisParticulParticle;
 import net.mcreator.auroraprojects.entity.GrenouilleEntity;
 import net.mcreator.auroraprojects.entity.BlueEntity;
-import net.mcreator.auroraprojects.block.RedusVineBlock;
 import net.mcreator.auroraprojects.block.GrimBarkBlock;
 import net.mcreator.auroraprojects.block.AtyotisRockBlock;
 import net.mcreator.auroraprojects.block.AtyotisLeaveBlock;
@@ -70,7 +71,8 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285).build();
+						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285)
+						.setParticle(new ParticleEffectAmbience(AmbientAtyotisParticulParticle.particle, 0.004f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(AtyotisGrassBlock.block.getDefaultState(),
 								AtyotisRockBlock.block.getDefaultState(), AtyotisRockBlock.block.getDefaultState())));
@@ -84,7 +86,7 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 												new CustomCocoaTreeDecorator()))
 										.build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(4, 0.1F, 1))));
+						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 10))));
@@ -124,7 +126,7 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 
 		@Override
 		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, RedusVineBlock.block.getDefaultState(), sbc, mbb);
+			this.func_227423_a_(ww, bp, Blocks.AIR.getDefaultState(), sbc, mbb);
 		}
 	}
 
@@ -146,7 +148,7 @@ public class AtyotisB1Biome extends AuroraprojectsModElements.ModElement {
 
 		@Override
 		protected void func_227424_a_(IWorldWriter ww, BlockPos bp, BooleanProperty bpr, Set<BlockPos> sbc, MutableBoundingBox mbb) {
-			this.func_227423_a_(ww, bp, RedusVineBlock.block.getDefaultState(), sbc, mbb);
+			this.func_227423_a_(ww, bp, Blocks.AIR.getDefaultState(), sbc, mbb);
 		}
 	}
 

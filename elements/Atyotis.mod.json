@@ -39,8 +39,8 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "im",
-    "portalTexture": "lime_concrete",
-    "enablePortal": true
+    "texture": "",
+    "portalTexture": "",
+    "enablePortal": false
   }
 }

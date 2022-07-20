@@ -22,11 +22,11 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "CUSTOM:BlueCrystalParticule"
+      "value": "CUSTOM:AmbientAtyotisParticul"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.4,
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
@@ -48,7 +48,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 4,
+    "treesPerChunk": 1,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 6,
@@ -59,7 +59,7 @@
       "value": "CUSTOM:AtyotisLeave"
     },
     "treeVines": {
-      "value": "CUSTOM:RedusVine"
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
       "value": "Blocks.AIR"
