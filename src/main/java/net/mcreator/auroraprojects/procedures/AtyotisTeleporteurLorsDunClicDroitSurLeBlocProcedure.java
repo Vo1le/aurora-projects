@@ -14,7 +14,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.auroraprojects.gui.TeleporteurMillenusGUIGui;
+import net.mcreator.auroraprojects.gui.AtyotisTeleporteurGUIGui;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
 
 import java.util.Map;
@@ -61,12 +61,12 @@ public class AtyotisTeleporteurLorsDunClicDroitSurLeBlocProcedure {
 				NetworkHooks.openGui((ServerPlayerEntity) _ent, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("TeleporteurMillenusGUI");
+						return new StringTextComponent("AtyotisTeleporteurGUI");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new TeleporteurMillenusGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new AtyotisTeleporteurGUIGui.GuiContainerMod(id, inventory, new PacketBuffer(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}
