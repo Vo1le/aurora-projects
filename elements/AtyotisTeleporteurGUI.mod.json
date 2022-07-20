@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "ATYOTIS",
+          "onClick": {
+            "name": "TeleportationAtyotis"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "ATYOTIS",
+          "x": 185,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 21,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

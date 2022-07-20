@@ -1393,6 +1393,48 @@
         ]
       },
       "path": "~/Millenus"
+    },
+    {
+      "name": "TeleportationAtyotis",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportation_atyotis",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/atyotis"
+    },
+    {
+      "name": "AtyotisTeleporteurGUI",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atyotis_teleporteur_gui",
+      "path": "~/atyotis"
     }
   ],
   "variable_elements": [
