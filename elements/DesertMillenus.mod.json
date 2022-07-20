@@ -2,20 +2,12 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "eté Millensu",
+    "name": "ete Millensu",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
-    },
-    "grassColor": {
-      "value": -12491976,
-      "falpha": 0.0
-    },
-    "foliageColor": {
-      "value": -13468656,
-      "falpha": 0.0
     },
     "ambientSound": {
       "value": "CUSTOM:foret"
@@ -35,19 +27,19 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "PLAINS",
+    "biomeCategory": "NONE",
     "parent": {
-      "value": "CUSTOM:AutomneMillenus"
+      "value": "No parent"
     },
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "rainingPossibility": 0.8,
+    "temperature": 0.7,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": false,
+    "spawnBiome": true,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [
-      "PLAINS"
+      "FOREST"
     ],
     "grassPerChunk": 10,
     "seagrassPerChunk": 0,

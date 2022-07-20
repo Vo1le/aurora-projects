@@ -6,6 +6,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.BiomeDictionary;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
@@ -46,7 +47,7 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(7972607).withFoliageColor(-13468656).withGrassColor(-12491976)
+						.withSkyColor(7972607).withFoliageColor(10387789).withGrassColor(9470285)
 						.setAmbientSound(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:foret")))
 						.setMoodSound(new MoodSoundAmbience(
@@ -77,8 +78,8 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				DefaultBiomeFeatures.withTallGrass(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.1f).scale(0.2f)
-						.temperature(0.5f).downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.7f)
+						.downfall(0.8f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("auroraprojects:plaines_millenus"));
 			}
@@ -87,6 +88,8 @@ public class DesertMillenusBiome extends AuroraprojectsModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.PLAINS);
+		BiomeDictionary.addTypes(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), BiomeDictionary.Type.FOREST);
+		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
 	}
 }

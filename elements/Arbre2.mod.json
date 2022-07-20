@@ -4,7 +4,7 @@
   "definition": {
     "structure": "arbre2",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
+    "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,

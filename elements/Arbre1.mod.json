@@ -4,7 +4,7 @@
   "definition": {
     "structure": "arbre1",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
+    "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
@@ -23,9 +23,6 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:DesertMillenus"
-      },
-      {
-        "value": "CUSTOM:AutomneMillenus"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

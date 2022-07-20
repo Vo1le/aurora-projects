@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Highmontain"
+      },
+      {
+        "value": "CUSTOM:DesertMillenus"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -18,7 +21,7 @@
     "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
     "portalFrame": {

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "auroraprojects:atyotis_grass"
+    "auroraprojects:atyotis_grass",
+    "minecraft:grass_block"
   ]
 }

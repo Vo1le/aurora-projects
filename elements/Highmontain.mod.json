@@ -29,10 +29,10 @@
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
     "parent": {
-      "value": "CUSTOM:DesertMillenus"
+      "value": "No parent"
     },
     "rainingPossibility": 0.7000000000000001,
-    "temperature": 0.1,
+    "temperature": 0.2,
     "baseHeight": 8.0,
     "heightVariation": 2.0,
     "biomeType": "ICY",

@@ -60,6 +60,11 @@ public class BlueEntity extends AuroraprojectsModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("auroraprojects:atyotis_b_1").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getSpawns().getSpawner(EntityClassification.MONSTER).add(new MobSpawnInfo.Spawners(entity, 20, 4, 4));
 	}
 

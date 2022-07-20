@@ -73,7 +73,7 @@ public class HighmontainBiome extends AuroraprojectsModElements.ModElement {
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				DefaultBiomeFeatures.withLavaAndWaterLakes(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				biome = new Biome.Builder().precipitation(Biome.RainType.SNOW).category(Biome.Category.NONE).depth(8f).scale(2f).temperature(0.1f)
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(8f).scale(2f).temperature(0.2f)
 						.downfall(0.7000000000000001f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("auroraprojects:highmontain"));
