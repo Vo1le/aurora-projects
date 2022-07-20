@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/purple_crystal_block",
+    "up": "auroraprojects:blocks/purple_crystal_block",
+    "north": "auroraprojects:blocks/purple_crystal_block",
+    "east": "auroraprojects:blocks/purple_crystal_block",
+    "south": "auroraprojects:blocks/purple_crystal_block",
+    "west": "auroraprojects:blocks/purple_crystal_block",
+    "particle": "auroraprojects:blocks/purple_crystal_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "auroraprojects:blocks/atyatisplank",
+    "top": "auroraprojects:blocks/atyatisplank",
+    "side": "auroraprojects:blocks/atyatisplank"
+  }
+}

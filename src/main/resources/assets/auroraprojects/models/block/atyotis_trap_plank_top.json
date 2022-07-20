@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "auroraprojects:blocks/atyotis_trap",
+    "particle": "auroraprojects:blocks/atyotis_trap"
+  }
+}

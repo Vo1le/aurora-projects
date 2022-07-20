@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "auroraprojects:block/atyotis_fence_plank_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "auroraprojects:block/atyotis_fence_plank",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "auroraprojects:block/atyotis_fence_plank",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "auroraprojects:block/atyotis_fence_plank",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "auroraprojects:block/atyotis_fence_plank",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

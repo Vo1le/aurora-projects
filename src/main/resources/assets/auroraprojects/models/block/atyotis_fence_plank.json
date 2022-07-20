@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "auroraprojects:blocks/atyatisplank",
+    "particle": "auroraprojects:blocks/atyatisplank"
+  }
+}

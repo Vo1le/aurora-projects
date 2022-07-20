@@ -2,16 +2,16 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "atyotisblocofdeco2",
-    "textureTop": "atyotisblocofdeco2",
-    "textureLeft": "atyotisblocofdeco2",
-    "textureFront": "atyotisblocofdeco2",
-    "textureRight": "atyotisblocofdeco2",
-    "textureBack": "atyotisblocofdeco2",
+    "texture": "purple_crystal_block",
+    "textureTop": "purple_crystal_block",
+    "textureLeft": "purple_crystal_block",
+    "textureFront": "purple_crystal_block",
+    "textureRight": "purple_crystal_block",
+    "textureBack": "purple_crystal_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -19,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "Creepered Atyotis Stone",
+    "name": "Purple Crystal Block",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 6.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:AtyotisTab"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GLASS"
     },
     "breakSound": {
       "value": ""
@@ -94,7 +94,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 6,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
