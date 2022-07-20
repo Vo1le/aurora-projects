@@ -39,10 +39,10 @@ public class AtyotisStairsStoneBlock extends AuroraprojectsModElements.ModElemen
 
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
-			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
-					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.9999999999999998f, 6f)
+					.setLightLevel(s -> 0).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
+					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.9999999999999998f, 6f).setLightLevel(s -> 0)
+							.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("atyotis_stairs_stone");
 		}
 
