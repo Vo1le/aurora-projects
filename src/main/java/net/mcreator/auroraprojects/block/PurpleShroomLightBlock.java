@@ -37,7 +37,7 @@ public class PurpleShroomLightBlock extends AuroraprojectsModElements.ModElement
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOL).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1f, 10f).setLightLevel(s -> 10));
+			super(Block.Properties.create(Material.WOOL).sound(SoundType.SHROOMLIGHT).hardnessAndResistance(1f, 1f).setLightLevel(s -> 10));
 			setRegistryName("purple_shroom_light");
 		}
 

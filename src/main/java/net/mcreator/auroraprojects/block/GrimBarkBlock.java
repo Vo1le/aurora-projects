@@ -45,7 +45,7 @@ public class GrimBarkBlock extends AuroraprojectsModElements.ModElement {
 		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
 			setRegistryName("grim_bark");
 		}

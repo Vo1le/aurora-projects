@@ -24,7 +24,7 @@ public class AtyotisWoodSwordItem extends AuroraprojectsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 68;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class AtyotisWoodSwordItem extends AuroraprojectsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

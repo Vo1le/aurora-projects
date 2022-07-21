@@ -34,8 +34,8 @@
     ],
     "name": "Atyotis Leave",
     "specialInfo": [],
-    "hardness": 0.3,
-    "resistance": 0.0,
+    "hardness": 0.2,
+    "resistance": 0.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
