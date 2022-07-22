@@ -1444,6 +1444,60 @@
       "locked_code": false,
       "registry_name": "masqos",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Champi1",
+      "type": "structure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_1",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi2",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_2",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Chami3",
+      "type": "structure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chami_3",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Champi4",
+      "type": "structure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "champi_4",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Feuillagerouge",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuillagerouge",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Feuillageorange",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feuillageorange",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -1554,6 +1608,7 @@
       "item.auroraprojects.amires": "Amires Portal Igniter",
       "item.auroraprojects.sparazite_armor_helmet": "Casque en Sparazite Armor",
       "block.auroraprojects.purple_crystal_block": "Purple Crystal Block",
+      "block.auroraprojects.feuillageorange": "Feuillageorange",
       "block.auroraprojects.malgorkteleporteur": "Malgork téléporteur",
       "itemGroup.tabmarlgork_items": "Marlgork Items",
       "block.auroraprojects.cablesligne": "Cablesligne",
@@ -1567,6 +1622,7 @@
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
       "block.auroraprojects.atyotis_teleporteur": "Atyotis Teleporteur",
+      "block.auroraprojects.feuillagerouge": "Feuillagerouge",
       "block.auroraprojects.chyllis_bush_stage_2": "Chyllis Bush Stage 2",
       "block.auroraprojects.gollemusfloorstair": "Gollemusfloorstair",
       "block.auroraprojects.sperazite_slab_brick": "Sperazite Brick",

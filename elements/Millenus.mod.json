@@ -22,7 +22,7 @@
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
-    "hasSkyLight": false,
+    "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": ""

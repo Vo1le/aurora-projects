@@ -33,7 +33,7 @@ import net.minecraft.block.BlockState;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class Arbre2Structure {
+public class Champi4Structure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -52,8 +52,8 @@ public class Arbre2Structure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 1000000) {
-						int count = random.nextInt(1) + 1;
+					if ((random.nextInt(1000000) + 1) <= 50000) {
+						int count = random.nextInt(3) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
@@ -72,7 +72,7 @@ public class Arbre2Structure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "arbre2"));
+									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "champi4"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -85,8 +85,8 @@ public class Arbre2Structure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("arbre_2"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:arbre_2"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("champi_4"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("auroraprojects:champi_4"), configuredFeature);
 		}
 	}
 

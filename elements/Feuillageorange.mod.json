@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "flrautomne",
-    "textureTop": "flrautomne",
-    "textureLeft": "flrautomne",
-    "textureFront": "flrautomne",
-    "textureRight": "flrautomne",
-    "textureBack": "flrautomne",
+    "texture": "floautomne",
+    "textureTop": "floautomne",
+    "textureLeft": "floautomne",
+    "textureFront": "floautomne",
+    "textureRight": "floautomne",
+    "textureBack": "floautomne",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Feuillagerouge",
+    "name": "Feuillageorange",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

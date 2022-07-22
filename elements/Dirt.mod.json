@@ -7,9 +7,6 @@
     "blocks": [
       {
         "value": "CUSTOM:AtyotisGrass"
-      },
-      {
-        "value": "Blocks.GRASS"
       }
     ],
     "functions": [],

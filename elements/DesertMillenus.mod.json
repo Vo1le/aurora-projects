@@ -9,6 +9,14 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
+    "grassColor": {
+      "value": -11092678,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12543210,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": "CUSTOM:foret"
     },
@@ -27,7 +35,7 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "FOREST",
     "parent": {
       "value": "No parent"
     },
@@ -48,7 +56,7 @@
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
     "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
+    "reedsPerChunk": 1,
     "cactiPerChunk": 0,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",

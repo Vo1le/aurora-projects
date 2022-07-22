@@ -9,6 +9,14 @@
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
+    "grassColor": {
+      "value": -11092678,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12543210,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
