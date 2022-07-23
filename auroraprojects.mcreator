@@ -1498,6 +1498,69 @@
       "locked_code": false,
       "registry_name": "feuillageorange",
       "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautomne1",
+      "type": "structure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautomne_1",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "AutomneMilllenus",
+      "type": "biome",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "automne_milllenus",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautomne2",
+      "type": "structure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautomne_2",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautome3",
+      "type": "structure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautome_3",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautomne4",
+      "type": "structure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautomne_4",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautomne5",
+      "type": "structure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautomne_5",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "Arbreautomne6",
+      "type": "structure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbreautomne_6",
+      "path": "~/Millenus"
     }
   ],
   "variable_elements": [
@@ -1554,8 +1617,8 @@
     "en_us": {
       "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
       "itemGroup.tabboss": "Boss",
-      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_grass": "Atyotis Grass",
       "block.auroraprojects.atyotis_stairs_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.southjunc": "Cablejuste 1",
@@ -1591,8 +1654,8 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.atyotis_trap_plank": "Atyotis Stairs Plank",
-      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "item.auroraprojects.pistol": "Pistol",
+      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "item.minecraft.lingering_potion.effect.sap_blue_potion": "Lingering Potion of Sap Blue",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
@@ -1641,6 +1704,7 @@
       "entity.auroraprojects.blue": "Blue",
       "block.auroraprojects.chyllis_flower": "Chyllis Flower",
       "itemGroup.tabaurora_teleporteurs": "Aurora Téléporteurs",
+      "biome.auroraprojects.automne_milllenus": "Automne Milllenus",
       "block.auroraprojects.atyotis_stairs_stone": "Atyotis Stone Brick",
       "block.auroraprojects.amires_teleporter": "Teleporteur de Amirès",
       "block.auroraprojects.yivia_flower": "Yivia Flower",
