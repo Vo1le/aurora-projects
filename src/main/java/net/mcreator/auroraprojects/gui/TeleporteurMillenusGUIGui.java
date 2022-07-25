@@ -55,7 +55,7 @@ public class TeleporteurMillenusGUIGui extends AuroraprojectsModElements.ModElem
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("teleporteur_millenus_gui"));
+			event.getRegistry().register(containerType.setRegistryName("gui"));
 		}
 	}
 
