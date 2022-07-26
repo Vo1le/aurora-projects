@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/limestone",
+    "up": "auroraprojects:blocks/limestone",
+    "north": "auroraprojects:blocks/limestone",
+    "east": "auroraprojects:blocks/limestone",
+    "south": "auroraprojects:blocks/limestone",
+    "west": "auroraprojects:blocks/limestone",
+    "particle": "auroraprojects:blocks/limestone"
+  }
+}

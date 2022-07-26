@@ -1561,6 +1561,42 @@
       "locked_code": false,
       "registry_name": "arbreautomne_6",
       "path": "~/Millenus"
+    },
+    {
+      "name": "CrackedLimstone",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_limstone",
+      "path": "~/Amires"
+    },
+    {
+      "name": "DeadWoodLog",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_wood_log",
+      "path": "~/Amires"
+    },
+    {
+      "name": "DeadWoodTrap",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_wood_trap",
+      "path": "~/Amires"
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone",
+      "path": "~/Amires"
     }
   ],
   "variable_elements": [
@@ -1617,8 +1653,8 @@
     "en_us": {
       "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
       "itemGroup.tabboss": "Boss",
-      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_grass": "Atyotis Grass",
       "block.auroraprojects.atyotis_stairs_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.southjunc": "Cablejuste 1",
@@ -1627,6 +1663,7 @@
       "effect.j": "Tempête",
       "block.auroraprojects.sculpted_atyotis_stone": "Sculpted Atyotis Stone",
       "block.auroraprojects.sperazite_stairs": "Sperazite Brick",
+      "block.auroraprojects.dead_wood_log": "Dead Wood Log",
       "item.minecraft.splash_potion.effect.sap_blue_potion": "Splash Potion of Sap Blue",
       "item.auroraprojects.bullet": "Bullet",
       "biome.auroraprojects.atyotis_b_1": "Atyotis B 1",
@@ -1654,8 +1691,8 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.atyotis_trap_plank": "Atyotis Stairs Plank",
-      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "item.auroraprojects.pistol": "Pistol",
+      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "item.minecraft.lingering_potion.effect.sap_blue_potion": "Lingering Potion of Sap Blue",
       "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
@@ -1676,12 +1713,14 @@
       "itemGroup.tabmarlgork_items": "Marlgork Items",
       "block.auroraprojects.cablesligne": "Cablesligne",
       "block.auroraprojects.atyotis_stone_brick": "Atyotis Stone Brick",
+      "block.auroraprojects.dead_wood_trap": "Dead Wood Trap",
       "entity.auroraprojects.masqos": "Masqos",
       "block.auroraprojects.atyotis_fence_plank": "Atyotis Stairs Plank",
       "item.auroraprojects.atyotis_wood_sword": "Atyotis Wood Sword",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "block.auroraprojects.sperazite_brick": "Sperazite Brick",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
+      "block.auroraprojects.cracked_limstone": "Cracked Limstone",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",
       "block.auroraprojects.atyotis_teleporteur": "Atyotis Teleporteur",
@@ -1692,6 +1731,7 @@
       "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
       "block.auroraprojects.emplacementtotemblock": "Socle du totem",
       "block.auroraprojects.sperazite_pillar": "Sperazite Pillar",
+      "block.auroraprojects.limestone": "Limestone",
       "block.auroraprojects.kobriate_crystal": "Kobriate Crystal",
       "block.auroraprojects.blue_shroom_light": "Blue Shroom Light",
       "biome.auroraprojects.highmontain": "Haute montagne",

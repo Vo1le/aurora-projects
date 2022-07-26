@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/deadwood_log",
+    "up": "auroraprojects:blocks/deadwood_log",
+    "north": "auroraprojects:blocks/deadwood_log",
+    "east": "auroraprojects:blocks/deadwood_log",
+    "south": "auroraprojects:blocks/deadwood_log",
+    "west": "auroraprojects:blocks/deadwood_log",
+    "particle": "auroraprojects:blocks/deadwood_log"
+  }
+}
