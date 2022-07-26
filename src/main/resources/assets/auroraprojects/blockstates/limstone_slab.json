@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "auroraprojects:block/limstone_slab"
+    },
+    "type=top": {
+      "model": "auroraprojects:block/limstone_slab_top"
+    },
+    "type=double": {
+      "model": "auroraprojects:block/limstone_slab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/deadwood_planks",
+    "up": "auroraprojects:blocks/deadwood_planks",
+    "north": "auroraprojects:blocks/deadwood_planks",
+    "east": "auroraprojects:blocks/deadwood_planks",
+    "south": "auroraprojects:blocks/deadwood_planks",
+    "west": "auroraprojects:blocks/deadwood_planks",
+    "particle": "auroraprojects:blocks/deadwood_planks"
+  }
+}

@@ -1,4 +1,5 @@
 {
+  "block.auroraprojects.limstone_slab": "Limestone",
   "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
   "itemGroup.tabboss": "Boss",
   "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
@@ -42,6 +43,7 @@
   "item.auroraprojects.pistol": "Pistol",
   "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
   "block.auroraprojects.northjunc": "Cablejuste 1",
+  "block.auroraprojects.s": "S",
   "item.minecraft.lingering_potion.effect.sap_blue_potion": "Lingering Potion of Sap Blue",
   "block.auroraprojects.cablejunction_2faces": "Cablejunction 2faces",
   "item.auroraprojects.blue_spawn_egg": "Blue Spawn Egg",
@@ -74,6 +76,7 @@
   "block.auroraprojects.atyotis_teleporteur": "Atyotis Teleporteur",
   "block.auroraprojects.feuillagerouge": "Feuillagerouge",
   "block.auroraprojects.chyllis_bush_stage_2": "Chyllis Bush Stage 2",
+  "block.auroraprojects.limstone_wall": "Limestone",
   "block.auroraprojects.gollemusfloorstair": "Gollemusfloorstair",
   "block.auroraprojects.sperazite_slab_brick": "Sperazite Brick",
   "item.auroraprojects.lingotdaurium": "Lingot d\u0027aurium",
@@ -102,5 +105,7 @@
   "subtitles.ventherbe": "",
   "subtitles.foret": "",
   "block.auroraprojects.atyotis_rock": "Atyotis Stone",
-  "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé"
+  "block.auroraprojects.dead_wood_plank": "Dead Wood Plank",
+  "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé",
+  "block.auroraprojects.limstone_stairs": "Limestone"
 }
