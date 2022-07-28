@@ -1563,11 +1563,16 @@
       "path": "~/Millenus"
     },
     {
+<<<<<<< Updated upstream
       "name": "CrackedLimstone",
+=======
+      "name": "Feuillagegele",
+>>>>>>> Stashed changes
       "type": "block",
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
+<<<<<<< Updated upstream
       "registry_name": "cracked_limstone",
       "path": "~/Amires"
     },
@@ -1642,6 +1647,19 @@
       "locked_code": false,
       "registry_name": "dead_wood_plank",
       "path": "~/Amires"
+=======
+      "registry_name": "feuillagegele",
+      "path": "~/Millenus"
+    },
+    {
+      "name": "HiverMillenus",
+      "type": "biome",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiver_millenus",
+      "path": "~/Millenus"
+>>>>>>> Stashed changes
     }
   ],
   "variable_elements": [
@@ -1762,9 +1780,11 @@
       "block.auroraprojects.atyotis_stone_brick": "Atyotis Stone Brick",
       "block.auroraprojects.dead_wood_trap": "Dead Wood Trap",
       "entity.auroraprojects.masqos": "Masqos",
+      "block.auroraprojects.feuillagegele": "Feuillagegele",
       "block.auroraprojects.atyotis_fence_plank": "Atyotis Stairs Plank",
       "item.auroraprojects.atyotis_wood_sword": "Atyotis Wood Sword",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
+      "biome.auroraprojects.hiver_millenus": "Hiver Millenus",
       "block.auroraprojects.sperazite_brick": "Sperazite Brick",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
       "block.auroraprojects.cracked_limstone": "Cracked Limstone",

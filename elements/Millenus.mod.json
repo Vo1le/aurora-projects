@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:AutomneMilllenus"
+      },
+      {
+        "value": "CUSTOM:HiverMillenus"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -19,6 +22,10 @@
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": false,
