@@ -2,19 +2,19 @@
   "_fv": 24,
   "_type": "biome",
   "definition": {
-    "name": "Hiver de Millenus",
+    "name": "Printemps de Millenus",
     "groundBlock": {
-      "value": "Blocks.SNOW"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
     "grassColor": {
-      "value": -1,
+      "value": -11092678,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -3355444,
+      "value": -4110966,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -35,21 +35,21 @@
       "value": "CUSTOM:BlueCrystalParticule"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "ICY",
+    "biomeCategory": "FOREST",
     "parent": {
-      "value": "ocean"
+      "value": "No parent"
     },
-    "rainingPossibility": 0.5,
-    "temperature": -0.3,
+    "rainingPossibility": 0.8,
+    "temperature": 0.7,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
-    "biomeType": "ICY",
+    "biomeType": "WARM",
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 2,
     "seagrassPerChunk": 0,
-    "flowersPerChunk": 4,
+    "flowersPerChunk": 7,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPatchesPerChunk": 0,
@@ -81,7 +81,7 @@
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
     "spawnSwampHut": false,
-    "spawnIgloo": true,
+    "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
@@ -95,8 +95,7 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer",
-      "Icebergs"
+      "FrozenTopLayer"
     ],
     "spawnEntries": []
   }

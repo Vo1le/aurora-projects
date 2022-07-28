@@ -22,12 +22,12 @@ import java.util.List;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class FeuillageorangeBlock extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:feuillageorange")
+public class FeuillagedeprintempsBlock extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:feuillagedeprintemps")
 	public static final Block block = null;
 
-	public FeuillageorangeBlock(AuroraprojectsModElements instance) {
-		super(instance, 139);
+	public FeuillagedeprintempsBlock(AuroraprojectsModElements instance) {
+		super(instance, 161);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class FeuillageorangeBlock extends AuroraprojectsModElements.ModElement {
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.VINE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid());
-			setRegistryName("feuillageorange");
+			setRegistryName("feuillagedeprintemps");
 		}
 
 		@Override

@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "arbreautomne3",
+    "structure": "arbreprimtemp2",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
+    "surfaceDetectionType": "First block",
     "spawnProbability": 500000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -1,
+    "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -22,7 +22,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:AutomneMilllenus"
+        "value": "CUSTOM:PrintempsdeMillenus"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
