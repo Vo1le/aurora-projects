@@ -36,7 +36,7 @@ public class AutomneMilllenusBiome extends AuroraprojectsModElements.ModElement 
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(7972607).withFoliageColor(-12543210).withGrassColor(-11092678).build();
+						.withSkyColor(7972607).withFoliageColor(-12543210).withGrassColor(-26368).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));

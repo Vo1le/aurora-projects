@@ -83,7 +83,7 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 2, 16, -16777216);
+		this.font.drawString(ms, "Se teleporter vers Mill\u00E8nus", 2, 14, -16777216);
 	}
 
 	@Override
@@ -96,7 +96,7 @@ public class TeleporteurMillenusGUIGuiWindow extends ContainerScreen<Teleporteur
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 49, this.guiTop + 60, 75, 20, new StringTextComponent("Teleporter"), e -> {
+		this.addButton(new Button(this.guiLeft + 50, this.guiTop + 46, 75, 20, new StringTextComponent("Teleporter"), e -> {
 			if (true) {
 				AuroraprojectsMod.PACKET_HANDLER.sendToServer(new TeleporteurMillenusGUIGui.ButtonPressedMessage(0, x, y, z));
 				TeleporteurMillenusGUIGui.handleButtonAction(entity, 0, x, y, z);
