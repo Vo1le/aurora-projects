@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:AutomneMilllenus"
+      },
+      {
+        "value": "CUSTOM:HiverdeMillenus"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -67,6 +67,7 @@
   "entity.auroraprojects.masqos": "Masqos",
   "block.auroraprojects.atyotis_fence_plank": "Atyotis Stairs Plank",
   "item.auroraprojects.atyotis_wood_sword": "Atyotis Wood Sword",
+  "block.auroraprojects.snow": "Feuillage gelé",
   "block.auroraprojects.sperazite_ore": "Sperazite Ore",
   "block.auroraprojects.sperazite_brick": "Sperazite Brick",
   "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
@@ -106,6 +107,7 @@
   "subtitles.foret": "",
   "block.auroraprojects.atyotis_rock": "Atyotis Stone",
   "block.auroraprojects.dead_wood_plank": "Dead Wood Plank",
+  "biome.auroraprojects.hiverde_millenus": "Hiverde Millenus",
   "block.auroraprojects.coblestonecompresse": "Cobblestone compréssé",
   "block.auroraprojects.limstone_stairs": "Limestone"
 }
