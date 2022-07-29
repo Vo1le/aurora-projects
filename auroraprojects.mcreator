@@ -1800,6 +1800,15 @@
         ]
       },
       "path": "~/Boss"
+    },
+    {
+      "name": "VillageAmires",
+      "type": "structure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "village_amires",
+      "path": "~/Amires"
     }
   ],
   "variable_elements": [
@@ -1857,8 +1866,8 @@
       "block.auroraprojects.limstone_slab": "Limestone",
       "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
       "itemGroup.tabboss": "Boss",
-      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
+      "block.auroraprojects.upjunc": "Cablejuste 1",
       "block.auroraprojects.atyotis_grass": "Atyotis Grass",
       "block.auroraprojects.atyotis_stairs_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.southjunc": "Cablejuste 1",
@@ -1879,8 +1888,8 @@
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
       "subtitles.pluitorage": "",
       "item.auroraprojects.atyotis_wood_picaxe": "Atyotis Wood Picaxe",
-      "item.auroraprojects.masqos_spawn_egg": "Masqos Spawn Egg",
       "block.auroraprojects.creepered_atyotis_stone": "Creepered Atyotis Stone",
+      "item.auroraprojects.masqos_spawn_egg": "Masqos Spawn Egg",
       "block.auroraprojects.grim_bark": "Grim Bark",
       "itemGroup.tabaurora_project": "Aurora Project",
       "block.auroraprojects.pierreinvoc": "Pierreinvoc",
@@ -1896,8 +1905,8 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.atyotis_trap_plank": "Atyotis Stairs Plank",
-      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "item.auroraprojects.pistol": "Pistol",
+      "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "block.auroraprojects.s": "S",
       "item.minecraft.lingering_potion.effect.sap_blue_potion": "Lingering Potion of Sap Blue",
