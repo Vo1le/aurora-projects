@@ -1662,14 +1662,6 @@
       "subtitle": ""
     },
     {
-      "name": "tire",
-      "files": [
-        "gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
       "name": "vent",
       "files": [
         "winddsgn_vent_id_0595_ls"
@@ -1692,6 +1684,38 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "tire",
+      "files": [
+        "gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "music_amires1",
+      "files": [
+        "ibn-al-noor"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "music_amires2",
+      "files": [
+        "momia-ancient-arabian-music-ancient-egyptian-music-no-copyright"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "music_amires3",
+      "files": [
+        "musique-apaisante-libre-de-droit-gratuite-calme-en-fond-sonore"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1699,8 +1723,8 @@
       "block.auroraprojects.limstone_slab": "Limestone",
       "item.auroraprojects.gollemus_spawn_egg": "Gollemus Spawn Egg",
       "itemGroup.tabboss": "Boss",
-      "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.upjunc": "Cablejuste 1",
+      "block.auroraprojects.atyotis_slab_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.atyotis_grass": "Atyotis Grass",
       "block.auroraprojects.atyotis_stairs_plank": "Atyotis Stairs Plank",
       "block.auroraprojects.southjunc": "Cablejuste 1",
@@ -1720,8 +1744,8 @@
       "item.auroraprojects.grenouille_spawn_egg": "Grenouille Spawn Egg",
       "subtitles.pluitorage": "",
       "item.auroraprojects.atyotis_wood_picaxe": "Atyotis Wood Picaxe",
-      "block.auroraprojects.creepered_atyotis_stone": "Creepered Atyotis Stone",
       "item.auroraprojects.masqos_spawn_egg": "Masqos Spawn Egg",
+      "block.auroraprojects.creepered_atyotis_stone": "Creepered Atyotis Stone",
       "block.auroraprojects.grim_bark": "Grim Bark",
       "itemGroup.tabaurora_project": "Aurora Project",
       "block.auroraprojects.pierreinvoc": "Pierreinvoc",
@@ -1737,8 +1761,8 @@
       "item.minecraft.tipped_arrow.effect.sap_blue_potion": "Arrow of Sap Blue",
       "block.auroraprojects.terre_volcanique": "Terre Volcanique",
       "block.auroraprojects.atyotis_trap_plank": "Atyotis Stairs Plank",
-      "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.atyotis_slab_stone": "Atyotis Stone Brick",
+      "item.auroraprojects.pistol": "Pistol",
       "block.auroraprojects.northjunc": "Cablejuste 1",
       "block.auroraprojects.s": "S",
       "item.minecraft.lingering_potion.effect.sap_blue_potion": "Lingering Potion of Sap Blue",
@@ -1766,7 +1790,10 @@
       "item.auroraprojects.atyotis_wood_sword": "Atyotis Wood Sword",
       "block.auroraprojects.sperazite_ore": "Sperazite Ore",
       "block.auroraprojects.sperazite_brick": "Sperazite Brick",
+      "subtitles.music_amires1": "",
       "block.auroraprojects.aurium_minerai_block": "Minerai d\u0027aurium",
+      "subtitles.music_amires3": "",
+      "subtitles.music_amires2": "",
       "block.auroraprojects.cracked_limstone": "Cracked Limstone",
       "item.auroraprojects.atyotis": "Atyotis Portal Igniter",
       "biome.auroraprojects.volcan": "Volcan",

@@ -7,23 +7,23 @@
       "value": "CUSTOM:SableModde"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:CrackedLimstone"
+      "value": "CUSTOM:Limestone"
     },
     "airColor": {
-      "value": -2977501,
+      "value": 1657966883,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:vent"
+      "value": "CUSTOM:ventherbe"
     },
     "additionsSound": {
       "value": "CUSTOM:vent"
     },
     "music": {
-      "value": "CUSTOM:ventherbe"
+      "value": "CUSTOM:music_amires3"
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.cave"
     },
     "moodSoundDelay": 200,
     "spawnParticles": false,

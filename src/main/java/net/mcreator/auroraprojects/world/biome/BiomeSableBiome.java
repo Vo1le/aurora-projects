@@ -15,6 +15,7 @@ import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.blockplacer.ColumnBlockPlacer;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.SoundAdditionsAmbience;
+import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -25,7 +26,7 @@ import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.auroraprojects.block.SableModdeBlock;
-import net.mcreator.auroraprojects.block.CrackedLimstoneBlock;
+import net.mcreator.auroraprojects.block.LimestoneBlock;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 @AuroraprojectsModElements.ModElement.Tag
@@ -41,19 +42,22 @@ public class BiomeSableBiome extends AuroraprojectsModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-2977501).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-2977501).withFoliageColor(10387789).withGrassColor(9470285)
-						.setAmbientSound(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:vent")))
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(1657966883).setWaterColor(4159204).setWaterFogColor(329011)
+						.withSkyColor(1657966883).withFoliageColor(10387789).withGrassColor(9470285)
+						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("auroraprojects:ventherbe")))
+						.setMoodSound(new MoodSoundAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")), 200, 8,
+								2))
 						.setAdditionsSound(new SoundAdditionsAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("auroraprojects:vent")),
 								0.0111D))
 						.setMusic(new BackgroundMusicSelector((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
-								.getValue(new ResourceLocation("auroraprojects:ventherbe")), 12000, 24000, true))
+								.getValue(new ResourceLocation("auroraprojects:music_amires3")), 12000, 24000, true))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(SableModdeBlock.block.getDefaultState(),
-								CrackedLimstoneBlock.block.getDefaultState(), CrackedLimstoneBlock.block.getDefaultState())));
+								LimestoneBlock.block.getDefaultState(), LimestoneBlock.block.getDefaultState())));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(
 								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.CACTUS.getDefaultState()),

@@ -49,12 +49,18 @@ public class AuroraprojectsModElements {
 	public AuroraprojectsModElements() {
 		sounds.put(new ResourceLocation("auroraprojects", "ventherbe"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "ventherbe")));
-		sounds.put(new ResourceLocation("auroraprojects", "tire"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "tire")));
 		sounds.put(new ResourceLocation("auroraprojects", "vent"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "vent")));
 		sounds.put(new ResourceLocation("auroraprojects", "pluitorage"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "pluitorage")));
 		sounds.put(new ResourceLocation("auroraprojects", "foret"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "foret")));
+		sounds.put(new ResourceLocation("auroraprojects", "tire"), new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "tire")));
+		sounds.put(new ResourceLocation("auroraprojects", "music_amires1"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "music_amires1")));
+		sounds.put(new ResourceLocation("auroraprojects", "music_amires2"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "music_amires2")));
+		sounds.put(new ResourceLocation("auroraprojects", "music_amires3"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("auroraprojects", "music_amires3")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("auroraprojects").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
