@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "structure",
+  "definition": {
+    "structure": "arbrehiver1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 500000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Millenus"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.SNOW"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:HiverdeMillenus"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "Arbrehiververifproc"
+    }
+  }
+}

@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": 0,
       "temperature_noise": {
-        "firstOctave": -5.53,
+        "firstOctave": -5.95,
         "amplitudes": [
           2,
           2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -5.53,
+        "firstOctave": -5.95,
         "amplitudes": [
           2,
           2
         ]
       },
       "altitude_noise": {
-        "firstOctave": -5.53,
+        "firstOctave": -5.95,
         "amplitudes": [
           2,
           2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -5.53,
+        "firstOctave": -5.95,
         "amplitudes": [
           2,
           2
@@ -48,8 +48,8 @@
         {
           "biome": "auroraprojects:plaines_millenus",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
+            "temperature": 0.5,
+            "humidity": -0.5,
             "altitude": -0.75,
             "weirdness": 1.5,
             "offset": 0
@@ -57,6 +57,26 @@
         },
         {
           "biome": "auroraprojects:automne_milllenus",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "auroraprojects:hiverde_millenus",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.5,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "auroraprojects:printempsde_millenus",
           "parameters": {
             "temperature": -1,
             "humidity": 1,

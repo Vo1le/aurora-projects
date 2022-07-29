@@ -25,6 +25,9 @@
         "value": "CUSTOM:DesertMillenus"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "Arbrehiververifproc"
+    }
   }
 }

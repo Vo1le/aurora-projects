@@ -11,6 +11,12 @@
       },
       {
         "value": "CUSTOM:AutomneMilllenus"
+      },
+      {
+        "value": "CUSTOM:HiverdeMillenus"
+      },
+      {
+        "value": "CUSTOM:PrintempsdeMillenus"
       }
     ],
     "worldGenType": "Normal world gen",

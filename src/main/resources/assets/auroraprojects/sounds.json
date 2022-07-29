@@ -8,6 +8,15 @@
       }
     ]
   },
+  "tire": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "auroraprojects:gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls",
+        "stream": false
+      }
+    ]
+  },
   "vent": {
     "category": "music",
     "sounds": [
@@ -31,42 +40,6 @@
     "sounds": [
       {
         "name": "auroraprojects:windvege_foret_vent_a_la_cime_des_arbres_id_0904_ls",
-        "stream": true
-      }
-    ]
-  },
-  "tire": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "auroraprojects:gunauto_coup-de-feu-de-beretta-m12-9-mm-_id-0437__ls",
-        "stream": false
-      }
-    ]
-  },
-  "music_amires1": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "auroraprojects:ibn-al-noor",
-        "stream": true
-      }
-    ]
-  },
-  "music_amires2": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "auroraprojects:momia-ancient-arabian-music-ancient-egyptian-music-no-copyright",
-        "stream": true
-      }
-    ]
-  },
-  "music_amires3": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "auroraprojects:musique-apaisante-libre-de-droit-gratuite-calme-en-fond-sonore",
         "stream": true
       }
     ]
