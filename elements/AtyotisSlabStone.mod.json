@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Atyotis Stone Brick",
+    "name": "Dalle en pierre taillé d'Atyotis",
     "specialInfo": [],
-    "hardness": 2.0,
+    "hardness": 1.5,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,

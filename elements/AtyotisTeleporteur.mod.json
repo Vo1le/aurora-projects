@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Atyotis Teleporteur",
+    "name": "Teleporteur d'Atyotis",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,

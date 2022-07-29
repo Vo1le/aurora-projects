@@ -1,0 +1,29 @@
+{
+  "group": "sperazite_armure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "1": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "2": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "3": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "5": {
+      "item": "auroraprojects:speraziteingot"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:sparazite_armor_helmet",
+    "count": 1
+  }
+}

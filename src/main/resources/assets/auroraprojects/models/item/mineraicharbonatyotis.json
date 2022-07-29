@@ -1,5 +1,5 @@
 {
-  "parent": "auroraprojects:block/sculpted_atyotis_stone",
+  "parent": "auroraprojects:block/mineraicharbonatyotis",
   "display": {
     "thirdperson": {
       "rotation": [

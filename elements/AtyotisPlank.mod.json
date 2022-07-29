@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Atyotis Plank",
+    "name": "Planche en bois d'Atyotis",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

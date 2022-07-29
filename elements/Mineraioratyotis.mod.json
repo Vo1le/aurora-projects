@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "atyotisblocofdeco2",
-    "textureTop": "atyotisblocofdeco2",
-    "textureLeft": "atyotisblocofdeco2",
-    "textureFront": "atyotisblocofdeco2",
-    "textureRight": "atyotisblocofdeco2",
-    "textureBack": "atyotisblocofdeco2",
+    "texture": "atyotisgold",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Creepered Atyotis Stone",
+    "name": "Minerai d'or d'Atyotis",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 6.0,
+    "hardness": 3.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:BlueCrystalParticule"
@@ -121,16 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Atyotis"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:AtyotisRock"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 30
   }
 }

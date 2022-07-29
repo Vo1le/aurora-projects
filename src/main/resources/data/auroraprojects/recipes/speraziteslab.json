@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "1": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "2": {
+      "item": "auroraprojects:speraziteingot"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:sperazite_slab_brick",
+    "count": 6
+  }
+}

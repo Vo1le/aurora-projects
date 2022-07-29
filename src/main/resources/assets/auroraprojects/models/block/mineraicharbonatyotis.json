@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/atyotiscoal",
+    "up": "auroraprojects:blocks/atyotiscoal",
+    "north": "auroraprojects:blocks/atyotiscoal",
+    "east": "auroraprojects:blocks/atyotiscoal",
+    "south": "auroraprojects:blocks/atyotiscoal",
+    "west": "auroraprojects:blocks/atyotiscoal",
+    "particle": "auroraprojects:blocks/atyotiscoal"
+  }
+}

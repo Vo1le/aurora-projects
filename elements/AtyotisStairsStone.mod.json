@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Atyotis Stone Brick",
+    "name": "Escalier en pierre taillé d'Atyotis",
     "specialInfo": [],
-    "hardness": 1.9999999999999998,
+    "hardness": 1.5,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,

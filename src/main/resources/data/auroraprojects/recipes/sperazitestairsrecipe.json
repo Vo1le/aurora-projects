@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "3": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "4": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "6": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "7": {
+      "item": "auroraprojects:speraziteingot"
+    },
+    "8": {
+      "item": "auroraprojects:speraziteingot"
+    }
+  },
+  "result": {
+    "item": "auroraprojects:sperazite_stairs",
+    "count": 4
+  }
+}

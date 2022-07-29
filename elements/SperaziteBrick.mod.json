@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Sperazite Brick",
+    "name": "Bloc de sperazite",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,

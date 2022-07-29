@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "atyotisblocofdeco",
-    "textureTop": "atyotisblocofdeco",
-    "textureLeft": "atyotisblocofdeco",
-    "textureFront": "atyotisblocofdeco",
-    "textureRight": "atyotisblocofdeco",
-    "textureBack": "atyotisblocofdeco",
+    "texture": "atyotisdiamond",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Sculpted Atyotis Stone",
+    "name": "Minerai de diamand d'Atyotis",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 6.0,
+    "hardness": 3.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Items.DIAMOND"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:BlueCrystalParticule"
@@ -121,16 +121,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Atyotis"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:AtyotisRock"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 16
   }
 }

@@ -45,7 +45,7 @@ import java.util.AbstractMap;
 @AuroraprojectsModElements.ModElement.Tag
 public class GollemusEntity extends AuroraprojectsModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.6f, 1.8f)).build("gollemus").setRegistryName("gollemus");
 
 	public GollemusEntity(AuroraprojectsModElements instance) {
@@ -73,6 +73,7 @@ public class GollemusEntity extends AuroraprojectsModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
+			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 2);
 			event.put(entity, ammma.create());
 		}

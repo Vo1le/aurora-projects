@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Atyotis Stairs Plank",
+    "name": "Barrière en bois d'Atyotis",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
