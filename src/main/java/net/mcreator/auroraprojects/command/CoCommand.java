@@ -27,7 +27,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 public class CoCommand {
 	@SubscribeEvent
 	public static void registerCommands(RegisterCommandsEvent event) {
-		event.getDispatcher().register(LiteralArgumentBuilder.<CommandSource>literal("co").requires(s -> s.hasPermissionLevel(4))
+		event.getDispatcher().register(LiteralArgumentBuilder.<CommandSource>literal("structures").requires(s -> s.hasPermissionLevel(4))
 				.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(CoCommand::execute)).executes(CoCommand::execute));
 	}
 

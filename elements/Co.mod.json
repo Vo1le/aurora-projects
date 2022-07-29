@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "command",
   "definition": {
-    "commandName": "co",
+    "commandName": "structures",
     "permissionLevel": "4",
     "onCommandExecuted": {
       "name": "CoCommandExecuted"

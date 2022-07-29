@@ -17,6 +17,9 @@
       },
       {
         "value": "CUSTOM:PrintempsdeMillenus"
+      },
+      {
+        "value": "ocean"
       }
     ],
     "worldGenType": "Normal world gen",

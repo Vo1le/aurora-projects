@@ -43,6 +43,10 @@ public class MillenusDimension extends AuroraprojectsModElements.ModElement {
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:printempsde_millenus")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("ocean")).getGenerationSettings().getSurfaceBuilder().get()
+				.getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("ocean")).getGenerationSettings().getSurfaceBuilder().get()
+				.getConfig().getUnder().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:automne_milllenus")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("auroraprojects:automne_milllenus")).getGenerationSettings()

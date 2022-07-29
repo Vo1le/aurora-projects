@@ -12,6 +12,9 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.BlockClusterFeatureConfig;
+import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
+import net.minecraft.world.gen.blockplacer.SimpleBlockPlacer;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -46,7 +49,15 @@ public class PrintempsdeMillenusBiome extends AuroraprojectsModElements.ModEleme
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.FLOWER.withConfiguration(Features.Configs.NORMAL_FLOWER_CONFIG)
 								.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-								.func_242731_b(7));
+								.func_242731_b(10));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.RANDOM_PATCH.withConfiguration(
+								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.BROWN_MUSHROOM.getDefaultState()),
+										SimpleBlockPlacer.PLACER)).tries(2).func_227317_b_().build()));
+				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
+						Feature.RANDOM_PATCH.withConfiguration(
+								(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.RED_MUSHROOM.getDefaultState()),
+										SimpleBlockPlacer.PLACER)).tries(2).func_227317_b_().build()));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
