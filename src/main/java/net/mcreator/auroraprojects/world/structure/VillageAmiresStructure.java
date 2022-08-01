@@ -50,8 +50,8 @@ public class VillageAmiresStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 10000) {
-						int count = random.nextInt(1) + 1;
+					if ((random.nextInt(1000000) + 1) <= 1000) {
+						int count = random.nextInt(2) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
