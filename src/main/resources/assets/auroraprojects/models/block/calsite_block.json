@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "auroraprojects:blocks/diamond_block",
+    "up": "auroraprojects:blocks/diamond_block",
+    "north": "auroraprojects:blocks/diamond_block",
+    "east": "auroraprojects:blocks/diamond_block",
+    "south": "auroraprojects:blocks/diamond_block",
+    "west": "auroraprojects:blocks/diamond_block",
+    "particle": "auroraprojects:blocks/diamond_block"
+  }
+}

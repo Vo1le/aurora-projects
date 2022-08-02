@@ -2,6 +2,7 @@
 package net.mcreator.auroraprojects.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -21,12 +22,12 @@ import java.util.List;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class DeadWoodLogBlock extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:dead_wood_log")
+public class CalsiteBlockBlock extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:calsite_block")
 	public static final Block block = null;
 
-	public DeadWoodLogBlock(AuroraprojectsModElements instance) {
-		super(instance, 148);
+	public CalsiteBlockBlock(AuroraprojectsModElements instance) {
+		super(instance, 175);
 	}
 
 	@Override
@@ -38,8 +39,9 @@ public class DeadWoodLogBlock extends AuroraprojectsModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
-			setRegistryName("dead_wood_log");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("calsite_block");
 		}
 
 		@Override

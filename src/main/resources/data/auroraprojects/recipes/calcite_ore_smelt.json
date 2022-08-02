@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 6,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "auroraprojects:calcite_ore"
+  },
+  "result": {
+    "item": "auroraprojects:clasite"
+  }
+}
