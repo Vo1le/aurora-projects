@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AtyotisTab"
+      "value": "CUSTOM:AuroraTeleporteurs"
     },
     "destroyTool": "Not specified",
     "customDrop": {

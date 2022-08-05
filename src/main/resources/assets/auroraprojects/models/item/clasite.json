@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "auroraprojects:blocks/diamond_block"
+    "layer0": "auroraprojects:items/diamond_block"
   }
 }
