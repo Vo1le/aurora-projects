@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "auroraprojects:blocks/leavesprimtemp2",
-    "particle": "auroraprojects:blocks/leavesprimtemp2"
-  }
-}

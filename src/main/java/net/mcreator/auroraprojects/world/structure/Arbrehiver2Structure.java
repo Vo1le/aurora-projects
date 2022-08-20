@@ -30,13 +30,7 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.auroraprojects.procedures.ArbrehiververifprocProcedure;
-
-import java.util.stream.Stream;
 import java.util.Random;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.AbstractMap;
 
 @Mod.EventBusSubscriber
 public class Arbrehiver2Structure {
@@ -73,15 +67,10 @@ public class Arbrehiver2Structure {
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 0, j + -2, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
-							if (!ArbrehiververifprocProcedure.executeProcedure(Stream
-									.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-											new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
-									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
-								continue;
 							Template template = world.getWorld().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("auroraprojects", "arbrehiver1"));
 							if (template == null)

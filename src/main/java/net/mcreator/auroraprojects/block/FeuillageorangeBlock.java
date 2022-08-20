@@ -15,7 +15,7 @@ import net.minecraft.block.LeavesBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.auroraprojects.itemgroup.MillenusItemsItemGroup;
+import net.mcreator.auroraprojects.itemgroup.AuroraTeleporteursItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.List;
@@ -33,8 +33,8 @@ public class FeuillageorangeBlock extends AuroraprojectsModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(MillenusItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(AuroraTeleporteursItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends LeavesBlock {

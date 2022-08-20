@@ -19,8 +19,8 @@ import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.IronGolemEntity;
-import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
@@ -32,7 +32,6 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 
-import net.mcreator.auroraprojects.procedures.PanichalflifeProcedure;
 import net.mcreator.auroraprojects.procedures.BoomProcedure;
 import net.mcreator.auroraprojects.itemgroup.BossItemGroup;
 import net.mcreator.auroraprojects.entity.renderer.GollemusRenderer;
@@ -100,20 +99,9 @@ public class GollemusEntity extends AuroraprojectsModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.3, false));
-			this.goalSelector.addGoal(2, new PanicGoal(this, 1.5) {
-				@Override
-				public boolean shouldExecute() {
-					double x = CustomEntity.this.getPosX();
-					double y = CustomEntity.this.getPosY();
-					double z = CustomEntity.this.getPosZ();
-					Entity entity = CustomEntity.this;
-					return super.shouldExecute() && PanichalflifeProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-				}
-			});
-			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 1.2));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false));
+			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(3, new LeapAtTargetGoal(this, (float) 1.2));
 		}
 
 		@Override
@@ -165,6 +153,20 @@ public class GollemusEntity extends AuroraprojectsModElements.ModElement {
 			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onCollideWithPlayer(PlayerEntity sourceentity) {
+			super.onCollideWithPlayer(sourceentity);
+			Entity entity = this;
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+
+			BoomProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override

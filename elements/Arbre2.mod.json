@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "arbre2v2",
+    "structure": "arbre2",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": -1,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -25,9 +25,6 @@
         "value": "CUSTOM:DesertMillenus"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
-    "generateCondition": {
-      "name": "Arbrehiververifproc"
-    }
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }

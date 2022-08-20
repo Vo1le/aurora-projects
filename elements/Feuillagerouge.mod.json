@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:MillenusItems"
+      "value": "CUSTOM:AuroraTeleporteurs"
     },
     "destroyTool": "Not specified",
     "customDrop": {

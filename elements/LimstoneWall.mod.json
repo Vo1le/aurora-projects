@@ -35,14 +35,14 @@
     ],
     "name": "Limestone",
     "specialInfo": [],
-    "hardness": 1.4000000000000001,
-    "resistance": 6.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:AmiresItems"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },

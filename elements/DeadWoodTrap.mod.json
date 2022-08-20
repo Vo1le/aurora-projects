@@ -36,7 +36,7 @@
     "name": "Dead Wood Trap",
     "specialInfo": [],
     "hardness": 1.0,
-    "resistance": 4.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

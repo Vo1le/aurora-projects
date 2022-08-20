@@ -48,7 +48,7 @@ public class DeadWoodTrapBlock extends AuroraprojectsModElements.ModElement {
 
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 4f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("dead_wood_trap");
 		}
