@@ -6,6 +6,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.state.properties.DoubleBlockHalf;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -14,46 +16,49 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.PaneBlock;
+import net.minecraft.block.DoorBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.auroraprojects.itemgroup.AuroraTeleporteursItemGroup;
+import net.mcreator.auroraprojects.itemgroup.AmiresItemsItemGroup;
 import net.mcreator.auroraprojects.AuroraprojectsModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @AuroraprojectsModElements.ModElement.Tag
-public class SBlock extends AuroraprojectsModElements.ModElement {
-	@ObjectHolder("auroraprojects:s")
+public class DeadWoodDoorBlock extends AuroraprojectsModElements.ModElement {
+	@ObjectHolder("auroraprojects:dead_wood_door")
 	public static final Block block = null;
 
-	public SBlock(AuroraprojectsModElements instance) {
-		super(instance, 154);
+	public DeadWoodDoorBlock(AuroraprojectsModElements instance) {
+		super(instance, 181);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(
-				() -> new BlockItem(block, new Item.Properties().group(AuroraTeleporteursItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(AmiresItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 
-	public static class CustomBlock extends PaneBlock {
+	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
-			setRegistryName("s");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 4f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
+			setRegistryName("dead_wood_door");
 		}
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+			if (state.get(BlockStateProperties.DOUBLE_BLOCK_HALF) != DoubleBlockHalf.LOWER)
+				return Collections.emptyList();
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;

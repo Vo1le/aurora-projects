@@ -86,7 +86,7 @@ public class BoomProcedure {
 					}
 				}
 			}
-			if (localnumber == 8) {
+			if (localnumber >= 8) {
 				{
 					Entity _ent = entity;
 					_ent.setPositionAndUpdate(x, (y + 10), z);
