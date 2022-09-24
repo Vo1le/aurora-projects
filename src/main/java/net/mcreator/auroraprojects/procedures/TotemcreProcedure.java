@@ -16,7 +16,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.auroraprojects.entity.GollemusEntity;
 import net.mcreator.auroraprojects.block.MineraiscomppreseBlock;
 import net.mcreator.auroraprojects.block.CoblestonecompresseBlock;
 import net.mcreator.auroraprojects.AuroraprojectsMod;
